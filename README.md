@@ -14,3 +14,15 @@ At the end of this challenge I intend to be consistently creating content for al
 ## Stepping out the door
 
 - [ ] ☁️ 1 > [My First Day](Journey/001/Readme.md)
+
+## Finding Commands With man -k
+
+There will be times when we know what goal we want to accomplish inside the bash terminal but don't know the tool or command that will accomplish this. 
+
+This is where the command
+
+```
+man -k
+``` 
+
+comes into play. 
