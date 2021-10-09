@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="OnPremise.png">
+</p>
+
 # On Premise
 Analyze and process standard datasets with different languages & libraries.
 
