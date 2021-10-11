@@ -11,7 +11,7 @@ At the end of this challenge I intend to be consistently creating content for al
 
 ## Stepping out the door
 
-- [ ] &#x29BF; 1 > [My First Day](Journey/001/Readme.md)
+- [ ] &#x2A33; 1 > [My First Day](Journey/001/Readme.md)
 
 ## Finding Commands With man -k
 
