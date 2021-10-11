@@ -7,7 +7,7 @@ Analyze and process standard datasets with different languages & libraries.
 
 ## Stepping out the door
 
-- [ ] &#x2A33; 1 > [My First Day](Journey/001/Readme.md)
+- [ ] &#x2A33; 1 > [The Datasets](Journey/001/Readme.md)
 
 ## Finding Commands With man -k
 
