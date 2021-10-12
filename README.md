@@ -1,5 +1,6 @@
 <p align="center">
   <img src="OnPremise.png">
+  width="400" height="290"
 </p>
 
 # On Premise
