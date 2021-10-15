@@ -40,14 +40,8 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 26 > [Text Minning](Journey/026/Readme.md)
 - [ ] &#x2A33; 27 > [Scala](Journey/027/Readme.md)
 
-## Finding Commands With man -k
-
-There will be times when we know what goal we want to accomplish inside the bash terminal but don't know the tool or command that will accomplish this. 
-
-This is where the command
 
 ```
 man -k
 ``` 
 
-comes into play. 
