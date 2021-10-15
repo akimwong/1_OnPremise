@@ -1,7 +1,7 @@
 ## DEFINITIONS
 
 #### TIME SERIES
-Is a series of data points indexed (or listed or graphed) in `time order`. Most commonly, a time series is a sequence taken at successive `equally spaced` points in time.  To study in depht a time series it MUST be breakdown into its elements(Tren + Seasonality + Cycle + Random) 
+Is a series of data points indexed (or listed or graphed) in `time order`. Most commonly, a time series is a sequence taken at successive `equally spaced` points in time.  To study in depht a time series it MUST be breakdown into its elements(Trend + Seasonality + Cycle + Random) 
 #### TREND
 Shows the general tendency of the data to `increase or decrease` during a `long period` of time
 #### SEASONALITY
