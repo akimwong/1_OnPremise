@@ -8,7 +8,7 @@ sometimes called the “private cloud”.  This deployment model is the same as 
 
 This section is not intended to include operational code to deploy a private cloud as is the definition. Here I will analyze different use case using standard datasets with different languages & libraries outside the cloud
 
-#### >>> The following is the list of points that are planned to be covered. Those that contain the symbol (!) Are those that currently contain information <<<
+#### >>> The following is the list of points that are planned to be covered. Those that contain the symbol (!) are those that currently contain information <<<
 
 ## Sections
 
