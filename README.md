@@ -12,7 +12,7 @@ This section is not intended to include operational code to deploy a private clo
 
 ## Sections
 
-- [ ] &#x2A33; 1 > [The Datasets](Journey/001/Readme.md)
+- [ ] &#x2A33; 1 > [The Datasets (!)](Journey/001/Readme.md)
 - [ ] &#x2A33; 2 > [Exploratory Data Analysis(EDA)](Journey/002/Readme.md)
 - [ ] &#x2A33; 3 > [Feature Engineering](Journey/003/Readme.md)
 - [ ] &#x2A33; 4 > [Feature Selection](Journey/004/Readme.md)
@@ -20,7 +20,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 6 > [Metrics](Journey/006/Readme.md)
 - [ ] &#x2A33; 7 > [Linear Regression](Journey/007/Readme.md)
 - [ ] &#x2A33; 8 > [Logistic Regression](Journey/008/Readme.md)
-- [ ] &#x2A33; 9 > [Time Series(!)](Journey/009/Readme.md)
+- [ ] &#x2A33; 9 > [Time Series (!)](Journey/009/Readme.md)
 - [ ] &#x2A33; 10 > [Score Cards](Journey/010/Readme.md)
 - [ ] &#x2A33; 11 > [Spatial Statistics](Journey/011/Readme.md)
 - [ ] &#x2A33; 12 > [ML-Support Vector Machine](Journey/012/Readme.md)
