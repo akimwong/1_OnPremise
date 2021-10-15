@@ -7,7 +7,7 @@ Shows the general tendency of the data to `increase or decrease` during a `long 
 #### SEASONALITY
 Is the presence of `variations` that occur at specific `regular intervals less than a year`
 #### CYCLE
-Recurrent `variations` in time series that in generally `last longer than a year`
+`Recurrent variations` in time series that in generally `last longer than a year`
 #### RANDOM OR IRREGULAR MOVEMENTS
 `Not regular` variations that are purely random or irregular. These fluctuations are `unforeseen`, `uncontrollable`, `unpredictable`, and are `erratic`
 
