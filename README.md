@@ -8,9 +8,9 @@ sometimes called the “private cloud”.  This deployment model is the same as 
 
 This section is not intended to include operational code to deploy a private cloud as is the definition. Here I will analyze different use case using standard datasets with different languages & libraries outside the cloud
 
-#### The following is the list of points that are planned to be covered. Those that contain the symbol (!) Are those that currently contain information
+#### >>> The following is the list of points that are planned to be covered. Those that contain the symbol (!) Are those that currently contain information <<<
 
-## Stepping out the door
+## Sections
 
 - [ ] &#x2A33; 1 > [The Datasets](Journey/001/Readme.md)
 - [ ] &#x2A33; 2 > [Exploratory Data Analysis(EDA)](Journey/002/Readme.md)
