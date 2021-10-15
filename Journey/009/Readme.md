@@ -8,3 +8,8 @@ Is the presence of `variations` that occur at specific `regular intervals less t
 
 #### CYCLE
 Recurrent `variations` in time series that in generally `last longer than a year`
+
+### LIBRARIES
+1. r - ts (up to days)
+2. r - zoo (up to hours, minutes, seconds)
+3. r - lubridate (up to hours, minutes, seconds)
