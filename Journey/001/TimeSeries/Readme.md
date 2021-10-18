@@ -19,10 +19,10 @@ This is a relational dataset from two systems. Each file is prefaced with the so
 
 This file contains reservations made in the air system. Note that the reserve_datetime indicates the time when the reservation was created, whereas the visit_datetime is the time in the future where the visit will occur.
 
-    air_store_id - the restaurant's id in the air system
-    visit_datetime - the time of the reservation
-    reserve_datetime - the time the reservation was made
-    reserve_visitors - the number of visitors for that reservation
+    air_store_id - the restaurant's id in the air system (air_877f79706adbfb06)
+    visit_datetime - the time of the reservation (2016-01-01 19:00:00)
+    reserve_datetime - the time the reservation was made (2016-01-01 16:00:00)
+    reserve_visitors - the number of visitors for that reservation (1)
 
 ### hpg_reserve.csv
 
@@ -44,7 +44,8 @@ This file contains information about select air restaurants. Column names and co
     longitude
 
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
-hpg_store_info.csv
+
+### hpg_store_info.csv
 
 This file contains information about select hpg restaurants. Column names and contents are self-explanatory.
 
@@ -55,14 +56,15 @@ This file contains information about select hpg restaurants. Column names and co
     longitude
 
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
-store_id_relation.csv
+
+### store_id_relation.csv
 
 This file allows you to join select restaurants that have both the air and hpg system.
 
     hpg_store_id
     air_store_id
 
-air_visit_data.csv
+### air_visit_data.csv
 
 This file contains historical visit data for the air restaurants.
 
@@ -70,14 +72,14 @@ This file contains historical visit data for the air restaurants.
     visit_date - the date
     visitors - the number of visitors to the restaurant on the date
 
-sample_submission.csv
+### sample_submission.csv
 
 This file shows a submission in the correct format, including the days for which you must forecast.
 
     id - the id is formed by concatenating the air_store_id and visit_date with an underscore
     visitors- the number of visitors forecasted for the store and date combination
 
-date_info.csv
+### date_info.csv
 
 This file gives basic information about the calendar dates in the dataset.
 
