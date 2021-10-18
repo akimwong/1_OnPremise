@@ -19,7 +19,7 @@ Is the presence of `variations` that occur at specific `regular intervals less t
 ## DATASET
 The dataset that will be used are [here](/Journey/001/TimeSeries/Readme.md)
 
-## LIBRARIES
+## TOOLS & LIBRARIES
 1. R - ts (up to days)
 2. R - zoo (up to hours, minutes, seconds)
 3. R - lubridate (up to hours, minutes, seconds)
