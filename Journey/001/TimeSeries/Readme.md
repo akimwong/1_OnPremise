@@ -56,8 +56,8 @@ Note: latitude and longitude are the latitude and longitude of the area to which
 ### store_id_relation.csv
 This file allows you to join select restaurants that have both the air and hpg system (150 observ.)
 
-    hpg_store_id (air_63b13c56b7201bd9)
-    air_store_id (hpg_4bc649e72e2a239a)
+    hpg_store_id (hpg_4bc649e72e2a239a)
+    air_store_id (air_63b13c56b7201bd9)
 
 ### air_visit_data.csv
 This file contains historical visit data for the air restaurants (252.108 observ.)
