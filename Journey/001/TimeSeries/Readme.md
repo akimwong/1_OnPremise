@@ -16,7 +16,6 @@ File Descriptions
 This is a relational dataset from two systems. Each file is prefaced with the source (either air_ or hpg_) to indicate its origin. Each restaurant has a unique air_store_id and hpg_store_id. Note that not all restaurants are covered by both systems, and that you have been provided data beyond the restaurants for which you must forecast. Latitudes and Longitudes are not exact to discourage de-identification of restaurants.
 
 ### air_reserve.csv
-
 This file contains reservations made in the air system. Note that the reserve_datetime indicates the time when the reservation was created, whereas the visit_datetime is the time in the future where the visit will occur.
 
     air_store_id - the restaurant's id in the air system (air_877f79706adbfb06)
@@ -25,7 +24,6 @@ This file contains reservations made in the air system. Note that the reserve_da
     reserve_visitors - the number of visitors for that reservation (1)
 
 ### hpg_reserve.csv
-
 This file contains reservations made in the hpg system.
 
     hpg_store_id - the restaurant's id in the hpg system (hpg_c63f6f42e088e50f)
@@ -34,7 +32,6 @@ This file contains reservations made in the hpg system.
     reserve_visitors - the number of visitors for that reservation (1)
 
 ### air_store_info.csv
-
 This file contains information about select air restaurants. Column names and contents are self-explanatory.
 
     air_store_id (air_0f0cdeee6c9bf3d7)
@@ -46,7 +43,6 @@ This file contains information about select air restaurants. Column names and co
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
 
 ### hpg_store_info.csv
-
 This file contains information about select hpg restaurants. Column names and contents are self-explanatory.
 
     hpg_store_id (hpg_6622b62385aec8bf)
@@ -58,14 +54,12 @@ This file contains information about select hpg restaurants. Column names and co
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
 
 ### store_id_relation.csv
-
 This file allows you to join select restaurants that have both the air and hpg system.
 
     hpg_store_id (air_63b13c56b7201bd9)
     air_store_id (hpg_4bc649e72e2a239a)
 
 ### air_visit_data.csv
-
 This file contains historical visit data for the air restaurants.
 
     air_store_id (air_ba937bf13d40fb24)
@@ -73,14 +67,12 @@ This file contains historical visit data for the air restaurants.
     visitors - the number of visitors to the restaurant on the date (25)
 
 ### sample_submission.csv
-
 This file shows a submission in the correct format, including the days for which you must forecast.
 
     id - the id is formed by concatenating the air_store_id and visit_date with an underscore (air_00a91d42b08b08d9_2017-04-23)
     visitors- the number of visitors forecasted for the store and date combination (0)
 
 ### date_info.csv
-
 This file gives basic information about the calendar dates in the dataset.
 
     calendar_date (2016-01-01)
