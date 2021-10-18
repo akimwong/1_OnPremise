@@ -1,6 +1,6 @@
 The [datasets](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting/data) used for this analysis are from a KAGGLE competition called "Recruit Restaurant Visitor Forecasting".
 
-### *** (FROM KAGGLE...) ***
+### *** FROM KAGGLE... ***
 
 The objective: Predict how many future visitors a restaurant will receive
 In this competition, you are provided a time-series forecasting problem centered around restaurant visitors. The data comes from two separate sites:
