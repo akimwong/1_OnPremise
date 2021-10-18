@@ -3,7 +3,7 @@
 ## DEFINITIONS
 
 #### TIME SERIES
-Is a series of data points indexed (or listed or graphed) in `time order`. Most commonly, a time series is a sequence taken at successive `equally spaced` points in time.  To study in depht a time series it MUST be breakdown into its elements (Trend + Seasonality + Cycle + Random)
+Is a series of data points indexed (or listed or graphed) in `time order`. Most commonly, a time series is a sequence taken at successive `equally spaced` points in time.  To study in depht a time series forecasting it MUST be breakdown into its elements (Trend + Seasonality + Cycle + Random)
 
 `Time series analysis` is a method used for analysing time series data in order to `extract meaningful statistical information` from the data. `Time series forecasting` however, is all about `predicting future values` based on previously observed values over time
 
