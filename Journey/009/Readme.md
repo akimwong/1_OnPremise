@@ -17,7 +17,7 @@ Is the presence of `variations` that occur at specific `regular intervals less t
 `Not regular` variations that are purely random or irregular. These fluctuations are `unforeseen`, `uncontrollable`, `unpredictable`, and are `erratic`
 
 ## DATASET
-The dataset that will be used are [here](/Journey/001/TimeSeries/Readme.md)
+The dataset that will be used is [here](/Journey/001/TimeSeries/Readme.md)
 
 ## TOOLS & LIBRARIES
 1. R - ts (up to days)
