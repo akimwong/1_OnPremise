@@ -14,7 +14,8 @@ There are days in the test set where the restaurant were closed and had no visit
 File Descriptions
 
 This is a relational dataset from two systems. Each file is prefaced with the source (either air_ or hpg_) to indicate its origin. Each restaurant has a unique air_store_id and hpg_store_id. Note that not all restaurants are covered by both systems, and that you have been provided data beyond the restaurants for which you must forecast. Latitudes and Longitudes are not exact to discourage de-identification of restaurants.
-air_reserve.csv
+
+### air_reserve.csv
 
 This file contains reservations made in the air system. Note that the reserve_datetime indicates the time when the reservation was created, whereas the visit_datetime is the time in the future where the visit will occur.
 
@@ -23,7 +24,7 @@ This file contains reservations made in the air system. Note that the reserve_da
     reserve_datetime - the time the reservation was made
     reserve_visitors - the number of visitors for that reservation
 
-hpg_reserve.csv
+### hpg_reserve.csv
 
 This file contains reservations made in the hpg system.
 
@@ -32,7 +33,7 @@ This file contains reservations made in the hpg system.
     reserve_datetime - the time the reservation was made
     reserve_visitors - the number of visitors for that reservation
 
-air_store_info.csv
+### air_store_info.csv
 
 This file contains information about select air restaurants. Column names and contents are self-explanatory.
 
