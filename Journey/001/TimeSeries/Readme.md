@@ -28,20 +28,20 @@ This file contains reservations made in the air system. Note that the reserve_da
 
 This file contains reservations made in the hpg system.
 
-    hpg_store_id - the restaurant's id in the hpg system
-    visit_datetime - the time of the reservation
-    reserve_datetime - the time the reservation was made
-    reserve_visitors - the number of visitors for that reservation
+    hpg_store_id - the restaurant's id in the hpg system (hpg_c63f6f42e088e50f)
+    visit_datetime - the time of the reservation (2016-01-01 11:00:00)
+    reserve_datetime - the time the reservation was made (2016-01-01 09:00:00)
+    reserve_visitors - the number of visitors for that reservation (1)
 
 ### air_store_info.csv
 
 This file contains information about select air restaurants. Column names and contents are self-explanatory.
 
-    air_store_id
-    air_genre_name
-    air_area_name
-    latitude
-    longitude
+    air_store_id (air_0f0cdeee6c9bf3d7)
+    air_genre_name (Italian/French)
+    air_area_name (Hyōgo-ken Kōbe-shi Kumoidōri)
+    latitude (34.69512)
+    longitude (135.1979)
 
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
 
@@ -49,11 +49,11 @@ Note: latitude and longitude are the latitude and longitude of the area to which
 
 This file contains information about select hpg restaurants. Column names and contents are self-explanatory.
 
-    hpg_store_id
-    hpg_genre_name
-    hpg_area_name
-    latitude
-    longitude
+    hpg_store_id (hpg_6622b62385aec8bf)
+    hpg_genre_name (Japanese style)
+    hpg_area_name (Tōkyō-to Setagaya-ku Taishidō)
+    latitude (35.64367)
+    longitude (139.6682)
 
 Note: latitude and longitude are the latitude and longitude of the area to which the store belongs
 
@@ -61,30 +61,30 @@ Note: latitude and longitude are the latitude and longitude of the area to which
 
 This file allows you to join select restaurants that have both the air and hpg system.
 
-    hpg_store_id
-    air_store_id
+    hpg_store_id (air_63b13c56b7201bd9)
+    air_store_id (hpg_4bc649e72e2a239a)
 
 ### air_visit_data.csv
 
 This file contains historical visit data for the air restaurants.
 
-    air_store_id
-    visit_date - the date
-    visitors - the number of visitors to the restaurant on the date
+    air_store_id (air_ba937bf13d40fb24)
+    visit_date - the date (2016-01-13)
+    visitors - the number of visitors to the restaurant on the date (25)
 
 ### sample_submission.csv
 
 This file shows a submission in the correct format, including the days for which you must forecast.
 
-    id - the id is formed by concatenating the air_store_id and visit_date with an underscore
-    visitors- the number of visitors forecasted for the store and date combination
+    id - the id is formed by concatenating the air_store_id and visit_date with an underscore (air_00a91d42b08b08d9_2017-04-23)
+    visitors- the number of visitors forecasted for the store and date combination (0)
 
 ### date_info.csv
 
 This file gives basic information about the calendar dates in the dataset.
 
-    calendar_date
-    day_of_week
-    holiday_flg - is the day a holiday in Japan
+    calendar_date (2016-01-01)
+    day_of_week (Friday)
+    holiday_flg - is the day a holiday in Japan (1)
 
 
