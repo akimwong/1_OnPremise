@@ -23,3 +23,5 @@ The dataset that will be used are [here](/Journey/001/TimeSeries/Readme.md)
 1. R - ts (up to days)
 2. R - zoo (up to hours, minutes, seconds)
 3. R - lubridate (up to hours, minutes, seconds)
+4. Python - Prophet
+5. Python - XGboost
