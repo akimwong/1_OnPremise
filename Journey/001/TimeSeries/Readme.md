@@ -80,3 +80,10 @@ This file gives basic information about the calendar dates in the dataset (517 o
     holiday_flg - is the day a holiday in Japan (1)
 
 ## *** THE NEXT ARE PERSONAL COMMENTS ABOUT THE PROBLEM AND THE DATASETS... ***
+
+- To make the forecast "air_visit_data.csv" is the main dataset, but it includes the information of many restaurants
+- The submission request numerical values composed only by "restaurant-date" & "number of visitors"
+- "air_store_info.csv" and "hpg_store_info.csv" can be used to make different comparisons between restaurants (for example, what style of food has more visitors depending on the neighborhood) but not to individually determine the number of visitors per restaurant per day   
+- To explain in an easy way the time series theory, I will select the information of only 1 restaurant that opens more days in the year
+- "air_reserve.csv", "hpg_reserve.csv" and "store_id_relation.csv" are good to predict around at what hour the visitors will arrive to the restaurant but to predict the total number of visitors per day the "air_visit_data.csv" is still better
+- "date_info.csv" is used to find out the influence of holidays on the arrival of visitors
