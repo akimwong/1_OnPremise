@@ -45,8 +45,6 @@ Note: latitude and longitude are the latitude and longitude of the area to which
 ### hpg_store_info.csv
 This file contains information about select hpg restaurants. Column names and contents are self-explanatory (4.690 observ.)
 
-## *** THE NEXT ARE PERSONAL COMMENTS ABOUT THE PROBLEM AND THE DATASETS... ***
-
     hpg_store_id (hpg_6622b62385aec8bf)
     hpg_genre_name (Japanese style)
     hpg_area_name (Tōkyō-to Setagaya-ku Taishidō)
@@ -81,4 +79,4 @@ This file gives basic information about the calendar dates in the dataset (517 o
     day_of_week (Friday)
     holiday_flg - is the day a holiday in Japan (1)
 
-
+## *** THE NEXT ARE PERSONAL COMMENTS ABOUT THE PROBLEM AND THE DATASETS... ***
