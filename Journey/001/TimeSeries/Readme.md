@@ -1,6 +1,6 @@
 The [datasets](https://www.kaggle.com/c/recruit-restaurant-visitor-forecasting/data) used for this analysis are from a KAGGLE competition called "Recruit Restaurant Visitor Forecasting".
 
-### *** THE NEXT DESCRIPTION IS A COPY FROM KAGGLE... ***
+## *** THE NEXT DESCRIPTION IS A COPY FROM KAGGLE... ***
 
 The objective: Predict how many future visitors a restaurant will receive
 In this competition, you are provided a time-series forecasting problem centered around restaurant visitors. The data comes from two separate sites:
@@ -44,6 +44,8 @@ Note: latitude and longitude are the latitude and longitude of the area to which
 
 ### hpg_store_info.csv
 This file contains information about select hpg restaurants. Column names and contents are self-explanatory (4.690 observ.)
+
+## *** THE NEXT ARE PERSONAL COMMENTS ABOUT THE PROBLEM AND THE DATASETS... ***
 
     hpg_store_id (hpg_6622b62385aec8bf)
     hpg_genre_name (Japanese style)
