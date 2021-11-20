@@ -1,4 +1,4 @@
-## COMMENTS ABOUT THE PROBLEM AND THE [DATASETS](/Journey/002/TimeSeries)
+## COMMENTS ABOUT THE PROBLEM AND THE [DATASETS](/Journey/001/TimeSeries)
 
 - To make the forecast "air_visit_data.csv" is the main dataset, but it includes the information of many restaurants
 - The submission request only two values composed by "restaurant-date" & "number of visitors".  To explain in an easy way the time series theory, I will select the information of only 1 restaurant that opens more days per year
