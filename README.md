@@ -13,7 +13,7 @@ This section is not intended to include operational code to deploy a private clo
 ## Sections
 
 - [ ] &#x2A33; 1 > [The Datasets (!)](Journey/001/Readme.md)
-- [ ] &#x2A33; 2 > [Exploratory Data Analysis(EDA)](Journey/002/Readme.md)
+- [ ] &#x2A33; 2 > [Exploratory Data Analysis(EDA) (!)](Journey/002/Readme.md)
 - [ ] &#x2A33; 3 > [Feature Engineering](Journey/003/Readme.md)
 - [ ] &#x2A33; 4 > [Feature Selection](Journey/004/Readme.md)
 - [ ] &#x2A33; 5 > [Training](Journey/005/Readme.md)
