@@ -1,4 +1,4 @@
-### Guess the Number
+### (You) Guess the Number
 1. You give a range of numbers to the computer
 2. The computer select a random number inside
 3. You give a number to the computer
