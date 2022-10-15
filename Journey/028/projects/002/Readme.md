@@ -4,4 +4,4 @@
 ...the loop starts...<br/>
 3. Computer give you a random number inside the loop
 4. You tell to the computer if that number is under or above your number
-5. The computer return your number
+5. The computer returns your number
