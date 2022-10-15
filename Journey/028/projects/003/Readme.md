@@ -6,4 +6,4 @@
 4. C ask you yor letters for 10 opportunities
 5. If the letter is correct C replace the '-' for the letter<br/>
 6. If the letter is not in the word, C request you another letter
-7. If you don't guess the word in your 10 opportunities, C tells you the game is over and give you the word selected
+7. If you don't guess the word in your 10 opportunities, C tells you the game is over and print the random word (selected by C)
