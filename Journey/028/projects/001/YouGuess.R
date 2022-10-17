@@ -24,7 +24,7 @@ YouGuess <- function() {
         print ('Ups! Computer number is lower than your number')
     }
   }
-  for (i in 1:10) {
+  for (i in 1:15) {
     loop = TRUE
     loop = compareNum(compuNum)
     if (loop == FALSE) {
