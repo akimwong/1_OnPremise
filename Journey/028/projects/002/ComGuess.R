@@ -7,7 +7,7 @@ CompGuess <- function() {
   compNumb <- sample(rangeInf:rangeSup, 1)
   print(paste('Computer number is:',compNumb))
   
-  checkNum <- function(compNumb,yourNumb) {
+  checkNum <- function() {
     compare <- as.integer(readline(paste(prompt='Is computer number lower than your number? (press 1)','\n', 
                                          sep='','Is computer number higher than your number? (press 2): ')))
     if (compare == 1) {
@@ -20,7 +20,8 @@ CompGuess <- function() {
   while (yourNumb!=compNumb){
     compuTry <- compuTry+1
     print(paste('Attempt number:',compuTry))
-    check <- checkNum (compNumb,yourNumb)
+    check <- checkNum ()
+    
     if (check == TRUE){
       rangeInf <- compNumb
       compNumb <- sample(rangeInf:rangeSup, 1)
@@ -35,6 +36,7 @@ CompGuess <- function() {
       print(paste('The NEW COMPUTER NUMBER is:',compNumb))
     }
   }
+  
   if (yourNumb==compNumb){
     print(paste(prompt='Congratulations!!! The computer guessed the number on trial number', compuTry))
   }
