@@ -42,4 +42,4 @@ CompGuess <- function() {
   }
 }
 
-ComGuess()
+CompGuess()
