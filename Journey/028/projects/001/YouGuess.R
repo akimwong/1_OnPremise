@@ -2,7 +2,7 @@ YouGuess <- function() {
   print('Give me a range of numbers...')
   rangeInf <- as.integer(readline(prompt='Inferior number: '))
   rangeSup <- as.integer(readline(prompt='Superior number: '))
-  compuNum <- sample(rangeInf:rangeSup, 1)  # '1' is the number of samples
+  compuNum <- sample(rangeInf:rangeSup, 1)  # '1' is the number of samples for 'sample' function
   # print(compuNum)
   compareNum <- function(compuNum) {
     yourNum <- as.integer(readline(prompt='Give me a number: '))
