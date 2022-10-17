@@ -1,4 +1,4 @@
-youGuess <- function() {
+YouGuess <- function() {
   print('Give me a range of numbers...')
   rangeInf <- as.integer(readline(prompt='Inferior number: '))
   rangeSup <- as.integer(readline(prompt='Superior number: '))
@@ -15,7 +15,7 @@ youGuess <- function() {
       print ('End of Game')
       playAgain <- readline(prompt='Play again? (y/n): ')
       if (playAgain == 'y'){
-        youGuess()
+        YouGuess()
       } else {
         return (FALSE)
       }
@@ -37,4 +37,4 @@ youGuess <- function() {
   }
 }
 
-youGuess()
+YouGuess()
