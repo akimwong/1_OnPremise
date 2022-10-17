@@ -25,14 +25,14 @@ CompGuess <- function() {
     if (check == TRUE){
       rangeInf <- compNumb
       compNumb <- sample(rangeInf:rangeSup, 1)
-      print(paste('The NEW range inferior is:',rangeInf))
-      print(paste('The range superior is:',rangeSup))
+      #print(paste('The NEW range inferior is:',rangeInf))
+      #print(paste('The range superior is:',rangeSup))
       print(paste('The NEW COMPUTER NUMBER is:',compNumb))
     } else if (check == FALSE){
       rangeSup <- compNumb
       compNumb <- sample(rangeInf:rangeSup, 1)
-      print(paste('The range inferior is:',rangeInf))      
-      print(paste('The NEW range superior is:',rangeSup))
+      #print(paste('The range inferior is:',rangeInf))      
+      #print(paste('The NEW range superior is:',rangeSup))
       print(paste('The NEW COMPUTER NUMBER is:',compNumb))
     }
   }
