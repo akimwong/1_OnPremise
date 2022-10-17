@@ -7,5 +7,5 @@
 5. You have 15 opportunities to guess the number <br/>
 ... the loop ends ...<br/>
 7. If you give the right number in less than 15 opportunities, the computer ask you if you want to play again
-8. If you don't give the right number in your 15 opportunities, the computer tells you "no more opportunities" and the game end.
+8. If you don't give the right number in your 15 opportunities, the computer tells you "no more opportunities" and the game ends.
 
