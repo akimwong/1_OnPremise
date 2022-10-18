@@ -25,8 +25,8 @@ YouGuess <- function() {
     }
   }
   for (i in 1:15) {
-    loop = TRUE
-    loop = compareNum(compuNum)
+    loop <- TRUE
+    loop <- compareNum(compuNum)
     if (loop == FALSE) {
       print('Thank you, Bye!')
       break
