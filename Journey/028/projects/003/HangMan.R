@@ -4,7 +4,7 @@ library("readxl")
 HangMan <- function() {
   words <- as.vector(read_excel('6letter500words.xlsx'))
   word  <- sample(words$words,1)
-  print(word)
+  # print(word)
   wordref <- '------'
   tryNum  <- 10
   
