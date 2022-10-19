@@ -10,6 +10,6 @@
 8. If you don't give the right number in your 15 opportunities, the computer tells you "no more opportunities" and the game ends.
 
 There is no error control against:
-- Enter characters other than numbers to define the range
+- Enter characters different than numbers to define the range
 - Enter the first number greater than the second number to define the range
 - Enter letters instead numbers
