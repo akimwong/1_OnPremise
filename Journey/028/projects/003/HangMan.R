@@ -38,7 +38,7 @@ HangMan <- function() {
       print('You are GREAT!!!')
       break
     }
-    if (word == wordref) {
+    if (word == wordref & tryNum == 0) {
       print('Wow! That was your last try!')
     }
   }
