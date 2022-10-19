@@ -1,14 +1,17 @@
+import pandas as pd
 import random
 
-def ahorcado():
+def HangMan():
     df = pd.read_excel('C:\\Users\\Carlos\\0_OnPremise\\FreeCode\\palabras.xlsx')
-    palabras = df['palabras'].tolist()
-    posicion = random.randrange (1, len(palabras))
-    word = palabras[posicion-1]
+    words = df['palabras'].tolist()
+    position = random.randrange (1, len(words))
+    word = words[position-1]
     wordref = '------'
-    intentos = 10
+    tryNum = 10
+    # print(word)
 
     def checkLetter(letter, word):
+        ''' This function checks if a letter is inside a word and return the index (including if it appears many times)'''
         if letter in word:
             position = ([pos for pos, char in enumerate(word) if char == letter])
             return position
@@ -16,7 +19,7 @@ def ahorcado():
             return []
 
     def completeWord(position, letter, wordref):
-        # pos = position
+        '''Given a letter and an index, this function replace characters in a word using that positions'''
         for x in position:
             wordref = wordref[:x] + letter + wordref[x+1:]
         return wordref
@@ -24,19 +27,27 @@ def ahorcado():
     for _ in range (10):
         
         if word != wordref:
-            print (f'Te quedan {intentos} intentos')
+            print (f'You have {tryNum} attempt(s)')
             letter = input('Give me a letter: ')
             complete = checkLetter(letter, word)
             wordref = completeWord (complete,letter,wordref)
-            intentos -= 1
+            tryNum -= 1
             print (wordref)
 
+    # Comment if you guess the word before the last opportunity
         elif word == wordref:
             print('You are GREAT!!!')
             break
-            
-    if intentos == 0:
+    
+    # Comment if you guess the letter in your last opportunity
+    if (tryNum == 0 and wordref == word):
+        print('Wow! That was your last try!')    
+    
+    # Comment if you don't guess the word in your opportunities    
+    if (tryNum == 0 and wordref != word):
         print ('You are DEAD ... HAHAHA!!!')
         print (f'The word was {word}')
+                           
+HangMan()
                            
 ahorcado()
