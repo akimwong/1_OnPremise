@@ -8,7 +8,7 @@ HangMan <- function() {
   wordref <- '------'
   tryNum  <- 10
   
-  # This function check if a letter is inside a word and return the index (if appears many times)
+  # This function checks if a letter is inside a word and return the index (including if it appears many times)
   checkLetter <- function (letter, word) {
     if (grepl(letter, word, fixed=TRUE)) {
       position <- unlist(gregexpr(pattern=letter,word))
