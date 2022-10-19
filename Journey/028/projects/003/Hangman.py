@@ -49,5 +49,3 @@ def HangMan():
         print (f'The word was {word}')
                            
 HangMan()
-                           
-ahorcado()
