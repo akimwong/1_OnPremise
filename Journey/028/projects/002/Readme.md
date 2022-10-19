@@ -7,5 +7,7 @@
 5. After n attempts the computer returns your number
 
 There is no error control against:
+- Enter characters different than numbers to define the range
+- Enter the first number greater than the second number to define the range
 - Press (1) or (2) incorrectly
-- Input letters instead numbers
+- Enter letters instead numbers
