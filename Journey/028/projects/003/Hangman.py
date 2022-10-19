@@ -2,7 +2,7 @@ import pandas as pd
 import random
 
 def HangMan():
-    df = pd.read_excel('C:\\Users\\Carlos\\0_OnPremise\\FreeCode\\palabras.xlsx')
+    df = pd.read_excel('C:\\Users\\Carlos\\0_OnPremise\\FreeCode\\6letters500words.xlsx')
     words = df['palabras'].tolist()
     position = random.randrange (1, len(words))
     word = words[position-1]
@@ -19,7 +19,7 @@ def HangMan():
             return []
 
     def completeWord(position, letter, wordref):
-        '''Given a letter and an index, this function replace characters in a word using that positions'''
+        '''Given a letter and an index, this function replace characters in a word according that index'''
         for x in position:
             wordref = wordref[:x] + letter + wordref[x+1:]
         return wordref
