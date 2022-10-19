@@ -8,6 +8,7 @@ HangMan <- function() {
   wordref <- '------'
   tryNum  <- 10
   
+  # This function check if a letter is inside a word and return the index (if appears many times)
   checkLetter <- function (letter, word) {
     if (grepl(letter, word, fixed=TRUE)) {
       position <- unlist(gregexpr(pattern=letter,word))
@@ -17,6 +18,7 @@ HangMan <- function() {
     }
   }
   
+  # Given a letter and an index, this function replace characters in a word using that positions
   completeWord <- function (position,letter,wordref) {
     for (i in position) {
       substr(wordref,i,i) <- letter
