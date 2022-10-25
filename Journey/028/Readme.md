@@ -5,3 +5,4 @@ From [FreeCodeCamp](https://www.youtube.com/watch?v=8ext9G7xspg&t=407s) and [Tin
 1. [Guess the number (user)](projects/001) - Python, R
 2. [Guess the number (computer)](projects/002) - Python, R
 3. [Hangman](projects/003) - Python, R
+3. [Picnic](projects/004) - Python
