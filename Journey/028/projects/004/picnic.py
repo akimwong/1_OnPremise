@@ -74,6 +74,9 @@ num = len(items)
 if args.sorted:
     items.sort()
 
+# The join() method takes all items in an iterable and joins them into one string.
+# A string must be specified as the separator.
+
 bringing = ''
 if num == 1:
     bringing = items[0]
