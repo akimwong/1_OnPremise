@@ -1,4 +1,4 @@
-from: https://github.com/kyclark/tiny_python_projects/blob/master/04_jump_the_five/README.md
+(from: https://github.com/kyclark/tiny_python_projects/blob/master/04_jump_the_five/README.md)
 
 # Jump the Five
 
