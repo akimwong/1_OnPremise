@@ -29,3 +29,7 @@ $ ./jump.py 867-5309
 If given no arguments, present a brief usage:
 
 ```
+$ ./jump.py
+usage: jump.py [-h] str
+jump.py: error: the following arguments are required: str
+```
