@@ -63,6 +63,8 @@ def get_args():
 
     args = parser.parse_args()
 
+    ## os.path.isfile(path) returns True if specified path is an existing regular file, otherwise returns False.
+
     if os.path.isfile(args.text):
         args.text = open(args.text).read().rstrip()
 
