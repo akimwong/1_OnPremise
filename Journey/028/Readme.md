@@ -8,3 +8,4 @@ From [FreeCodeCamp](https://www.youtube.com/watch?v=8ext9G7xspg&t=407s) and [Tin
 4. [Picnic](projects/004) - Python
 5. [Jump the Five](projects/005) - Python
 6. [Howler](projects/006) - Python
+7. [Word Count](projects/007) - Python
