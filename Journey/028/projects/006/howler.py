@@ -43,7 +43,7 @@ import sys
 
 # --------------------------------------------------
 def get_args():
-    """get command-line arguments"""
+    """ sol1 """
 
     parser = argparse.ArgumentParser(
         description='Howler (upper-cases input)',
