@@ -1,4 +1,4 @@
-
+(from: https://github.com/kyclark/tiny_python_projects/tree/master/06_wc)
 
 Write a Python implementation of `wc` (word count).
 The program should print lines, words, and characters for each input.
