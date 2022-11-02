@@ -1,7 +1,7 @@
 (from: https://github.com/kyclark/tiny_python_projects/tree/master/06_wc)
 
 Write a Python implementation of `wc` (word count). <br/>
-The program should print lines, words, and characters for each input.
+The program should print the number of lines, words, and characters for each input.
 Files are acceptable arguments:
 
 ```
