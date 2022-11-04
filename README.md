@@ -37,7 +37,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 23 > [DL-Natural Language Processing](Journey/023/Readme.md)
 - [ ] &#x2A33; 24 > [Big Data Technologies-Hadoop & Spark](Journey/024/Readme.md)
 - [ ] &#x2A33; 25 > [Social Networks-Pajek](Journey/025/Readme.md)
-- [ ] &#x2A33; 26 > [Text Minning](Journey/026/Readme.md)
+- [ ] &#x2A33; 26 > [Text Minning (!)](Journey/026/Readme.md)
 - [ ] &#x2A33; 27 > [Scala](Journey/027/Readme.md)
 - [ ] &#x2A33; 28 > [Micro Projects (Python & R) (!)](Journey/028/Readme.md)
 
