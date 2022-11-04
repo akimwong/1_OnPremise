@@ -22,7 +22,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 8 > [Logistic Regression](Journey/008/Readme.md)
 - [ ] &#x2A33; 9 > [Time Series (!)](Journey/009)
 - [ ] &#x2A33; 10 > [Score Cards](Journey/010/Readme.md)
-- [ ] &#x2A33; 11 > [Spatial Statistics](Journey/011/Readme.md)
+- [ ] &#x2A33; 11 > [Spatial Statistics (!)](Journey/011/Readme.md)
 - [ ] &#x2A33; 12 > [ML-Support Vector Machine](Journey/012/Readme.md)
 - [ ] &#x2A33; 13 > [ML-Ensemble Bagging](Journey/013/Readme.md)
 - [ ] &#x2A33; 14 > [ML-Ensemble Boosting](Journey/014/Readme.md)
