@@ -1,5 +1,6 @@
 ### To practice coding with Python and R
 From [FreeCodeCamp](https://www.youtube.com/watch?v=8ext9G7xspg&t=407s) and [Tiny Python Projects](https://www.amazon.com/Tiny-Python-Projects-Ken-Youens-Clark/dp/1617297518/ref=sr_1_1?keywords=tiny+python+projects&qid=1665848672&qu=eyJxc2MiOiIwLjk3IiwicXNhIjoiMC45OCIsInFzcCI6IjAuOTAifQ%3D%3D&sprefix=tiny+python%2Caps%2C171&sr=8-1)
+- [How to Reverse-Code an Interval Scale in R](https://towardsdatascience.com/how-to-reverse-code-an-interval-scale-in-r-917c13e4888e)
 
 #### List:
 1. [Guess the number (user)](projects/001) - Python, R
