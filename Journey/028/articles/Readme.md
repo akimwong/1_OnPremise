@@ -10,3 +10,4 @@
 ### R
 
 - [A Guide to using h20.ai in R](https://towardsdatascience.com/a-guide-to-using-h2o-ai-in-r-99cf6265bc05)
+- [How to Reverse-Code an Interval Scale in R](https://towardsdatascience.com/how-to-reverse-code-an-interval-scale-in-r-917c13e4888e)
