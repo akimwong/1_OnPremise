@@ -12,6 +12,7 @@
 - [The Art of Speeding Up Python Loop](https://towardsdatascience.com/the-art-of-speeding-up-python-loop-4970715717c)
 - [How to Handle Errors in Python – the try, except, else, and finally Keywords Explained](https://www.freecodecamp.org/news/how-to-handle-errors-in-python/)
 - [Top 6 Popular Python libraries for Data Science](https://datasciencedojo.com/blog/python-libraries-for-data-science/)
+- [4 Advance Python Operations You May Have Forgotten](https://towardsdatascience.com/4-advance-python-operations-you-may-have-forgotten-58b0565b9f)
 
 #### Python - Pandas
 
@@ -22,3 +23,4 @@
 - [A Guide to using h20.ai in R](https://towardsdatascience.com/a-guide-to-using-h2o-ai-in-r-99cf6265bc05)
 - [How to Reverse-Code an Interval Scale in R](https://towardsdatascience.com/how-to-reverse-code-an-interval-scale-in-r-917c13e4888e)
 - [learnr v0.11.0](https://pkgs.rstudio.com/learnr/articles/releases/learnr_v0-11-0.html)
+- [Top 7 Packages for Making Beautiful Tables in R](https://towardsdatascience.com/top-7-packages-for-making-beautiful-tables-in-r-7683d054e541)
