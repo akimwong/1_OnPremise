@@ -1,4 +1,6 @@
 
+- [R is for Research, Python is for Production](https://www.r-bloggers.com/2021/07/r-is-for-research-python-is-for-production-2/?utm_content=226616732&utm_medium=social&utm_source=twitter&hss_channel=tw-1318985240)
+
 ### Python
 
 - [How Data Scientists Level Up Their Coding Skills](https://towardsdatascience.com/how-data-scientists-level-up-their-coding-skills-edf15bbde334)
