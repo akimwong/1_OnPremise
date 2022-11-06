@@ -9,6 +9,10 @@
 - [What Is Python’s “Self” Argument, Anyway?](https://betterprogramming.pub/what-is-pythons-self-argument-anyway-21d1c3bc421f)
 - [The Art of Speeding Up Python Loop](https://towardsdatascience.com/the-art-of-speeding-up-python-loop-4970715717c)
 
+#### Python - Pandas
+
+- [Master Data Transformation in Pandas with These Three Useful Techniques](https://towardsdatascience.com/master-data-transformation-in-pandas-with-these-three-useful-techniques-20699f03e51d)
+
 ### R
 
 - [A Guide to using h20.ai in R](https://towardsdatascience.com/a-guide-to-using-h2o-ai-in-r-99cf6265bc05)
