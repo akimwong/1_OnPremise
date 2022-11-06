@@ -3,6 +3,7 @@
 - [32 datasets to uplift your skills in data science](https://datasciencedojo.com/blog/datasets-data-science-skills/)
 - [40 Data Analysis Projects with Python](https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c)
 - [14 Kaggle Competitions to Start your Data Science Journey](https://towardsdatascience.com/14-kaggle-competitions-to-start-your-data-science-journey-41943496b6f4)
+- [125 Data Science Projects You Can Try with Python](https://python.plainenglish.io/85-data-science-projects-c03c8750599e)
 
 #### Database
 - [SQL and Databases Learning: A Guide for Data Scientists and ML Engineers](https://towardsdatascience.com/sql-and-databases-learning-a-guide-for-data-scientists-and-ml-engineers-a73875b0d6f2)
