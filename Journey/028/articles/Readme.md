@@ -8,6 +8,7 @@
 - [5 techniques to Idiomatic Python (Loops)](https://idiomaticprogrammers.com/post/idiomatic-python-programming/)
 - [What Is Python’s “Self” Argument, Anyway?](https://betterprogramming.pub/what-is-pythons-self-argument-anyway-21d1c3bc421f)
 - [The Art of Speeding Up Python Loop](https://towardsdatascience.com/the-art-of-speeding-up-python-loop-4970715717c)
+- [How to Handle Errors in Python – the try, except, else, and finally Keywords Explained](https://www.freecodecamp.org/news/how-to-handle-errors-in-python/)
 
 #### Python - Pandas
 
