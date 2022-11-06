@@ -29,7 +29,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 15 > [ML-Ensemble Stacking](Journey/015/Readme.md)
 - [ ] &#x2A33; 16 > [ML-Neural Networks](Journey/016/Readme.md)
 - [ ] &#x2A33; 17 > [ML-Decission Tree (!)](Journey/017)
-- [ ] &#x2A33; 18 > [ML-Random Forest](Journey/018/Readme.md)
+- [ ] &#x2A33; 18 > [ML-Random Forest (!)](Journey/018)
 - [ ] &#x2A33; 19 > [ML-Gradient Boosting](Journey/019/Readme.md)
 - [ ] &#x2A33; 20 > [ML-XGboost (!)](Journey/020/Readme.md)
 - [ ] &#x2A33; 21 > [DL-Convolutional Neural Networks](Journey/021/Readme.md)
