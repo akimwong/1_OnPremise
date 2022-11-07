@@ -15,6 +15,7 @@
 - [4 Advance Python Operations You May Have Forgotten](https://towardsdatascience.com/4-advance-python-operations-you-may-have-forgotten-58b0565b9f)
 - [Beginner’s Introduction to Python for-loops](https://towardsdatascience.com/beginners-introduction-to-python-for-loops-7df0f6bdbcc8)
 - [3 Rookie Mistakes to Avoid with Python Lists](https://towardsdatascience.com/3-rookie-mistakes-to-avoid-with-python-lists-625c0e8e57df)
+- [10 Of My Favorite Python Decorators](https://towardsdatascience.com/10-of-my-favorite-python-decorators-9f05c72d9e33)
 
 #### Python - Pandas
 
