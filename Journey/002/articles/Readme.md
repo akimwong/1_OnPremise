@@ -6,6 +6,7 @@
 - [Don’t Take Shortcuts When Handling Missing Values](https://towardsdatascience.com/dont-take-shortcuts-when-handling-missing-values-afb9312e73c3)
 - [Exploratory Data Analysis - NIST HandBook](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
 - [Interpreting Exploratory Data Analysis (EDA)](https://www.datasciencecentral.com/interpreting-exploratory-data-analysis-eda/)
+- [The Simple Yet Practical Data Cleaning Codes](https://towardsdatascience.com/the-simple-yet-practical-data-cleaning-codes-ad27c4ce0a38)
 
 
 
