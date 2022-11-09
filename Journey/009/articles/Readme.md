@@ -6,3 +6,5 @@
 - [ARMA Forecasting for Non-Gaussian Time-Series Data Using Copulas](https://towardsdatascience.com/arma-forecasting-for-non-gaussian-time-series-data-using-copulas-45a3a28f69e5)
 - [How NOT to Analyze Time Series](https://towardsdatascience.com/a-common-mistake-to-avoid-when-working-with-time-series-data-eedf60a8b4c1)
 - [Top 4 Python libraries to build interactive timeseries plots](https://towardsdatascience.com/top-4-python-libraries-to-build-interactive-timeseries-plots-f2214cc9b1ea)
+- [Temporal Fusion Transformer: Time Series Forecasting with Deep Learning — Complete Tutorial](https://towardsdatascience.com/temporal-fusion-transformer-time-series-forecasting-with-deep-learning-complete-tutorial-d32c1e51cd91)
+- [The Reasonable Effectiveness of Deep Learning for Time Series Forecasting](https://towardsdatascience.com/the-reasonable-effectiveness-of-deep-learning-for-time-series-forecasting-60e2c8affb9)
