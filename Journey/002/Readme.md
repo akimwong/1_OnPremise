@@ -17,7 +17,7 @@ At a more granular level:
 
 Are either:
 - Graphical (summarize the data in a diagrammatic or visual way)
-- Quantitative (normally involve calculation of summary statistics)
+- Quantitative (normally involve calculation of summary statistics) <br/>
 (Non-graphical and graphical methods complement each other, we can see graphical methods as more qualitative (providing subjective analysis) vs quantitative methods as objective)
 
 Each of these techniques are in turn:
