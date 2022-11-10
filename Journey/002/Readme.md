@@ -5,8 +5,6 @@ The primary goal of EDA is to maximize the analyst's insight into a data set and
 - Frame the hypothesis
 - Check assumptions with the aim to find a good fitting model (if one exists)
 
-`time order`
-
 At a more granular level:
 - EDA involves understanding the relationship between variables including determining relationships among the explanatory variables; 
 - Assessing the relationships between explanatory and outcome variables (direction and rough size estimates); 
@@ -75,4 +73,4 @@ When we have many quantitative variables, we typically calculate the pairwise co
 - For each category, we could have side-by-side boxplots or Parallel box plots. 
 - For two quantitative multivariate variables, the basic graphical EDA technique is the scatterplot which has one variable on the x-axis, one on the y-axis and a point for each case in your dataset.  Typically, the explanatory variable goes on the X axis.  Additional categorical variables can be accommodated by the use of colour or symbols.<br/>
 <br/>
-Insight implies `detecting and uncovering underlying structure in the data.` Such underlying structure may not be encapsulated in the list of items above; such items serve as the specific targets of an analysis, but the real insight and "feel" for a data set comes as the analyst judiciously probes and explores the various subtleties of the data. The "feel" for the data comes almost exclusively from the application of various graphical techniques, the collection of which serves as the window into the essence of the data. Graphics are irreplaceable--there are no quantitative analogues that will give the same insight as well-chosen graphics. 
+Insight implies `time order` `detecting and uncovering underlying structure in the data.` Such underlying structure may not be encapsulated in the list of items above; such items serve as the specific targets of an analysis, but the real insight and "feel" for a data set comes as the analyst judiciously probes and explores the various subtleties of the data. The "feel" for the data comes almost exclusively from the application of various graphical techniques, the collection of which serves as the window into the essence of the data. Graphics are irreplaceable--there are no quantitative analogues that will give the same insight as well-chosen graphics. 
