@@ -15,7 +15,7 @@ At a more granular level:
 ### Categorising EDA techniques
 
 Are either:
-- Graphical (summarize the data in a diagrammatic or visual way)
+- Graphical (summarize the data in a diagrammatic or visual way Most EDA techniques are graphical in nature with a few quantitative techniques. The reason for the heavy reliance on graphics is that by its very nature the main role of EDA is to open-mindedly explore, and graphics gives the analysts unparalleled power to do so, enticing the data to reveal its structural secrets, and being always ready to gain some new, often unsuspected, insight into the data. In combination with the natural pattern-recognition capabilities that we all possess, graphics provides, of course, unparalleled power to carry this out.)
 - Quantitative (normally involve calculation of summary statistics) <br/>
 
 (Non-graphical and graphical methods complement each other, we can see graphical methods as more qualitative (providing subjective analysis) vs quantitative methods as objective)
@@ -23,8 +23,6 @@ Are either:
 Each of these techniques are in turn:
 - Univariate (look at one variable (data column) at a time)
 - Multivariate (usually just bivariate) (look at two or more variables at a time to explore relationships).
-
-Most EDA techniques are graphical in nature with a few quantitative techniques. The reason for the heavy reliance on graphics is that by its very nature the main role of EDA is to open-mindedly explore, and graphics gives the analysts unparalleled power to do so, enticing the data to reveal its structural secrets, and being always ready to gain some new, often unsuspected, insight into the data. In combination with the natural pattern-recognition capabilities that we all possess, graphics provides, of course, unparalleled power to carry this out. <br/>
 
 ### 1. Univariate non-graphical EDA (techniques)
 Are concerned with understanding the underlying sample distribution and make observations about the population. This also involves Outlier detection.
