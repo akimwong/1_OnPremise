@@ -1,5 +1,6 @@
 # EXPLORATORY DATA ANALISYS (EDA)
-[extract from article!](https://www.itl.nist.gov/div898/handbook/eda/eda.htm) <br/>
+[(extract from article!)](https://www.itl.nist.gov/div898/handbook/eda/eda.htm) <br/>
+
 The primary goal of EDA is to maximize the analyst's insight into a data set and into the underlying structure of a data set, while providing all of the specific items that an analyst would want to extract from a data set, such as:  <br/>
 - Discover underlying patterns
 - Spot anomalies
@@ -79,7 +80,8 @@ Insight implies `detecting and uncovering underlying structure in the data.` Suc
 To get a "feel" for the data, `it is not enough for the analyst to know what is in the data; the analyst also must know what is not in the data,` and the only way to do that is to draw on our own human pattern-recognition and comparative abilities in the context of a series of judicious graphical techniques applied to the data. 
 
 # Advanced exploratory data analysis (EDA)
-[extract from article!]( )
+[(extract from article!)](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a) <br/>
+
 ## Investigation of structure, quality and content
 
 Overall, the EDA approach is very iterative. At the end of your investigation you might discover something that will require you to redo everything once more. That is normal! But to impose at least a little bit of structure, I propose the following structure for your investigations:
