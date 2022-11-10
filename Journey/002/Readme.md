@@ -1,6 +1,5 @@
 # EXPLORATORY DATA ANALISYS (EDA)
-
-The objectives of EDA are:
+The primary goal of EDA is to maximize the analyst's insight into a data set and into the underlying structure of a data set, while providing all of the specific items that an analyst would want to extract from a data set, such as:  <br/>
 - Discover underlying patterns
 - Spot anomalies
 - Frame the hypothesis
@@ -24,6 +23,8 @@ Are either:
 Each of these techniques are in turn:
 - Univariate (look at one variable (data column) at a time)
 - Multivariate (usually just bivariate) (look at two or more variables at a time to explore relationships).
+
+Most EDA techniques are graphical in nature with a few quantitative techniques. The reason for the heavy reliance on graphics is that by its very nature the main role of EDA is to open-mindedly explore, and graphics gives the analysts unparalleled power to do so, enticing the data to reveal its structural secrets, and being always ready to gain some new, often unsuspected, insight into the data. In combination with the natural pattern-recognition capabilities that we all possess, graphics provides, of course, unparalleled power to carry this out. <br/>
 
 ### 1. Univariate non-graphical EDA (techniques)
 Are concerned with understanding the underlying sample distribution and make observations about the population. This also involves Outlier detection.
@@ -53,12 +54,10 @@ Univariate EDA also involves finding the:
 
 
 ### 2. Univariate graphical EDA
-Most EDA techniques are graphical in nature with a few quantitative techniques. The reason for the heavy reliance on graphics is that by its very nature the main role of EDA is to open-mindedly explore, and graphics gives the analysts unparalleled power to do so, enticing the data to reveal its structural secrets, and being always ready to gain some new, often unsuspected, insight into the data. In combination with the natural pattern-recognition capabilities that we all possess, graphics provides, of course, unparalleled power to carry this out. <br/>
 a. For graphical analysis of univariate categorical data, histograms are typically used. <br/>
 - The histogram represents the frequency (count) or proportion (count/total count) of cases for a range of values. 
 - Typically, between about 5 and 30 bins are chosen. 
 - Histograms are one of the best ways to quickly learn a lot about your data, including central tendency, spread, modality, shape and outliers. <br/>
-
 b. Stem and Leaf plots could also be used for the same purpose. <br/>
 c. Boxplots can also be used to present information about the central tendency, symmetry and skew, as well as outliers.  <br/>
 d. Quantile normal plots or QQ plots and other techniques could also be used here.
