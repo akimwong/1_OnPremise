@@ -13,8 +13,12 @@ At a more granular level:
 - A ranking of the important explanatory variables; 
 - Conclusions as to whether individual explanatory variables are statistically significant.
 
+### Categorising EDA techniques
 
+Are either:
+- Graphical
+- Quantitative
 
-
-### 1. For [Time Series](/Journey/002/TimeSeries) dataset
-1.1. R - dplyr, questionr
+Each of these techniques are in turn:
+- Univariate
+- Multivariate (usually just bivariate).
