@@ -21,4 +21,4 @@ In this competition, you’ll gain access to two similar datasets that include p
 Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived. 
 
 
-#### [NEXT STEP: Exploratory Data Analysis (EDA)](akimwong/1_OnPremise)
+#### [NEXT STEP: Exploratory Data Analysis (EDA)](https://github.com/akimwong/1_OnPremise)
