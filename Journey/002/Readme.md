@@ -53,7 +53,6 @@ Univariate EDA also involves finding the:
 
 
 ### 2. Univariate graphical EDA
-
 a. For graphical analysis of univariate categorical data, histograms are typically used. <br/>
 - The histogram represents the frequency (count) or proportion (count/total count) of cases for a range of values. 
 - Typically, between about 5 and 30 bins are chosen. 
@@ -62,4 +61,16 @@ a. For graphical analysis of univariate categorical data, histograms are typical
 b. Stem and Leaf plots could also be used for the same purpose. <br/>
 c. Boxplots can also be used to present information about the central tendency, symmetry and skew, as well as outliers.  <br/>
 d. Quantile normal plots or QQ plots and other techniques could also be used here.
+
+### 3. Multivariate non-graphical EDA
+- Generally show the relationship between two or more variables in the form of either cross-tabulation or statistics. <br/>
+- For each combination of categorical variable (usually explanatory) and one quantitative variable (usually outcome), we can create a statistic for a quantitative variables separately for each level of the categorical variable, and then compare the statistics across levels of the categorical variable. <br/>
+- Comparing the means is an informal version of ANOVA. <br/>
+- Comparing medians is a robust informal version of one-way ANOVA.  <br/>
+- For two quantitative variables, we can calculate co-variance and/or correlation. <br/>
+When we have many quantitative variables, we typically calculate the pairwise covariances and/or correlations and assemble them into a matrix.
+
+
+
+
 
