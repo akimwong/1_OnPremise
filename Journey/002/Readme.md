@@ -54,10 +54,11 @@ Univariate EDA also involves finding the:
 
 ### 2. Univariate graphical EDA
 
-* For graphical analysis of univariate categorical data, histograms are typically used. 
+a. For graphical analysis of univariate categorical data, histograms are typically used. 
 - The histogram represents the frequency (count) or proportion (count/total count) of cases for a range of values. 
 - Typically, between about 5 and 30 bins are chosen. 
 - Histograms are one of the best ways to quickly learn a lot about your data, including central tendency, spread, modality, shape and outliers. 
-* Stem and Leaf plots could also be used for the same purpose. 
-* Boxplots can also be used to present information about the central tendency, symmetry and skew, as well as outliers.  Quantile normal plots or QQ plots and other techniques could also be used here.
+b. Stem and Leaf plots could also be used for the same purpose. 
+c. Boxplots can also be used to present information about the central tendency, symmetry and skew, as well as outliers.  
+d. Quantile normal plots or QQ plots and other techniques could also be used here.
 
