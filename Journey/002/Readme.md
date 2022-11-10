@@ -158,17 +158,13 @@ What we want to identify at this stage are big holes in the dataset, i.e. sample
 
 #### 2.3.1. Numerical features
 
-To plot this global view of the dataset, at least for the numerical features, you can use pandas’ .plot() function and combine it with the following parameters:
+- Plot a global view of the dataset, at least for the numerical features
+- And each subplot that represents a different feature. 
 
-    lw=0: lw stands for line width. 0 means that we don't want to show any lines
-    marker=".": Instead of lines, we tell the plot to use . as markers for each data point
-    subplots=True: subplots tells pandas to plot each feature in a separate subplot
-    layout=(-1, 4): This parameter tells pandas how many rows and columns to use for the subplots. The -1 means "as many as needed", while the 2 means to use 2 columns per row.
-    figsize=(15, 30), markersize=1: To make sure that the figure is big enough we recommend to have a figure height of roughly the number of features, and to adjust the markersize accordingly.
+The y-axis shows the feature value, while the x-axis is the sample index. <br/>
+These plots can give you a lot of ideas for data cleaning and EDA. <br/>
+Usually it makes sense to invest as much time as needed until you’re happy with the output of this visualization. <br/>
 
-So what does this plot look like?
-
-Each point in this figure is a sample (i.e. a row) in our dataset and each subplot represents a different feature. The y-axis shows the feature value, while the x-axis is the sample index. These kind of plots can give you a lot of ideas for data cleaning and EDA. Usually it makes sense to invest as much time as needed until you’re happy with the output of this visualization.
 #### 2.3.2. Non-numerical features
 
 Identifying unwanted entries or recording errors on non-numerical features is a bit more tricky. Given that at this point, we only want to investigate the general quality of the dataset. So what we can do is take a general look at how many unique values each of these non-numerical features contain, and how often their most frequent category is represented. To do so, you can use: df_X.describe(exclude=["number", "datetime])
