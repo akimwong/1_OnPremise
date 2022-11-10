@@ -92,25 +92,35 @@ Overall, the EDA approach is very iterative. At the end of your investigation yo
 
 ## 1. Structure Investigation
 
-Before looking at the detailed content of any dataset, how many columns and rows does the dataset have? And how many different data types do those features include?
+Before looking at the detailed content of any dataset:
+- How many columns and rows does the dataset have?
+- How many different data types do those features include?
 
 ### 1.1. Structure of non-numerical features
 
-Even though Sex_of_Driver is a numerical feature, it somehow was stored as a non-numerical one. This is sometimes due to some typo in data recording. These kind of things need to be taken care of during data preparation.
+Even though "sex" is a numerical feature, it somehow was stored as a non-numerical one. This is sometimes due to some typo in data recording. These kind of things need to be taken care of during data preparation.
 
-Once this is taken care of, we can use the .describe() function to investigate how many unique values each non-numerical feature has and with which frequency the most prominent value is present - using the code df_X.describe(exclude="number") :
+Once this is taken care of, we can use the some functions to investigate:
+- How many unique values each non-numerical feature has
+- And with which frequency the most prominent value is present
 
 ### 1.2. Structure of numerical features
 
-Next, let’s take a closer look at the numerical features. More precisely, let’s investigate how many unique values each of these feature has. This process will give us some insights about the number of binary (2 unique values), ordinal (3 to ~10 unique values) and continuous (more than 10 unique values) features in the dataset.
+Investigate how many unique values each of these feature has. This process will give us some insights about:
+- The number of binary (2 unique values)
+- Ordinal (3 to ~10 unique values) 
+- And continuous (more than 10 unique values) features in the dataset.
 
 ### 1.3. Conclusion of structure investigation
 
-At the end of this first investigation, we should have a better understanding of the general structure of our dataset. Number of samples and features, what kind of data type each feature has, and how many of them are binary, ordinal, categorical or continuous. For an alternative way to get such kind of information you could also use df_X.info() or df_X.describe().
+At the end of this first investigation, we should:
+- Have a better understanding of the general structure of our dataset. 
+- Number of samples and features, what kind of data type each feature has, and how many of them are binary, ordinal, categorical or continuous.
 
 ## 2. Quality Investigation
 
-Before focusing on the actual content stored in these features, let’s first take a look at the general quality of the dataset. The goal is to have a global view on the dataset with regards to things like duplicates, missing values and unwanted entries or recording errors.
+Take a look at the general quality of the dataset. <br/>
+The goal is to have a global view on the dataset with regards to things like duplicates, missing values and unwanted entries or recording errors.
 
 ### 2.1. Duplicates
 
