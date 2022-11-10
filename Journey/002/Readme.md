@@ -16,9 +16,10 @@ At a more granular level:
 ### Categorising EDA techniques
 
 Are either:
-- Graphical
-- Quantitative
+- Graphical (summarize the data in a diagrammatic or visual way)
+- Quantitative (normally involve calculation of summary statistics)
+(Non-graphical and graphical methods complement each other, we can see graphical methods as more qualitative (providing subjective analysis) vs quantitative methods as objective)
 
 Each of these techniques are in turn:
-- Univariate
-- Multivariate (usually just bivariate).
+- Univariate (look at one variable (data column) at a time)
+- Multivariate (usually just bivariate) (look at two or more variables at a time to explore relationships).
