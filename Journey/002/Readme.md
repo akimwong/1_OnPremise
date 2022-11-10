@@ -79,23 +79,15 @@ To get a "feel" for the data, `it is not enough for the analyst to know what is 
 
 # Advanced exploratory data analysis (EDA)
 
-### Investigation of structure, quality and content
+## Investigation of structure, quality and content
 
 Overall, the EDA approach is very iterative. At the end of your investigation you might discover something that will require you to redo everything once more. That is normal! But to impose at least a little bit of structure, I propose the following structure for your investigations:
 
-#### 1. Structure investigation: Exploring the general shape of the dataset, as well as the data types of your features.
-#### 2. Quality investigation: Get a feeling for the general quality of the dataset, with regards to duplicates, missing values and unwanted entries.
-#### 3. Content investigation: Once the structure and quality of the dataset is understood, we can go ahead and perform a more in-depth exploration on the features values and look at how different features relate to each other.
+1. Structure investigation: Exploring the general shape of the dataset, as well as the data types of your features.
+2. Quality investigation: Get a feeling for the general quality of the dataset, with regards to duplicates, missing values and unwanted entries.
+3. Content investigation: Once the structure and quality of the dataset is understood, we can go ahead and perform a more in-depth exploration on the features values and look at how different features relate to each other.
 
-
-
-
-
-
-
-
-But first we need to find an interesting dataset. Let’s go ahead and load the road safety dataset from OpenML.
-1. Structure Investigation
+## 1. Structure Investigation
 
 Before looking at the content of our feature matrix X, let’s first look at the general structure of the dataset. For example, how many columns and rows does the dataset have? And how many different data types do those features include?
 1.1. Structure of non-numerical features
