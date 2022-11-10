@@ -1,5 +1,5 @@
 # EXPLORATORY DATA ANALISYS (EDA)
-[extract from article!]( )
+[extract from article!](https://www.itl.nist.gov/div898/handbook/eda/eda.htm) <br/>
 The primary goal of EDA is to maximize the analyst's insight into a data set and into the underlying structure of a data set, while providing all of the specific items that an analyst would want to extract from a data set, such as:  <br/>
 - Discover underlying patterns
 - Spot anomalies
