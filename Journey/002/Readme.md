@@ -1,8 +1,12 @@
-# EXPLORATORY DATA ANALISYS
+# EXPLORATORY DATA ANALISYS (EDA)
+
+The objectives of EDA are:
+- Discover underlying patterns
+- Spot anomalies
+- Frame the hypothesis
+- Check assumptions with the aim to find a good fitting model (if one exists)
 
 
-
-Techniques & Tools to explore datasets:
 
 ###
 
