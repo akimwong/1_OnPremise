@@ -24,3 +24,8 @@ Are either:
 Each of these techniques are in turn:
 - Univariate (look at one variable (data column) at a time)
 - Multivariate (usually just bivariate) (look at two or more variables at a time to explore relationships).
+
+### 1. Univariate non-graphical EDA (techniques)
+Are concerned with understanding the underlying sample distribution and make observations about the population. This also involves Outlier detection.
+- For univariate categorical data, we are interested in the range and the frequency.
+- For quantitative data involves making preliminary assessments about the population distribution of the variable using the data from the observed sample.
