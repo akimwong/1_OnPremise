@@ -104,16 +104,19 @@ Next, let’s take a closer look at the numerical features. More precisely, let�
 ### 1.3. Conclusion of structure investigation
 
 At the end of this first investigation, we should have a better understanding of the general structure of our dataset. Number of samples and features, what kind of data type each feature has, and how many of them are binary, ordinal, categorical or continuous. For an alternative way to get such kind of information you could also use df_X.info() or df_X.describe().
-2. Quality Investigation
+
+## 2. Quality Investigation
 
 Before focusing on the actual content stored in these features, let’s first take a look at the general quality of the dataset. The goal is to have a global view on the dataset with regards to things like duplicates, missing values and unwanted entries or recording errors.
-2.1. Duplicates
+
+### 2.1. Duplicates
 
 Duplicates are entries that represent the same sample point multiple times. For example, if a measurement was registered twice by two different people. Detecting such duplicates is not always easy, as each dataset might have a unique identifier features (e.g. an index number or recording time that is unique to each new sample). So you might want to ignore them first. And once you are aware about the number of duplicates in your dataset, you can simply drop them with .drop_duplicates().
-2.2. Missing values
+### 2.2. Missing values
 
 Another quality issue worth to investigate are missing values. Having some missing values is normal. What we want to identify at this stage are big holes in the dataset, i.e. samples or features with a lot of missing values.
-2.2.1. Per sample
+
+#### 2.2.1. Per sample
 
 To look at number of missing values per sample we have multiple options. The most straight forward one is to simply visualize the output of df_X.isna(), with something like this:
 
@@ -122,24 +125,25 @@ This figure shows on the y-axis each of the 360'000 individual samples, and on t
 From both of these plots we can see that the dataset has a huge hole, caused by some samples where more than 50% of the feature values are missing. For those samples, filling the missing values with some replacement values is probably not a good idea.
 
 Therefore, let’s go ahead and drop samples that have more than 20% of missing values. The threshold is inspired by the information from the ‘Data Completeness’ column on the right of this figure.
-2.2.2. Per Feature
+#### 2.2.2. Per Feature
 
 As a next step, let’s now look at the number of missing values per feature. For this we can use some pandas trickery to quickly identify the ratio of missing values per feature.
 
 From this figure we can see that most features don’t contain any missing values. Nonetheless, features like 2nd_Road_Class, Junction_Control, Age_of_Vehicle still contain quite a lot of missing values. So let's go ahead and remove any feature with more than 15% of missing values.
-2.2.3. Small side note
+#### 2.2.3. Small side note
 
 Missing values: There is no strict order in removing missing values. For some datasets, tackling first the features and than the samples might be better. Furthermore, the threshold at which you decide to drop missing values per feature or sample changes from dataset to dataset, and depends on what you intend to do with the dataset later on.
 
 Also, until now we only addressed the big holes in the dataset, not yet how we would fill the smaller gaps. This is content for another post.
-2.3. Unwanted entries and recording errors
+### 2.3. Unwanted entries and recording errors
 
 Another source of quality issues in a dataset can be due to unwanted entries or recording errors. It’s important to distinguish such samples from simple outliers. While outliers are data points that are unusual for a given feature distribution, unwanted entries or recording errors are samples that shouldn’t be there in the first place.
 
 For example, a temperature recording of 45°C in Switzerland might be an outlier (as in ‘very unusual’), while a recording at 90°C would be an error. Similarly, a temperature recording from the top of Mont Blanc might be physical possible, but most likely shouldn’t be included in a dataset about Swiss cities.
 
 Of course, detecting such errors and unwanted entries and distinguishing them from outliers is not always straight forward and depends highly on the dataset. One approach to this is to take a global view on the dataset and see if you can identify some very unusual patterns.
-2.3.1. Numerical features
+
+#### 2.3.1. Numerical features
 
 To plot this global view of the dataset, at least for the numerical features, you can use pandas’ .plot() function and combine it with the following parameters:
 
@@ -152,7 +156,7 @@ To plot this global view of the dataset, at least for the numerical features, yo
 So what does this plot look like?
 
 Each point in this figure is a sample (i.e. a row) in our dataset and each subplot represents a different feature. The y-axis shows the feature value, while the x-axis is the sample index. These kind of plots can give you a lot of ideas for data cleaning and EDA. Usually it makes sense to invest as much time as needed until you’re happy with the output of this visualization.
-2.3.2. Non-numerical features
+#### 2.3.2. Non-numerical features
 
 Identifying unwanted entries or recording errors on non-numerical features is a bit more tricky. Given that at this point, we only want to investigate the general quality of the dataset. So what we can do is take a general look at how many unique values each of these non-numerical features contain, and how often their most frequent category is represented. To do so, you can use: df_X.describe(exclude=["number", "datetime])
 
@@ -161,15 +165,17 @@ There are multiple ways for how you could potentially streamline the quality inv
 We can see that the most frequent accident (i.e. Accident_Index), had more than 100 people involved. Digging a bit deeper (i.e. looking at the individual features of this accident), we could identify that this accident happened on February 24th, 2015 at 11:55 in Cardiff UK. A quick internet search reveals that this entry corresponds to a luckily non-lethal accident including a minibus full of pensioners.
 
 The decision for what should be done with such rather unique entries is once more left in the the subjective hands of the person analyzing the dataset. Without any good justification for WHY, and only with the intention to show you the HOW - let’s go ahead and remove the 10 most frequent accidents from this dataset.
-2.4. Conclusion of quality investigation
+
+### 2.4. Conclusion of quality investigation
 
 At the end of this second investigation, we should have a better understanding of the general quality of our dataset. We looked at duplicates, missing values and unwanted entries or recording errors. It is important to point out that we didn’t discuss yet how to address the remaining missing values or outliers in the dataset. This is a task for the next investigation, but won’t be covered in this article.
-3. Content Investigation
+
+## 3. Content Investigation
 
 Up until now we only looked at the general structure and quality of the dataset. Let’s now go a step further and take a look at the actual content. In an ideal setting, such an investigation would be done feature by feature. But this becomes very cumbersome once you have more than 20–30 features.
 
 For this reason (and to keep this article as short as needed) we will explore three different approaches that can give you a very quick overview of the content stored in each feature and how they relate.
-3.1. Feature distribution
+### 3.1. Feature distribution
 
 Looking at the value distribution of each feature is a great way to better understand the content of your data. Furthermore, it can help to guide your EDA, and provides a lot of useful information with regards to data cleaning and feature transformation. The quickest way to do this for numerical features is using histogram plots. Luckily, pandas comes with a builtin histogram function that allows the plotting of multiple features at once.
 
@@ -178,7 +184,7 @@ There are a lot of very interesting things visible in this plot. For example…
 Most frequent entry: Some features, such as Towing_and_Articulation or Was_Vehicle_Left_Hand_Drive? mostly contain entries of just one category. Using the .mode() function, we could for example extract the ratio of the most frequent entry for each feature and visualize that information.
 
 Skewed value distributions: Certain kind of numerical features can also show strongly non-gaussian distributions. In that case you might want to think about how you can transform these values to make them more normal distributed. For example, for right skewed data you could use a log-transformation.
-3.2. Feature patterns
+### 3.2. Feature patterns
 
 Next step on the list is the investigation of feature specific patterns. The goal of this part is two fold:
 
@@ -190,7 +196,7 @@ Before we dive into these two questions, let’s take a closer look at a few ‘
 In the top row, we can see features with continuous values (e.g. seemingly any number from the number line), while in the bottom row we have features with discrete values (e.g. 1, 2, 3 but not 2.34).
 
 While there are many ways we could explore our features for particular patterns, let’s simplify our option by deciding that we treat features with less than 25 unique features as discrete or ordinal features, and the other features as continuous features.
-3.2.1. Continuous features
+#### 3.2.1. Continuous features
 
 Now that we have a way to select the continuous features, let’s go ahead and use seaborn’s pairplot to visualize the relationships between these features. Important to note, seaborn's pairplot routine can take a long time to create all subplots. Therefore we recommend to not use it for more than ~10 features at a time.
 
@@ -199,7 +205,7 @@ Given that in our case we only have 11 features, we can go ahead with the pairpl
 There seems to be a strange relationship between a few features in the top left corner. Location_Easting_OSGR and Longitude, as well as Location_Easting_OSGR and Latitude seem to have a very strong linear relationship.
 
 Knowing that these features contain geographic information, a more in-depth EDA with regards to geolocation could be fruitful. However, for now we will leave the further investigation of this pairplot to the curious reader and continue with the exploration of the discrete and ordinal features.
-3.2.2. Discrete and ordinal features
+#### 3.2.2. Discrete and ordinal features
 
 Finding patterns in the discrete or ordinal features is a bit more tricky. But also here, some quick pandas and seaborn trickery can help us to get a general overview of our dataset. First, let’s select the columns we want to investigate.
 
@@ -212,7 +218,7 @@ There are too many things to comment here, so let’s just focus on a few. In pa
 These kind of plots are already very informative, but they obscure regions where there are a lot of data points at once. For example, there seems to be a high density of points in some of the plots at the 52nd latitude. So let’s take a closer look with an appropriate plot, such as violineplot ( or boxenplot or boxplot for that matter). And to go a step further, let's also separate each visualization by Urban_or_Rural_Area.
 
 Interesting! We can see that some values on features are more frequent in urban, than in rural areas (and vice versa). Furthermore, as suspected, there seems to be a high density peak at latitude 51.5. This is very likely due to the more densely populated region around London (at 51.5074°).
-3.3. Feature relationships
+### 3.3. Feature relationships
 
 Last, but not least, let’s take a look at relationships between features. More precisely how they correlate. The quickest way to do so is via pandas’ .corr() function. So let's go ahead and compute the feature to feature correlation matrix for all numerical features.
 
@@ -223,7 +229,7 @@ This looks already very interesting. We can see a few very strong correlations b
 As you can see, the investigation of feature correlations can be very informative. But looking at everything at once can sometimes be more confusing than helpful. So focusing only on one feature with something like df_X.corrwith(df_X["Speed_limit"]) might be a better approach.
 
 Furthermore, correlations can be deceptive if a feature still contains a lot of missing values or extreme outliers. Therefore, it is always important to first make sure that your feature matrix is properly prepared before investigating these correlations.
-3.4. Conclusion of content investigation
+### 3.4. Conclusion of content investigation
 
 At the end of this third investigation, we should have a better understanding of the content in our dataset. We looked at value distribution, feature patterns and feature correlations. However, these are certainly not all possible content investigation and data cleaning steps you could do. Additional steps would for example be outlier detection and removal, feature engineering and transformation, and more.
 
