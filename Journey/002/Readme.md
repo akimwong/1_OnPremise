@@ -29,3 +29,24 @@ Each of these techniques are in turn:
 Are concerned with understanding the underlying sample distribution and make observations about the population. This also involves Outlier detection.
 - For univariate categorical data, we are interested in the range and the frequency.
 - For quantitative data involves making preliminary assessments about the population distribution of the variable using the data from the observed sample.
+
+The characteristics of the population distribution inferred include:
+- Center
+- Spread
+- Modality
+- Shape
+-  And outliers.  
+
+Measures of central tendency include:
+- Mean (most common measure of central tendency)
+- Median (for skewed distribution or when there is concern about outliers, the median may be preferred)
+- Mode. 
+
+Measures of spread (indicator of how far away from the center we are still likely to find data values) include:
+- Variance
+- Standard deviation
+- Interquartile range 
+
+Univariate EDA also involves finding the:
+- Skewness (measure of asymmetry) 
+- Kurtosis (measure of peakedness relative to a Gaussian shape).
