@@ -135,29 +135,26 @@ What we want to identify at this stage are big holes in the dataset, i.e. sample
 
 #### 2.2.1. Per sample
 
-To look at number of missing values per sample we have multiple options. <br/>
-The most straight forward one is to simply visualize the output of df_X.isna(), with something like this: <br/>
-Some samples where more than 50% of the feature values are missing. For those samples, `filling the missing values with some replacement values is probably not a good idea.`
-
-Therefore, let’s go ahead and `drop samples` that have `more than 20% of missing values.` <br/> 
+- Some samples where more than 50% of the feature values are missing. 
+- For those samples, `filling the missing values with some replacement values is probably not a good idea.` <br/> 
+- `Drop samples` that have `more than 20% of missing values.` <br/> 
 
 #### 2.2.2. Per Feature
 
-As a next step, let’s now look at the number of missing values per feature. For this we can use some pandas trickery to quickly identify the ratio of missing values per feature.
+- Identify the ratio of missing values per feature.
+- Remove any feature with more than 15% of missing values.
 
-From this figure we can see that most features don’t contain any missing values. Nonetheless, features like 2nd_Road_Class, Junction_Control, Age_of_Vehicle still contain quite a lot of missing values. So let's go ahead and remove any feature with more than 15% of missing values.
 #### 2.2.3. Small side note
 
-Missing values: There is no strict order in removing missing values. For some datasets, tackling first the features and than the samples might be better. Furthermore, the threshold at which you decide to drop missing values per feature or sample changes from dataset to dataset, and depends on what you intend to do with the dataset later on.
+- There is no strict order in removing missing values. For some datasets, tackling first the features and than the samples might be better. 
+- The threshold at which you decide to drop missing values per feature or sample changes from dataset to dataset, and depends on what you intend to do with the dataset later on.
+- Also, until now we only addressed the big holes in the dataset, not yet how we would fill the smaller gaps. This is content for another post.
 
-Also, until now we only addressed the big holes in the dataset, not yet how we would fill the smaller gaps. This is content for another post.
 ### 2.3. Unwanted entries and recording errors
 
-Another source of quality issues in a dataset can be due to unwanted entries or recording errors. It’s important to distinguish such samples from simple outliers. While outliers are data points that are unusual for a given feature distribution, unwanted entries or recording errors are samples that shouldn’t be there in the first place.
-
-For example, a temperature recording of 45°C in Switzerland might be an outlier (as in ‘very unusual’), while a recording at 90°C would be an error. Similarly, a temperature recording from the top of Mont Blanc might be physical possible, but most likely shouldn’t be included in a dataset about Swiss cities.
-
-Of course, detecting such errors and unwanted entries and distinguishing them from outliers is not always straight forward and depends highly on the dataset. One approach to this is to take a global view on the dataset and see if you can identify some very unusual patterns.
+- Another source of quality issues in a dataset can be due to unwanted entries or recording errors. 
+- It’s important to distinguish such samples from simple outliers. While outliers are data points that are unusual for a given feature distribution, unwanted entries or recording errors are samples that shouldn’t be there in the first place.
+- Detecting such errors and unwanted entries and distinguishing them from outliers is not always straight forward and depends highly on the dataset. One approach to this is to take a global view on the dataset and see if you can identify some very unusual patterns.
 
 #### 2.3.1. Numerical features
 
