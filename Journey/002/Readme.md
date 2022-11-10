@@ -89,18 +89,19 @@ Overall, the EDA approach is very iterative. At the end of your investigation yo
 
 ## 1. Structure Investigation
 
-Before looking at the content of our feature matrix X, let’s first look at the general structure of the dataset. For example, how many columns and rows does the dataset have? And how many different data types do those features include?
-1.1. Structure of non-numerical features
+Before looking at the detailed content of any dataset, how many columns and rows does the dataset have? And how many different data types do those features include?
 
-Data types can be numerical and non-numerical. First, let’s take a closer look at the non-numerical entries.
+### 1.1. Structure of non-numerical features
 
 Even though Sex_of_Driver is a numerical feature, it somehow was stored as a non-numerical one. This is sometimes due to some typo in data recording. These kind of things need to be taken care of during data preparation.
 
 Once this is taken care of, we can use the .describe() function to investigate how many unique values each non-numerical feature has and with which frequency the most prominent value is present - using the code df_X.describe(exclude="number") :
-1.2. Structure of numerical features
+
+### 1.2. Structure of numerical features
 
 Next, let’s take a closer look at the numerical features. More precisely, let’s investigate how many unique values each of these feature has. This process will give us some insights about the number of binary (2 unique values), ordinal (3 to ~10 unique values) and continuous (more than 10 unique values) features in the dataset.
-1.3. Conclusion of structure investigation
+
+### 1.3. Conclusion of structure investigation
 
 At the end of this first investigation, we should have a better understanding of the general structure of our dataset. Number of samples and features, what kind of data type each feature has, and how many of them are binary, ordinal, categorical or continuous. For an alternative way to get such kind of information you could also use df_X.info() or df_X.describe().
 2. Quality Investigation
