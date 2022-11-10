@@ -70,7 +70,7 @@ d. Quantile normal plots or QQ plots and other techniques could also be used her
 - For two quantitative variables, we can calculate co-variance and/or correlation. <br/>
 When we have many quantitative variables, we typically calculate the pairwise covariances and/or correlations and assemble them into a matrix.
 
-
-
-
+### 4. Multivariate graphical EDA
+- For categorical multivariate quantities, the most commonly used graphical technique is the barplot with each group rep-resenting one level of one of the variables and each bar within a group representing the levels of the other variable. For each category, we could have side-by-side boxplots or Parallel box plots. 
+- For two quantitative multivariate variables, the basic graphical EDA technique is the scatterplot which has one variable on the x-axis, one on the y-axis and a point for each case in your dataset.  Typically, the explanatory variable goes on the X axis.  Additional categorical variables can be accommodated by the use of colour or symbols.
 
