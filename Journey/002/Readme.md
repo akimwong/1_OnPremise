@@ -5,6 +5,8 @@ The primary goal of EDA is to maximize the analyst's insight into a data set and
 - Frame the hypothesis
 - Check assumptions with the aim to find a good fitting model (if one exists)
 
+`time order`
+
 At a more granular level:
 - EDA involves understanding the relationship between variables including determining relationships among the explanatory variables; 
 - Assessing the relationships between explanatory and outcome variables (direction and rough size estimates); 
