@@ -53,6 +53,7 @@ Univariate EDA also involves finding the:
 
 
 ### 2. Univariate graphical EDA
+Most EDA techniques are graphical in nature with a few quantitative techniques. The reason for the heavy reliance on graphics is that by its very nature the main role of EDA is to open-mindedly explore, and graphics gives the analysts unparalleled power to do so, enticing the data to reveal its structural secrets, and being always ready to gain some new, often unsuspected, insight into the data. In combination with the natural pattern-recognition capabilities that we all possess, graphics provides, of course, unparalleled power to carry this out. <br/>
 a. For graphical analysis of univariate categorical data, histograms are typically used. <br/>
 - The histogram represents the frequency (count) or proportion (count/total count) of cases for a range of values. 
 - Typically, between about 5 and 30 bins are chosen. 
@@ -71,6 +72,7 @@ d. Quantile normal plots or QQ plots and other techniques could also be used her
 When we have many quantitative variables, we typically calculate the pairwise covariances and/or correlations and assemble them into a matrix.
 
 ### 4. Multivariate graphical EDA
-- For categorical multivariate quantities, the most commonly used graphical technique is the barplot with each group rep-resenting one level of one of the variables and each bar within a group representing the levels of the other variable. For each category, we could have side-by-side boxplots or Parallel box plots. 
+- For categorical multivariate quantities, the most commonly used graphical technique is the barplot with each group representing one level of one of the variables and each bar within a group representing the levels of the other variable. 
+- For each category, we could have side-by-side boxplots or Parallel box plots. 
 - For two quantitative multivariate variables, the basic graphical EDA technique is the scatterplot which has one variable on the x-axis, one on the y-axis and a point for each case in your dataset.  Typically, the explanatory variable goes on the X axis.  Additional categorical variables can be accommodated by the use of colour or symbols.
 
