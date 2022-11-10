@@ -1,4 +1,4 @@
-[(the datasets come from...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
+[(the datasets comes from...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
 
 ## The Challenge:
 Build a predictive model that answers the question: “what sorts of people were more likely to survive?”
