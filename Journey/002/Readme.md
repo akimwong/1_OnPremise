@@ -136,13 +136,10 @@ What we want to identify at this stage are big holes in the dataset, i.e. sample
 #### 2.2.1. Per sample
 
 To look at number of missing values per sample we have multiple options. <br/>
-The most straight forward one is to simply visualize the output of df_X.isna(), with something like this:
-<br/>
-Some samples where more than 50% of the feature values are missing. <br/>
-For those samples, filling the missing values with some replacement values is probably not a good idea.
+The most straight forward one is to simply visualize the output of df_X.isna(), with something like this: <br/>
+Some samples where more than 50% of the feature values are missing. For those samples, `filling the missing values with some replacement values is probably not a good idea.`
 
 Therefore, let’s go ahead and `drop samples` that have `more than 20% of missing values.` <br/> 
-The threshold is inspired by the information from the ‘Data Completeness’ column on the right of this figure.
 
 #### 2.2.2. Per Feature
 
