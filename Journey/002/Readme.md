@@ -119,25 +119,31 @@ At the end of this first investigation, we should:
 
 ## 2. Quality Investigation
 
-Take a look at the general quality of the dataset. <br/>
+To take a look at the general quality of the dataset. <br/>
 The goal is to have a global view on the dataset with regards to things like duplicates, missing values and unwanted entries or recording errors.
 
 ### 2.1. Duplicates
 
-Duplicates are entries that represent the same sample point multiple times. For example, if a measurement was registered twice by two different people. Detecting such duplicates is not always easy, as each dataset might have a unique identifier features (e.g. an index number or recording time that is unique to each new sample). So you might want to ignore them first. And once you are aware about the number of duplicates in your dataset, you can simply drop them with .drop_duplicates().
+- Duplicates are entries that represent the same sample point multiple times. 
+- Detecting such duplicates is not always easy, as each dataset might have a unique identifier features . So you might want to ignore them first. 
+- And once you are aware about the number of duplicates in your dataset, you can simply drop them
+
 ### 2.2. Missing values
 
-Another quality issue worth to investigate are missing values. Having some missing values is normal. What we want to identify at this stage are big holes in the dataset, i.e. samples or features with a lot of missing values.
+Having some missing values is normal. <br/>
+What we want to identify at this stage are big holes in the dataset, i.e. samples or features with a lot of missing values.
 
 #### 2.2.1. Per sample
 
-To look at number of missing values per sample we have multiple options. The most straight forward one is to simply visualize the output of df_X.isna(), with something like this:
+To look at number of missing values per sample we have multiple options. <br/>
+The most straight forward one is to simply visualize the output of df_X.isna(), with something like this:
+<br/>
+Some samples where more than 50% of the feature values are missing. <br/>
+For those samples, filling the missing values with some replacement values is probably not a good idea.
 
-This figure shows on the y-axis each of the 360'000 individual samples, and on the x-axis if any of the 67 features contains a missing value. While this is already a useful plot, an even better approach is to use the missingno library, to get a plot like this one:
+Therefore, let’s go ahead and drop samples that have more than 20% of missing values. <br/> 
+The threshold is inspired by the information from the ‘Data Completeness’ column on the right of this figure.
 
-From both of these plots we can see that the dataset has a huge hole, caused by some samples where more than 50% of the feature values are missing. For those samples, filling the missing values with some replacement values is probably not a good idea.
-
-Therefore, let’s go ahead and drop samples that have more than 20% of missing values. The threshold is inspired by the information from the ‘Data Completeness’ column on the right of this figure.
 #### 2.2.2. Per Feature
 
 As a next step, let’s now look at the number of missing values per feature. For this we can use some pandas trickery to quickly identify the ratio of missing values per feature.
