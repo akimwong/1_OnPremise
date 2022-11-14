@@ -230,14 +230,14 @@ Finding patterns in the discrete or ordinal features is a bit more tricky. <br/>
 - The main interest in this kind of plot is to see how many samples each discrete value contains.
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot2.png" width="1000" height="1000">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot2.png" width="700" height="100">
 </p>
 
 There are too many things to comment here, so let’s just focus on a few. <br/> 
 In particular, let’s focus on 6 features where the values appear in some particular pattern or where some categories seem to be much less frequent than others. <br/> 
 And to shake things up a bit, let’s now use the Longitude feature to stretch the values over the y-axis.<br/> 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot3.png" width="1000" height="1000">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot3.png" width="1000" height="500">
 </p>
 
 
