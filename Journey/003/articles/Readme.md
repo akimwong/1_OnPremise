@@ -5,6 +5,7 @@
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
 - [Class Imbalance in Machine Learning Problems: A Practical Guide](https://towardsdatascience.com/class-imbalance-in-machine-learning-problems-a-practical-guide-4fb81eee0041)
 - [An Introduction of H2O Wave Table](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
+- [How to Deal with Categorical Data for Machine Learning](https://www.kdnuggets.com/2021/05/deal-with-categorical-data-machine-learning.html)
 
 
 
