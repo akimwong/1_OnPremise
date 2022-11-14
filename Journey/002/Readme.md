@@ -208,7 +208,7 @@ In the top row, we can see features with continuous values (e.g. seemingly any n
 While there are many ways we could explore our features for particular patterns, let’s simplify our option by deciding that we treat features with less than 25 unique features as discrete or ordinal features, and the other features as continuous features.
 
 #### 3.2.1. Continuous features
-Whe have to visualize the relationships between these features. 
+(for example) Whe have to visualize the relationships between these features. 
 
 There seems to be a strange relationship between a few features in the top left corner:
 - Location_Easting_OSGR and Longitude, as well as 
@@ -216,14 +216,16 @@ There seems to be a strange relationship between a few features in the top left 
 
 Seem to have a very strong linear relationship.
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plot.png" width="800" height="800">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plot.png" width="1000" height="1000">
 </p>
 
 Knowing that these features contain geographic information, a more in-depth EDA with regards to geolocation could be fruitful. However, for now we will leave the further investigation of this pairplot to the curious reader and continue with the exploration of the discrete and ordinal features.
 
 #### 3.2.2. Discrete and ordinal features
 
-Finding patterns in the discrete or ordinal features is a bit more tricky. But also here, some quick pandas and seaborn trickery can help us to get a general overview of our dataset. First, let’s select the columns we want to investigate.
+Finding patterns in the discrete or ordinal features is a bit more tricky. <br/> 
+
+First, let’s select the columns we want to investigate.
 
 As always, there are multiple way for how we could investigate all of these features. Let’s try one example, using seaborn’s stripplot() together with a handy zip() for-loop for subplots.
 
