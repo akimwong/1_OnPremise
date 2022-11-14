@@ -261,16 +261,15 @@ So let's go ahead and compute the feature to feature correlation matrix for all 
 
 
 
-Note: Depending on the dataset and the kind of features (e.g. ordinal or continuous features) you might want to use the spearman method instead of the pearson method to compute the correlation. <br/>
-Whereas the Pearson correlation evaluates the linear relationship between two continuous variables, the Spearman correlation evaluates the monotonic relationship based on the ranked values for each feature. <br/>
+Note: Depending on the dataset and the kind of features (e.g. ordinal or continuous features) you might want to use the `spearman method instead of the pearson method to compute the correlation.` <br/>
+Whereas the `Pearson correlation evaluates the linear relationship between two continuous variables,` the `Spearman correlation evaluates the monotonic relationship based on the ranked values for each feature.` <br/>
 And to help with the interpretation of this correlation matrix, let's use seaborn's .heatmap() to visualize it.
 
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot5.png" width="1000" height="1000">
 </p>
 
-This looks already very interesting. We can see a few very strong correlations between some of the features. Now, if you’re interested actually ordering all of these different correlations, you could do something like this:
-
+This looks already very interesting. We can see a few very strong correlations between some of the features.<br/>
 As you can see, the investigation of feature correlations can be very informative. <br/>
 But looking at everything at once can sometimes be more confusing than helpful. <br/>
 So focusing only on one feature with something like df_X.corrwith(df_X["Speed_limit"]) might be a better approach.
