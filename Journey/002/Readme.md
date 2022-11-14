@@ -274,8 +274,8 @@ As you can see, the investigation of feature correlations can be very informativ
 But looking at everything at once can sometimes be more confusing than helpful. <br/>
 So focusing only on one feature with something like df_X.corrwith(df_X["Speed_limit"]) might be a better approach.
 
-Furthermore, correlations can be deceptive if a feature still contains a lot of missing values or extreme outliers. <br/>
-Therefore, it is always important to first make sure that your feature matrix is properly prepared before investigating these correlations.
+Furthermore, `correlations can be deceptive if a feature still contains a lot of missing values or extreme outliers.` <br/>
+Therefore, `it is always important to first make sure that your feature matrix is properly prepared before investigating these correlations.`
 
 ### 3.4. Conclusion of content investigation
 
