@@ -190,21 +190,23 @@ Looking at the value distribution of each feature is a great way to better under
 
 There are a lot of very interesting things visible in this plot. For example…
 
-Most frequent entry: Some features, such as Towing_and_Articulation or Was_Vehicle_Left_Hand_Drive? mostly contain entries of just one category. Using the .mode() function, we could for example extract the ratio of the most frequent entry for each feature and visualize that information.
+Most frequent entry: Some features, such as Towing_and_Articulation or Was_Vehicle_Left_Hand_Drive? mostly contain entries of just one category. Using the .mode() of Python function, we could for example extract the ratio of the most frequent entry for each feature and visualize that information.
 
 Skewed value distributions: Certain kind of numerical features can also show strongly non-gaussian distributions. In that case you might want to think about how you can transform these values to make them more normal distributed. For example, for right skewed data you could use a log-transformation.
+
 ### 3.2. Feature patterns
 
 Next step on the list is the investigation of feature specific patterns. The goal of this part is two fold:
 
-    Can we identify particular patterns within a feature that will help us to decide if some entries need to be dropped or modified?
-    Can we identify particular relationships between features that will help us to better understand our dataset?
+- Can we identify particular patterns within a feature that will help us to decide if some entries need to be dropped or modified?
+- Can we identify particular relationships between features that will help us to better understand our dataset?
 
 Before we dive into these two questions, let’s take a closer look at a few ‘randomly selected’ features.
 
 In the top row, we can see features with continuous values (e.g. seemingly any number from the number line), while in the bottom row we have features with discrete values (e.g. 1, 2, 3 but not 2.34).
 
 While there are many ways we could explore our features for particular patterns, let’s simplify our option by deciding that we treat features with less than 25 unique features as discrete or ordinal features, and the other features as continuous features.
+
 #### 3.2.1. Continuous features
 
 Now that we have a way to select the continuous features, let’s go ahead and use seaborn’s pairplot to visualize the relationships between these features. Important to note, seaborn's pairplot routine can take a long time to create all subplots. Therefore we recommend to not use it for more than ~10 features at a time.
