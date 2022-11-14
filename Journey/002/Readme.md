@@ -199,7 +199,7 @@ Skewed value distributions: Certain kind of numerical features can also show str
 Next step on the list is the investigation of feature specific patterns. The goal of this part is two fold:
 
 - Can we identify particular patterns within a feature that will help us to decide if some entries need to be dropped or modified?
-- Can we identify particular relationships between features that will help us to better understand our dataset?
+- Can we identify `particular relationships between features that will help us to better understand our dataset?`
 
 Before we dive into these two questions, let’s take a closer look at a few ‘randomly selected’ features.
 
@@ -208,14 +208,14 @@ In the top row, we can see features with continuous values (e.g. seemingly any n
 While there are many ways we could explore our features for particular patterns, let’s simplify our option by deciding that we treat features with less than 25 unique features as discrete or ordinal features, and the other features as continuous features.
 
 #### 3.2.1. Continuous features
-
-Now that we have a way to select the continuous features, let’s go ahead and use seaborn’s pairplot to visualize the relationships between these features. Important to note, seaborn's pairplot routine can take a long time to create all subplots. Therefore we recommend to not use it for more than ~10 features at a time.
-
-Given that in our case we only have 11 features, we can go ahead with the pairplot. Otherwise, using something like df_continuous.iloc[:, :5] could help to reduce the number of features to plot.
+Whe have to visualize the relationships between these features. 
 
 There seems to be a strange relationship between a few features in the top left corner. Location_Easting_OSGR and Longitude, as well as Location_Easting_OSGR and Latitude seem to have a very strong linear relationship.
 
+
+
 Knowing that these features contain geographic information, a more in-depth EDA with regards to geolocation could be fruitful. However, for now we will leave the further investigation of this pairplot to the curious reader and continue with the exploration of the discrete and ordinal features.
+
 #### 3.2.2. Discrete and ordinal features
 
 Finding patterns in the discrete or ordinal features is a bit more tricky. But also here, some quick pandas and seaborn trickery can help us to get a general overview of our dataset. First, let’s select the columns we want to investigate.
