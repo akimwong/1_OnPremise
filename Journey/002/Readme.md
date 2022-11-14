@@ -210,7 +210,10 @@ While there are many ways we could explore our features for particular patterns,
 #### 3.2.1. Continuous features
 Whe have to visualize the relationships between these features. 
 
-There seems to be a strange relationship between a few features in the top left corner. Location_Easting_OSGR and Longitude, as well as Location_Easting_OSGR and Latitude seem to have a very strong linear relationship.
+There seems to be a strange relationship between a few features in the top left corner:
+- Location_Easting_OSGR and Longitude, as well as 
+- Location_Easting_OSGR and Latitude <br/> 
+Seem to have a very strong linear relationship.
 
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plot.png" width="800" height="1200">
