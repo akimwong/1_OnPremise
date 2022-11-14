@@ -20,6 +20,7 @@
 #### Python - Pandas
 
 - [Master Data Transformation in Pandas with These Three Useful Techniques](https://towardsdatascience.com/master-data-transformation-in-pandas-with-these-three-useful-techniques-20699f03e51d)
+- [Two Killer Jupyter Hacks That Are Guaranteed To Save You Hours Of Work Time](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
 
 ### R
 
