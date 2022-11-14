@@ -9,6 +9,7 @@
 - [Advanced exploratory data analysis (EDA) with Python](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a)
 - [Pandas Sidetable Simplifies the Exploratory Data Analysis Process](https://towardsdatascience.com/pandas-sidetable-simplifies-the-exploratory-data-analysis-process-417b42eebed6)
 - [So You’ve Got a Really Big Dataset. Here’s How You Clean It.](https://towardsdatascience.com/so-youve-got-a-dataset-here-s-how-you-clean-it-5d0b04a2ed86)
+- [Defining Empty Variables and Data Structures in Python](https://towardsdatascience.com/defining-empty-variables-and-data-structures-in-python-501995458577)
 
 
 
