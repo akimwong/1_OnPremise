@@ -234,36 +234,62 @@ Finding patterns in the discrete or ordinal features is a bit more tricky. <br/>
 </p>
 
 There are too many things to comment here, so let’s just focus on a few. <br/> 
+
 In particular, let’s focus on 6 features where the values appear in some particular pattern or where some categories seem to be much less frequent than others. <br/> 
 And to shake things up a bit, let’s now use the Longitude feature to stretch the values over the y-axis.<br/> 
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot3.png" width="700" height="400">
 </p>
 
-
-These kind of plots are already very informative, but they obscure regions where there are a lot of data points at once. For example, there seems to be a high density of points in some of the plots at the 52nd latitude. So let’s take a closer look with an appropriate plot, such as violineplot ( or boxenplot or boxplot for that matter). And to go a step further, let's also separate each visualization by Urban_or_Rural_Area.
+These kind of plots are already very informative, but they obscure regions where there are a lot of data points at once. <br/> 
+For example, there seems to be a high density of points in some of the plots at the 52nd latitude. <br/>
+So let’s take a closer look with an appropriate plot, such as violineplot ( or boxenplot or boxplot for that matter). <br/>
+And to go a step further, let's also separate each visualization by Urban_or_Rural_Area.
 
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot4.png" width="1000" height="500">
 </p>
 
-Interesting! We can see that some values on features are more frequent in urban, than in rural areas (and vice versa). Furthermore, as suspected, there seems to be a high density peak at latitude 51.5. This is very likely due to the more densely populated region around London (at 51.5074°).
+Interesting! We can see that some values on features are more frequent in urban, than in rural areas (and vice versa). <br/>
+Furthermore, as suspected, there seems to be a high density peak at latitude 51.5. This is very likely due to the more densely populated region around London (at 51.5074°).
+
 ### 3.3. Feature relationships
 
-Last, but not least, let’s take a look at relationships between features. More precisely how they correlate. The quickest way to do so is via pandas’ .corr() function. So let's go ahead and compute the feature to feature correlation matrix for all numerical features.
+Last, but not least, let’s take a look at relationships between features. <br/>
+More precisely how they correlate. The quickest way to do so is via pandas’ .corr() function. <br/>
+So let's go ahead and compute the feature to feature correlation matrix for all numerical features.
 
-Note: Depending on the dataset and the kind of features (e.g. ordinal or continuous features) you might want to use the spearman method instead of the pearson method to compute the correlation. Whereas the Pearson correlation evaluates the linear relationship between two continuous variables, the Spearman correlation evaluates the monotonic relationship based on the ranked values for each feature. And to help with the interpretation of this correlation matrix, let's use seaborn's .heatmap() to visualize it.
+
+
+Note: Depending on the dataset and the kind of features (e.g. ordinal or continuous features) you might want to use the spearman method instead of the pearson method to compute the correlation. <br/>
+Whereas the Pearson correlation evaluates the linear relationship between two continuous variables, the Spearman correlation evaluates the monotonic relationship based on the ranked values for each feature. <br/>
+And to help with the interpretation of this correlation matrix, let's use seaborn's .heatmap() to visualize it.
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot5.png" width="1000" height="1000">
+</p>
 
 This looks already very interesting. We can see a few very strong correlations between some of the features. Now, if you’re interested actually ordering all of these different correlations, you could do something like this:
 
-As you can see, the investigation of feature correlations can be very informative. But looking at everything at once can sometimes be more confusing than helpful. So focusing only on one feature with something like df_X.corrwith(df_X["Speed_limit"]) might be a better approach.
+As you can see, the investigation of feature correlations can be very informative. <br/>
+But looking at everything at once can sometimes be more confusing than helpful. <br/>
+So focusing only on one feature with something like df_X.corrwith(df_X["Speed_limit"]) might be a better approach.
 
-Furthermore, correlations can be deceptive if a feature still contains a lot of missing values or extreme outliers. Therefore, it is always important to first make sure that your feature matrix is properly prepared before investigating these correlations.
+Furthermore, correlations can be deceptive if a feature still contains a lot of missing values or extreme outliers. <br/>
+Therefore, it is always important to first make sure that your feature matrix is properly prepared before investigating these correlations.
+
 ### 3.4. Conclusion of content investigation
 
-At the end of this third investigation, we should have a better understanding of the content in our dataset. We looked at value distribution, feature patterns and feature correlations. However, these are certainly not all possible content investigation and data cleaning steps you could do. Additional steps would for example be outlier detection and removal, feature engineering and transformation, and more.
+At the end of this third investigation:
+- We should have a better understanding of the content in our dataset. 
+- We looked at value distribution, feature patterns and feature correlations. <br/>
 
-A proper and detailed EDA takes time! It is a very iterative process that often makes you go back to the start, after you addressed another flaw in the dataset. This is normal! It’s the reason why we often say that 80% of any data science project is data preparation and EDA.
+However, these are certainly not all possible content investigation and data cleaning steps you could do. <br/>
+Additional steps would for example be outlier detection and removal, feature engineering and transformation, and more.
+
+A proper and detailed EDA takes time! <br/>
+It is a very iterative process that often makes you go back to the start, after you addressed another flaw in the dataset. <br/>
+This is normal! It’s the reason why we often say that 80% of any data science project is data preparation and EDA.
 
 
 
