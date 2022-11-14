@@ -224,12 +224,10 @@ Knowing that these features contain geographic information, a more in-depth EDA 
 #### 3.2.2. Discrete and ordinal features
 
 Finding patterns in the discrete or ordinal features is a bit more tricky. <br/> 
-
-First, let’s select the columns we want to investigate.
-
-As always, there are multiple way for how we could investigate all of these features. Let’s try one example, using seaborn’s stripplot() together with a handy zip() for-loop for subplots.
-
-Note, to spread the values out in the direction of the y-axis we need to chose one particular (hopefully informative) feature. While the ‘right’ feature can help to identify some interesting patterns, usually any continuous feature should do the trick. The main interest in this kind of plot is to see how many samples each discrete value contains.
+- First, let’s select the columns we want to investigate.
+- To spread the values out in the direction of the y-axis we need to chose one particular (hopefully informative) feature. 
+- While the ‘right’ feature can help to identify some interesting patterns, usually any continuous feature should do the trick.
+- The main interest in this kind of plot is to see how many samples each discrete value contains.
 
 There are too many things to comment here, so let’s just focus on a few. In particular, let’s focus on 6 features where the values appear in some particular pattern or where some categories seem to be much less frequent than others. And to shake things up a bit, let’s now use the Longitude feature to stretch the values over the y-axis.
 
