@@ -213,7 +213,7 @@ Whe have to visualize the relationships between these features.
 There seems to be a strange relationship between a few features in the top left corner. Location_Easting_OSGR and Longitude, as well as Location_Easting_OSGR and Latitude seem to have a very strong linear relationship.
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plot.png" width="800" height="800">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plot.png" width="800" height="1000">
 </p>
 
 Knowing that these features contain geographic information, a more in-depth EDA with regards to geolocation could be fruitful. However, for now we will leave the further investigation of this pairplot to the curious reader and continue with the exploration of the discrete and ordinal features.
