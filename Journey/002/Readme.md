@@ -229,7 +229,17 @@ Finding patterns in the discrete or ordinal features is a bit more tricky. <br/>
 - While the ‘right’ feature can help to identify some interesting patterns, usually any continuous feature should do the trick.
 - The main interest in this kind of plot is to see how many samples each discrete value contains.
 
-There are too many things to comment here, so let’s just focus on a few. In particular, let’s focus on 6 features where the values appear in some particular pattern or where some categories seem to be much less frequent than others. And to shake things up a bit, let’s now use the Longitude feature to stretch the values over the y-axis.
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot2.png" width="1000" height="1000">
+</p>
+
+There are too many things to comment here, so let’s just focus on a few. <br/> 
+In particular, let’s focus on 6 features where the values appear in some particular pattern or where some categories seem to be much less frequent than others. <br/> 
+And to shake things up a bit, let’s now use the Longitude feature to stretch the values over the y-axis.<br/> 
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot3.png" width="1000" height="1000">
+</p>
+
 
 These kind of plots are already very informative, but they obscure regions where there are a lot of data points at once. For example, there seems to be a high density of points in some of the plots at the 52nd latitude. So let’s take a closer look with an appropriate plot, such as violineplot ( or boxenplot or boxplot for that matter). And to go a step further, let's also separate each visualization by Urban_or_Rural_Area.
 
