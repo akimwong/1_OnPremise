@@ -243,6 +243,10 @@ And to shake things up a bit, let’s now use the Longitude feature to stretch t
 
 These kind of plots are already very informative, but they obscure regions where there are a lot of data points at once. For example, there seems to be a high density of points in some of the plots at the 52nd latitude. So let’s take a closer look with an appropriate plot, such as violineplot ( or boxenplot or boxplot for that matter). And to go a step further, let's also separate each visualization by Urban_or_Rural_Area.
 
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/plots/plot4.png" width="1000" height="500">
+</p>
+
 Interesting! We can see that some values on features are more frequent in urban, than in rural areas (and vice versa). Furthermore, as suspected, there seems to be a high density peak at latitude 51.5. This is very likely due to the more densely populated region around London (at 51.5074°).
 ### 3.3. Feature relationships
 
