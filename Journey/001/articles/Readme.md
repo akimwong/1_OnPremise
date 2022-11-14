@@ -5,6 +5,7 @@
 - [14 Kaggle Competitions to Start your Data Science Journey](https://towardsdatascience.com/14-kaggle-competitions-to-start-your-data-science-journey-41943496b6f4)
 - [125 Data Science Projects You Can Try with Python](https://python.plainenglish.io/85-data-science-projects-c03c8750599e)
 - [How to Build Strong Data Science Portfolio as a Beginner](https://www.kdnuggets.com/2021/10/strong-data-science-portfolio-as-beginner.html)
+- [Find UK open data - Published by central government, local authorities and public bodies](https://www.data.gov.uk)
 
 #### Database
 - [SQL and Databases Learning: A Guide for Data Scientists and ML Engineers](https://towardsdatascience.com/sql-and-databases-learning-a-guide-for-data-scientists-and-ml-engineers-a73875b0d6f2)
