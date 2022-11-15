@@ -11,3 +11,4 @@
 - [8 Reasons Why Forecasting Is Hard](https://towardsdatascience.com/8-reasons-why-forecasting-is-hard-481755a05325)
 - [Autocorrelation For Time Series Analysis](https://towardsdatascience.com/autocorrelation-for-time-series-analysis-86e68e631f77)
 - [Temporal Fusion Transformer: Time Series Forecasting with Deep Learning — Complete Tutorial](https://towardsdatascience.com/temporal-fusion-transformer-time-series-forecasting-with-deep-learning-complete-tutorial-d32c1e51cd91)
+- [Nonlinear Time Series — an intuitive introduction](https://towardsdatascience.com/nonlinear-time-series-an-intuitive-introduction-7390aae8b446)
