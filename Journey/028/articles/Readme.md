@@ -18,6 +18,7 @@
 - [3 Rookie Mistakes to Avoid with Python Lists](https://towardsdatascience.com/3-rookie-mistakes-to-avoid-with-python-lists-625c0e8e57df)
 - [10 Of My Favorite Python Decorators](https://towardsdatascience.com/10-of-my-favorite-python-decorators-9f05c72d9e33)
 - [Regular Expressions (Regex) with Examples in Python and Pandas](https://towardsdatascience.com/regular-expressions-regex-with-examples-in-python-and-pandas-461228335670)
+- [10 Most Used Machine Learning Algorithms In Python With Code](https://www.theinsaneapp.com/2021/11/machine-learning-algorithms-for-beginners.html)
 
 #### Python - Pandas
 
