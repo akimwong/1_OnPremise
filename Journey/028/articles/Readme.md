@@ -1,5 +1,6 @@
 
 - [R is for Research, Python is for Production](https://www.r-bloggers.com/2021/07/r-is-for-research-python-is-for-production-2/?utm_content=226616732&utm_medium=social&utm_source=twitter&hss_channel=tw-1318985240)
+- [5 Quick and Easy Tips to Become an Efficient Data Scientist in Both Python and R](https://towardsdatascience.com/5-quick-and-easy-tips-to-become-an-efficient-data-scientist-in-both-python-and-r-5cf51f6396a3)
 
 ### Python
 
