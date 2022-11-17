@@ -8,6 +8,9 @@ The proposed problem is estimated as binary estimation: Survives (1) - Dies (0)
 
 ### 1. The Method <- Why?
 
+<p align="center">
+  <img src="TitanicApproach1.png" width="600" height="200">
+</p>
 
 ### 2. The Technique <- Why?
 
