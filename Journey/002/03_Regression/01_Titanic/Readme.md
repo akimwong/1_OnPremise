@@ -3,14 +3,19 @@
 ## The Challenge:
 Build a predictive model that answers the question: “what sorts of people were more likely to survive?”
 
-## Methodology:
+## Approach:
 The proposed problem is estimated as binary estimation: Survives (1) - Dies (0)
+
+Before we open the dataset and start working on the available features, we will see the conditions necessary to survive in a catastrophic situation.
+This can be used to determine the significance of the features available (or the features needed if we start from scratch without any dataset of features)
+
+<p align="center">
+  <img src="TitanicApproach1.png" width="400" height="200">
+</p>
 
 ### 1. The Method <- Why?
 
-<p align="center">
-  <img src="TitanicApproach1.png" width="500" height="250">
-</p>
+
 
 ### 2. The Technique <- Why?
 
