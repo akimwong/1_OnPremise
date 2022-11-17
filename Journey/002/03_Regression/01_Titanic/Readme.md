@@ -13,7 +13,10 @@ This can be used to determine the significance of the features available (or the
   <img src="TitanicApproach1.png" width="450" height="230">
 </p>
 
-Now we can try to organize the variables within this general scheme.
+Now we can try to organize the features within this general scheme.
+We can see:
+- Note that being a woman and a girl can be a disadvantage compared to a grown man in a circumstance of jungle law, but on the contrary, it can be a great advantage to survive according to the rules of a civilized world.
+- There are variables that a priori are estimated that do not determine survival in a disaster situation such as the name or ticket number.  We keep them under observation until they go through the analysis process. 
 
 <p align="center">
   <img src="TitanicApproach2.png" width="450" height="230">
