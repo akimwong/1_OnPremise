@@ -13,6 +13,7 @@
 - [A Visual Explanation of SQL Joins](https://towardsdatascience.com/visual-sql-joins-4e3899d9d46c)
 - [The Right way to learn SQL](https://medium.com/@parvezshah.shaik/the-right-way-to-learn-sql-ea41db68af91)
 - [How to Split and Sample a Dataset in BigQuery Using SQL](https://towardsdatascience.com/how-to-split-and-sample-a-dataset-in-bigquery-using-sql-a94fc05fdc71)
+- [How to Convert Database Tables into Pandas Data Frames](https://morioh.com/p/a53d9a50bab6?f=5ece19cf823ab46e1ec20d78)
 
 
 
