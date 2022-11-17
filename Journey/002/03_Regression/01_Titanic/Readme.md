@@ -12,6 +12,10 @@ This can be used to determine the significance of the features available (or the
 <p align="center">
   <img src="TitanicApproach1.png" width="400" height="200">
 </p>
+Now we can try to organize the variables within this general scheme.
+<p align="center">
+  <img src="TitanicApproach2.png" width="400" height="200">
+</p>
 
 ### 1. The Method <- Why?
 
