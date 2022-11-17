@@ -4,7 +4,7 @@
 Build a predictive model that answers the question: “what sorts of people were more likely to survive?”
 
 ## Methodology:
-The proposed problem is estimated as binary classification: Survives (1) - Dies (0)
+The proposed problem is estimated as binary estimation: Survives (1) - Dies (0)
 
 ### 1. The Method <- Why?
 
