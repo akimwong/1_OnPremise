@@ -16,6 +16,12 @@ DAGsHub allows you to share your GitHub repository and create your data science 
 #### Kaggle:
 If you want to get noticed faster in the world of data science, you should create a Kaggle account and start contributing to competitions, datasets, notebooks, and discussions. 
 Create a Kaggle profile while learning the basics. Learn from experts and discover your niche.
+#### Blog:
+Writing blogs are the next step after creating your project on the above platforms. If you want to expand your audience, I will highly suggest you start with Medium.
+#### Portfolio Website:
+You can also display your project on a personal website, and if you are not a web developer, there are some simple tools available to make the process quite easy. 
+#### Weight & Biases:
+You can write a blog about your current project by using embedded links and graph integration. It is quite similar to other portfolio platforms I mentioned, but it comes with the perk of direct integration with Python libraries.
 
 
 
