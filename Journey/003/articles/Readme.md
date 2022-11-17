@@ -7,6 +7,8 @@
 - [An Introduction of H2O Wave Table](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
 - [How to Deal with Categorical Data for Machine Learning](https://www.kdnuggets.com/2021/05/deal-with-categorical-data-machine-learning.html)
 - [Outlier Detection With Autoencoders](https://towardsdatascience.com/outlier-detection-with-autoencoders-6c7ac3e2aa90)
+- [Which Feature Engineering Techniques improve Machine Learning Predictions?](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
+- [Framework for Data Preparation Techniques in Machine Learning](https://machinelearningmastery.com/framework-for-data-preparation-for-machine-learning/)
 
 
 
