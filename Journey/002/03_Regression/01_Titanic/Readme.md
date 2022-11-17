@@ -10,11 +10,13 @@ Before we open the dataset and start working on the available features, we will 
 This can be used to determine the significance of the features available (or the features needed if we start from scratch without any dataset of features)
 
 <p align="center">
-  <img src="TitanicApproach1.png" width="400" height="200">
+  <img src="TitanicApproach1.png" width="450" height="230">
 </p>
+
 Now we can try to organize the variables within this general scheme.
+
 <p align="center">
-  <img src="TitanicApproach2.png" width="400" height="200">
+  <img src="TitanicApproach2.png" width="450" height="230">
 </p>
 
 ### 1. The Method <- Why?
