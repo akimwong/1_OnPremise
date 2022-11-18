@@ -77,10 +77,15 @@ However, we can further expand on this using these:
     False Negative (FN) - you predicted negative and it’s actually positive  
 
 So we can say the true predictions are TN+TP, while the false prediction is FP+FN. The equation can now be redefined as:
+<p align="center">
+  <img src="logistic5.png" width="350" height="130">
+</p>
 
+However, using the accuracy metric to measure the performance of your model is usually not enough. This is where we need other metrics.
 
-
-
+#### Precision and Recall
+If we want to further test the “accuracy” in different classes where we want to ensure that when the model predicts positive, it is in fact true positive - we use precision. We can also call this Positive Prediction Value which can be defined as:
+ 
 
 
 
