@@ -78,7 +78,7 @@ However, we can further expand on this using these:
 
 So we can say the true predictions are TN+TP, while the false prediction is FP+FN. The equation can now be redefined as:
 <p align="center">
-  <img src="logistic7.png" width="350" height="100">
+  <img src="logistic7.png" width="350" height="70">
 </p>
 
 However, using the accuracy metric to measure the performance of your model is usually not enough. This is where we need other metrics.
