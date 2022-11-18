@@ -99,7 +99,7 @@ If we want to further test the “accuracy” in different classes where we want
 - Raising the classification threshold reduces true positives or keeps them the same, whilst increasing false negatives or keeps them the same. - decreasing recall or keeping it constant.
 - Unfortunately, it’s not possible to have a high precision and recall value. If you increase precision, it will reduce recall - vice versa. This is known as the precision/recall tradeoff.
 <p align="center">
-  <img src="logistic10.jpg" width="200" height="50">
+  <img src="logistic10.jpg" width="400" height="250">
 </p>
 
 #### ROC Curve
@@ -119,7 +119,7 @@ If the values on the x-axis consist of smaller values, this indicates lower FP a
 
 The ROC presents the performance of a classification model at all classification thresholds, like this:
 <p align="center">
-  <img src="logistic11.jpg" width="200" height="50">
+  <img src="logistic11.jpg" width="400" height="250">
 </p>
 
 
