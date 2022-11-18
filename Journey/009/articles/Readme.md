@@ -13,3 +13,4 @@
 - [Temporal Fusion Transformer: Time Series Forecasting with Deep Learning — Complete Tutorial](https://towardsdatascience.com/temporal-fusion-transformer-time-series-forecasting-with-deep-learning-complete-tutorial-d32c1e51cd91)
 - [Nonlinear Time Series — an intuitive introduction](https://towardsdatascience.com/nonlinear-time-series-an-intuitive-introduction-7390aae8b446)
 - [Machine Learning for Forecasting: Transformations and Feature Extraction](https://towardsdatascience.com/machine-learning-for-forecasting-transformations-and-feature-extraction-bbbea9de0ac2)
+- [Time Series Analysis Introduction — A Comparison of ARMA, ARIMA, SARIMA Models](https://towardsdatascience.com/time-series-analysis-introduction-a-comparison-of-arma-arima-sarima-models-eea5cbf43c73)
