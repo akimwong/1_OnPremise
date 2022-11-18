@@ -72,7 +72,17 @@ c. Data monitoring raises an alert. <br/>
 
 #### Problems with the threshold
 - Using the threshold concept of values above the threshold value tend to be 1, and a value below the threshold value tends to be 0 can cause challenges.
+- Although there is the option to adjust the threshold value, it still raises the risk that we classify incorrectly.
 
 #### 1. Accuracy
+accuracy = correct_predictions / total_predictions
 
+However, we can further expand on this using these:
+
+    True Positive (TP) - you predicted positive and it’s actually positive 
+    True Negative (TN) - you predicted negative and it’s actually negative
+    False Positive (FP) - you predicted positive and it’s actually negative
+    False Negative (FN) - you predicted negative and it’s actually positive  
+
+So we can say the true predictions are TN+TP, while the false prediction is FP+FN. The equation can now be redefined as:
  
