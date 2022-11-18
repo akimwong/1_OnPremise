@@ -18,6 +18,19 @@
 - The most popular metric used to evaluate the performance of classification models is ACCURACY.
 - However, accuracy ISN’T ALWAYS the most reliable indicator of a good model, which is why data scientists often use measures like PRECISION, RECALL, and the F1-SCORE instead.
 - Using the dataset below that comprises information of whether a student passed an exam.
+- The true data is imbalanced since 80% of students passed and 20% failed. 
+- This means that the dataset is skewed to represent more of one class than another.
 <p align="center">
   <img src="logistic2.png" width="300" height="350">
 </p>
+
+#### Accuracy
+- Calculated using the formula
+<p align="center">
+  <img src="logistic2.png" width="200" height="150">
+</p>
+- This model has an 80% accuracy.
+
+
+
+
