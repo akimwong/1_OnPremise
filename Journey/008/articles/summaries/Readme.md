@@ -57,6 +57,13 @@ To summarize, this model’s accuracy is high but its precision, recall and F1-s
 
 While accuracy is often used to evaluate the performance of logistic regression models, it is important to calculate other measures as well to ensure that your model really is performing well.
 
+# Multiple Logistic Regression for Dichotomous Variables in R
+- Simple logistic regression incorporates only one predictor variable
+- When we incorporate another independent variable, the simple logistic regression become multiple logistic regression (the real world data has several predictor variables).
+- Sometimes we simply don’t know if including the extra variable as a predictor will make the model more robust or not.
+- We need to always compare the full model with the nested model and draw conclusion from the data.
+- 
+
 
 
 
