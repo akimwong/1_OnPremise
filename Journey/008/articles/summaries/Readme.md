@@ -6,7 +6,7 @@
 #### How Does Logistic Regression Work?
 - Can be modeled with an S-shaped curve as displayed in the example below:
 <p align="center">
-  <img src="logistic1.png" width="450" height="230">
+  <img src="logistic1.png" width="550" height="230">
 </p>
 - The X-axis of this graph displays the number of years in the company, which is the dependent variable. 
 - The Y-axis tells us the probability that a person will get promoted, and these values range from 0 to 1.
