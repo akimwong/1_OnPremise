@@ -37,7 +37,28 @@
 <p align="center">
   <img src="logistic4.png" width="350" height="130">
 </p>
-- Precision is a measure that can tell us: out of all the positive predictions, how many students actually passed?
+- Precision is a measure that can tell us: out of all the positive predictions, how many students actually passed? In this case, the classifier’s precision is 0/0 = 0.
+
+#### Recall
+<p align="center">
+  <img src="logistic5.png" width="350" height="130">
+</p>
+- A model’s recall can tell us: out of everyone who passed, how many of them were correctly identified? In this case, the classifier’s recall is 0/2 = 0.
+
+#### F1-Score
+<p align="center">
+  <img src="logistic6.png" width="350" height="130">
+</p>
+- Combines the precision and recall value and gives us a single outcome
+- his metric tells us how well a model is performing by taking the average of its precision and recall.  In this case, the classifier’s F1 score is 2 X 0= 0.
+
+#### Summary
+To summarize, this model’s accuracy is high but its precision, recall and F1-score are 0 because it did not make any positive predictions.
+
+
+
+
+
 
 
 
