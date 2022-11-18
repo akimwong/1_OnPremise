@@ -8,6 +8,7 @@
 <p align="center">
   <img src="logistic1.png" width="550" height="400">
 </p>
+
 - The X-axis of this graph displays the number of years in the company, which is the dependent variable. <br/>
 - The Y-axis tells us the probability that a person will get promoted, and these values range from 0 to 1. <br/>
 - A probability of 0 indicates that the person will not get promoted and 1 tells us that they will get promoted. <br/>
