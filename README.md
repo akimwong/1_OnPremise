@@ -19,7 +19,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 5 > [Training](Journey/005/Readme.md)
 - [ ] &#x2A33; 6 > [Metrics (!)](Journey/006)
 - [ ] &#x2A33; 7 > [Linear Regression (!)](Journey/007)
-- [ ] &#x2A33; 8 > [Logistic Regression](Journey/008/Readme.md)
+- [ ] &#x2A33; 8 > [Logistic Regression (!)](Journey/008)
 - [ ] &#x2A33; 9 > [Time Series (!)](Journey/009)
 - [ ] &#x2A33; 10 > [Score Cards](Journey/010/Readme.md)
 - [ ] &#x2A33; 11 > [Spatial Statistics (!)](Journey/011)
