@@ -78,7 +78,7 @@ However, we can further expand on this using these:
 
 So we can say the true predictions are TN+TP, while the false prediction is FP+FN. The equation can now be redefined as:
 <p align="center">
-  <img src="logistic7.png" width="350" height="50">
+  <img src="logistic7.png" width="200" height="50">
 </p>
 
 However, using the accuracy metric to measure the performance of your model is usually not enough. This is where we need other metrics.
@@ -86,7 +86,7 @@ However, using the accuracy metric to measure the performance of your model is u
 #### Precision and Recall
 If we want to further test the “accuracy” in different classes where we want to ensure that when the model predicts POSITIVE, it is in fact true positive - we use precision. We can also call this Positive Prediction Value which can be defined as:
  <p align="center">
-  <img src="logistic8.png" width="130" height="50">
+  <img src="logistic8.png" width="200" height="50">
 </p>
 
 If we want to further test the “accuracy” in different classes where we want to ensure that when the model predicts NEGATIVE, it actually is negative - we use recall. Recall is the same formula as sensitivity and can be defined as:
