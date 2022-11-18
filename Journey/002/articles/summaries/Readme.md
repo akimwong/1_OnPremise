@@ -66,5 +66,13 @@ c. Data monitoring raises an alert. <br/>
 #### Testing data vs. testing code
 ....
 
+# Classification Metrics Walkthrough: Logistic Regression with Accuracy, Precision, Recall, and ROC
+- Classification is about predicting a label and then identifying which category an object belongs to based on different parameters.
+- In order to measure how well our classification model is doing at making these predictions, we use classification metrics. 
 
+#### Problems with the threshold
+- Using the threshold concept of values above the threshold value tend to be 1, and a value below the threshold value tends to be 0 can cause challenges.
 
+#### 1. Accuracy
+
+ 
