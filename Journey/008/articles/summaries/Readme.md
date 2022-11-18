@@ -57,12 +57,41 @@ To summarize, this model’s accuracy is high but its precision, recall and F1-s
 
 While accuracy is often used to evaluate the performance of logistic regression models, it is important to calculate other measures as well to ensure that your model really is performing well.
 
+
+# Classification Metrics Walkthrough: Logistic Regression with Accuracy, Precision, Recall, and ROC
+- Classification is about predicting a label and then identifying which category an object belongs to based on different parameters.
+- In order to measure how well our classification model is doing at making these predictions, we use classification metrics. 
+
+#### Problems with the threshold
+- Using the threshold concept of values above the threshold value tend to be 1, and a value below the threshold value tends to be 0 can cause challenges.
+- Although there is the option to adjust the threshold value, it still raises the risk that we classify incorrectly.
+
+#### 1. Accuracy
+accuracy = correct_predictions / total_predictions
+
+However, we can further expand on this using these:
+
+    True Positive (TP) - you predicted positive and it’s actually positive 
+    True Negative (TN) - you predicted negative and it’s actually negative
+    False Positive (FP) - you predicted positive and it’s actually negative
+    False Negative (FN) - you predicted negative and it’s actually positive  
+
+So we can say the true predictions are TN+TP, while the false prediction is FP+FN. The equation can now be redefined as:
+
+
+
+
+
+
+
+
+
 # Multiple Logistic Regression for Dichotomous Variables in R
 - Simple logistic regression incorporates only one predictor variable
 - When we incorporate another independent variable, the simple logistic regression become multiple logistic regression (the real world data has several predictor variables).
 - Sometimes we simply don’t know if including the extra variable as a predictor will make the model more robust or not.
 - We need to always compare the full model with the nested model and draw conclusion from the data.
-- 
+
 
 
 
