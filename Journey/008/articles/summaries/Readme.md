@@ -53,9 +53,9 @@
 - his metric tells us how well a model is performing by taking the average of its precision and recall.  In this case, the classifier’s F1 score is 2 X 0= 0.
 
 #### Summary
-To summarize, this model’s accuracy is high but its precision, recall and F1-score are 0 because it did not make any positive predictions.
+To summarize, this model’s accuracy is high but its precision, recall and F1-score are 0 because it did not make any positive predictions. <br/>
 
-
+While accuracy is often used to evaluate the performance of logistic regression models, it is important to calculate other measures as well to ensure that your model really is performing well.
 
 
 
