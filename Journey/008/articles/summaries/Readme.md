@@ -19,5 +19,5 @@
 - However, accuracy ISN’T ALWAYS the most reliable indicator of a good model, which is why data scientists often use measures like PRECISION, RECALL, and the F1-SCORE instead.
 - Using the dataset below that comprises information of whether a student passed an exam.
 <p align="center">
-  <img src="logistic2.png" width="350" height="400">
+  <img src="logistic2.png" width="300" height="350">
 </p>
