@@ -122,7 +122,11 @@ The ROC presents the performance of a classification model at all classification
   <img src="logistic11.jpg" width="400" height="250">
 </p>
 
+#### AUC
 
+- When it comes to the ROC curve, you may have also heard Area Under the Curve (AUC). 
+- It’s exactly what it says it is - the area under the curve. If you want to know how good your curve is, you calculate the ROC AUC score. ??AUC measures the performance across all possible classification thresholds.
+- The more area under the curve you have, the better - the higher the ROC AUC score. This is when the FN and FP are both at zero - or if we refer to the graph above, it’s when the true positive rate is 1 and the false positive rate is 0. 
 
 
 
