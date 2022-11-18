@@ -27,12 +27,12 @@
 - Just make sure to question why the row is empty before dropping it!
 
 #### Clean by variable type
-- We want to make sure each column has the data we expect. 
-- If you have many columns, it will be easier to go audit your variables by type (broadly): boolean, datetime, numerical (int/float), categorical and text.
-a. Boolean: Standardise all boolean columns to have True/False as objects instead of other forms like Y/N or Yes/No.
-b. Datetime: Convert the column to a datetime object and plot out the dates in a histogram to make sure it is within a logical range.
-c. Numerical: Plot boxplots to get a snapshot of the distributions and see which variables have illogical max/min values that should be clipped. But before clipping, make sure you understand what the variables mean.
-d. Categorical: Print all the unique variables for each categorical column and ensure that the values are as they should be. Otherwise, merge columns. If there are too many categories, consider grouping them to reduce complexity.
+- We want to make sure each column has the data we expect.
+- If you have many columns, it will be easier to go audit your variables by type (broadly): boolean, datetime, numerical (int/float), categorical and text. <br/>
+a. Boolean: Standardise all boolean columns to have True/False as objects instead of other forms like Y/N or Yes/No.<br/>
+b. Datetime: Convert the column to a datetime object and plot out the dates in a histogram to make sure it is within a logical range. <br/>
+c. Numerical: Plot boxplots to get a snapshot of the distributions and see which variables have illogical max/min values that should be clipped. But before clipping, make sure you understand what the variables mean. <br/>
+d. Categorical: Print all the unique variables for each categorical column and ensure that the values are as they should be. Otherwise, merge columns. If there are too many categories, consider grouping them to reduce complexity. <br/>
 
 
 
