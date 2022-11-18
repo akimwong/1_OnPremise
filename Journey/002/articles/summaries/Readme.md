@@ -50,9 +50,11 @@ e. Text: Sometimes you’ll get data in text form that is sort of standardised b
 #### Ready for modelling!
 This was by no means an exhaustive guide for all you could do to clean data. There are more steps you could do depending on your dataset, but this is a pipeline I found helpful at least to start.
 
+# Why Data Quality Is Harder than Code Quality
+- Code quality is the process of ensuring code meets expectations. 
+- Data quality is the process of ensuring data meets expectations.
 
-
-
+#### Why is detecting data quality issues hard?
 
 
 
