@@ -27,7 +27,7 @@
 #### Accuracy
 - Calculated using the formula
 <p align="center">
-  <img src="logistic2.png" width="200" height="150">
+  <img src="logistic3.png" width="200" height="100">
 </p>
 - This model has an 80% accuracy.
 
