@@ -3,7 +3,7 @@
 - It is used to solve classification problems, which means that the dependent variable is always a class or category
 - Classification problems can be divided into two types: binary (involves predicting one of two classes) and multi-class classification (to predicting one of many classes)
 
-#### How Does Logistic Regression Work?
+### How Does Logistic Regression Work?
 - Can be modeled with an S-shaped curve as displayed in the example below:
 <p align="center">
   <img src="logistic1.png" width="550" height="400">
@@ -14,6 +14,10 @@
 - A probability of 0 indicates that the person will not get promoted and 1 tells us that they will get promoted. <br/>
 - Logistic regression returns an outcome of 0 (Promoted = No) for probabilities less than 0.5. A prediction of 1 (Promoted = Yes) is returned for probabilities greater than or equal to 0.5 <br/>
 
-#### How to Evaluate Logistic Regression Models?
+### How to Evaluate Logistic Regression Models?
 - The most popular metric used to evaluate the performance of classification models is ACCURACY.
 - However, accuracy ISN’T ALWAYS the most reliable indicator of a good model, which is why data scientists often use measures like PRECISION, RECALL, and the F1-SCORE instead.
+
+
+
+- The dataset above comprises information of whether a student passed an exam.
