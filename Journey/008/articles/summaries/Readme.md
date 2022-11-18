@@ -13,4 +13,6 @@
 - A probability of 0 indicates that the person will not get promoted and 1 tells us that they will get promoted. <br/>
 - Logistic regression returns an outcome of 0 (Promoted = No) for probabilities less than 0.5. A prediction of 1 (Promoted = Yes) is returned for probabilities greater than or equal to 0.5 <br/>
 
-
+#### How to Evaluate Logistic Regression Models?
+- The most popular metric used to evaluate the performance of classification models is ACCURACY.
+- However, accuracy ISN’T ALWAYS the most reliable indicator of a good model, which is why data scientists often use measures like PRECISION, RECALL, and the F1-SCORE instead.
