@@ -55,9 +55,13 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 - Data quality is the process of ensuring data meets expectations.
 
 #### Why is detecting data quality issues hard?
-
-
-
+- Most data repositories will be several orders of magnitude bigger than any code repository. 
+- On top of that, you can deploy code up to a few times per day, but data can get updated in milliseconds. 
+- With more data changes, there is also a higher chance that you will experience a data quality issue.
+- There are three main ways to detect a data quality issue:
+a. A business user reports an issue.
+b. A data test fails.
+c. Data monitoring raises an alert.
 
 
 
