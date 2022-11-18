@@ -25,12 +25,19 @@
 </p>
 
 #### Accuracy
-- Calculated using the formula
 <p align="center">
-  <img src="logistic3.png" width="350" height="150">
+  <img src="logistic3.png" width="350" height="130">
 </p>
 
 - This model has an 80% accuracy.
+- Although its accuracy is high, the model has performed poorly.
+- Accuracy can be a misleading metric in this case, since it can leave data scientists with the assumption that their model is good even when that is not the case.
+
+#### Precision
+<p align="center">
+  <img src="logistic4.png" width="350" height="130">
+</p>
+- Precision is a measure that can tell us: out of all the positive predictions, how many students actually passed?
 
 
 
