@@ -17,7 +17,7 @@
 ### How to Evaluate Logistic Regression Models?
 - The most popular metric used to evaluate the performance of classification models is ACCURACY.
 - However, accuracy ISN’T ALWAYS the most reliable indicator of a good model, which is why data scientists often use measures like PRECISION, RECALL, and the F1-SCORE instead.
-
-
-
-- The dataset above comprises information of whether a student passed an exam.
+- Using the dataset below that comprises information of whether a student passed an exam.
+<p align="center">
+  <img src="logistic2.png" width="550" height="700">
+</p>
