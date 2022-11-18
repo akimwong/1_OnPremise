@@ -97,6 +97,34 @@ If we want to further test the “accuracy” in different classes where we want
 - Using both precision and recall are useful metrics when there is an imbalance in the observations between the two classes. 
 - Raising the classification threshold reduces false positives - increasing precision. 
 - Raising the classification threshold reduces true positives or keeps them the same, whilst increasing false negatives or keeps them the same. - decreasing recall or keeping it constant.
+- Unfortunately, it’s not possible to have a high precision and recall value. If you increase precision, it will reduce recall - vice versa. This is known as the precision/recall tradeoff.
+<p align="center">
+  <img src="logistic10.jpg" width="200" height="50">
+</p>
+
+#### ROC Curve
+
+Is a metric that we can use to lower both the FP and FN - it is called the Receiver Operating Characteristic curve, or ROC curve.
+
+It plots the false positive rate (x-axis) against the true positive rate (y-axis).
+
+    True Positive Rate = TP / (TP + FN)
+    False Positive Rate = FP / (FP + TN) 
+
+The true positive rate is also known as sensitivity, and the false positive rate is also known as the inverted specificity rate. 
+
+    Specificity = TN / (TN + FP) 
+
+If the values on the x-axis consist of smaller values, this indicates lower FP and higher TN. If the values on the y-axis consist of larger values, this indicates higher TP and lower FN.
+
+The ROC presents the performance of a classification model at all classification thresholds, like this:
+<p align="center">
+  <img src="logistic11.jpg" width="200" height="50">
+</p>
+
+
+
+
 
 
 
