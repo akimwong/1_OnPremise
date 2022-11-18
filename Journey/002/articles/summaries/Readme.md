@@ -33,6 +33,29 @@ a. Boolean: Standardise all boolean columns to have True/False as objects instea
 b. Datetime: Convert the column to a datetime object and plot out the dates in a histogram to make sure it is within a logical range. <br/>
 c. Numerical: Plot boxplots to get a snapshot of the distributions and see which variables have illogical max/min values that should be clipped. But before clipping, make sure you understand what the variables mean. <br/>
 d. Categorical: Print all the unique variables for each categorical column and ensure that the values are as they should be. Otherwise, merge columns. If there are too many categories, consider grouping them to reduce complexity. <br/>
+e. Text: Sometimes you’ll get data in text form that is sort of standardised but mostly a whole mess of different inputs. As much as possible use regex to standardise the entries, and then we can reduce the number of unique values with CHAID (Chi-square Automatic Interaction Detector). <br/>
+
+#### Impute missing data
+- Fill the missing data based on other values in the column
+- If the column has skewed data, take the median (numerical) or mode (non-numeric) so that you are drawing from the majority and don’t end up shifting the distribution. 
+- If the column has unskewed data, take the mean for the same reasons!
+- Another method is called iterative imputation, sequentially using the data from each feature to fill in the missing data
+- With categorical or text data, you could also treat missing data as a category of data by replacing np.nan with ‘MISSING’. Perhaps the very fact that the data is missing might be predictive in itself.
+
+#### Encode non-numeric data
+- If you have ordinal (ordered) data, you can use label encoding which converts an alphabetically sorted category into a sequence of numbers. [‘A’, ‘B’, ‘C’] = [1,2,3].
+- This works best when the order corresponds with the increasing value of the numbers for example: [‘short’, ‘average’, ‘tall’] = [1,2,3]. But when applied to non-ordered data like: [‘apple’, ‘pear’, ‘banana’]=[1,2,3], the model gets the sense that banana > pear > apple, which is not true!
+- Instead, we use one-hot encoding which converts numbers into vectors. So data like: [‘apple’, ‘pear’, ‘banana’] = [[0,0,1],[0,1,0],[1,0,0]]. However, where there is high cardinality (many unique values), these vectors will become very large and take up a lot of memory, so be wary.
+
+#### Ready for modelling!
+This was by no means an exhaustive guide for all you could do to clean data. There are more steps you could do depending on your dataset, but this is a pipeline I found helpful at least to start.
+
+
+
+
+
+
+
 
 
 
