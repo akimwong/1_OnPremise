@@ -3,3 +3,4 @@
 - [Learn Precision, Recall, and F1 Score of Multiclass Classification in Depth](https://towardsdatascience.com/precision-recall-and-f1-score-of-multiclass-classification-learn-in-depth-6c194b217629)
 - [What is ROC-AUC and when not to use it](https://towardsdatascience.com/read-this-before-using-roc-auc-as-a-metric-c84c2d5af621)
 - [A new, old lens on AI and its implications for IP disputes](https://towardsdatascience.com/double-descent-and-ml-models-as-generalized-database-indexes-5d3b1db49b5b)
+- [Tour of Evaluation Metrics for Imbalanced Classification](https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/)
