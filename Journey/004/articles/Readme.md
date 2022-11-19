@@ -1,0 +1,1 @@
+- [How cross-validation can go wrong and how to fix it](https://towardsdatascience.com/how-cross-validation-can-go-wrong-and-how-to-fix-it-feature-selection-use-case-with-sample-code-abf928be9080)
