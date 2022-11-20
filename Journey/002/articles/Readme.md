@@ -13,5 +13,5 @@
 - [Defining Empty Variables and Data Structures in Python](https://towardsdatascience.com/defining-empty-variables-and-data-structures-in-python-501995458577)
 - [Correlation Matrix, Demystified](https://towardsdatascience.com/correlation-matrix-demystified-3ae3405c86c1)
 - [A recipe to empirically answer any question quickly](https://towardsdatascience.com/a-recipe-to-empirically-answer-any-question-quickly-22e48c867dd5)
-
+- [Detecting Outliers with Simple and Advanced Techniques](https://towardsdatascience.com/detecting-outliers-with-simple-and-advanced-techniques-cb3b2db60d03)
 
