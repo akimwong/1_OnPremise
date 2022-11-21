@@ -1,6 +1,6 @@
 (from https://www.kaggle.com/competitions/titanic)
 
-# I. What is the challenge?
+# I. WHAT IS THE CHALLENGE?
 
 On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in:
 - Death: 1502
@@ -21,7 +21,7 @@ In this competition, you’ll gain access to two similar datasets that include p
 Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived. 
 
 
-## II. Approach:
+# II. APPROACH:
 The proposed problem is estimated as binary estimation: Survives (1) - Dies (0)
 
 Before we open the dataset and start working on the available features, we will see the conditions necessary to survive in a catastrophic situation.
