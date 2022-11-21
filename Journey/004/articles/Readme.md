@@ -1,2 +1,3 @@
 - [How cross-validation can go wrong and how to fix it](https://towardsdatascience.com/how-cross-validation-can-go-wrong-and-how-to-fix-it-feature-selection-use-case-with-sample-code-abf928be9080)
 - [Feature Selection – All You Ever Wanted To Know](https://www.kdnuggets.com/2021/06/feature-selection-overview.html)
+- [PCA for Categorical Variables in R](https://finnstats.com/index.php/2022/11/20/pca-for-categorical-variables-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
