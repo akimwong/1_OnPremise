@@ -31,15 +31,14 @@ Have a global view on the dataset with regards to things like duplicates, missin
 
 ### 2.1. Duplicates
 
-    Duplicates are entries that represent the same sample point multiple times.
-    Detecting such duplicates is not always easy, as each dataset might have a unique identifier features . So you might want to ignore them first.
-    And once you are aware about the number of duplicates in your dataset, you can simply drop them
+- Duplicates?:
+- Some reason?:
 
 ### 2.2. Missing values
 
 #### 2.2.1. Per sample
 
-- Samples where more than 50% of the feature values are missing (for those samples, filling the missing values with some replacement values is probably not a good idea)
+- Samples where more than 50% of the feature values are missing (filling the missing values with some replacement values is probably not a good idea)
 - Drop samples that have more than 20% of missing values.
 
 #### 2.2.2. Per Feature
