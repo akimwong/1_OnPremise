@@ -59,8 +59,8 @@ Have a global view on the dataset with regards to things like duplicates, missin
 
 #### 2.3.1. Numerical features
 
-    Plot a global view of the dataset, at least for the numerical features
-    And each subplot that represents a different feature.
+- Plot a global view of the dataset, at least for the numerical features
+- And each subplot that represents a different feature.
 
 The y-axis shows the feature value, while the x-axis is the sample index.
 These plots can give you a lot of ideas for data cleaning and EDA.
