@@ -21,7 +21,7 @@ In this competition, you’ll gain access to two similar datasets that include p
 Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived. 
 
 
-## Approach:
+## I. Approach:
 The proposed problem is estimated as binary estimation: Survives (1) - Dies (0)
 
 Before we open the dataset and start working on the available features, we will see the conditions necessary to survive in a catastrophic situation.
