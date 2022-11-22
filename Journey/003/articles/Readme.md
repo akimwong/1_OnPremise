@@ -11,6 +11,6 @@
 - [Framework for Data Preparation Techniques in Machine Learning](https://machinelearningmastery.com/framework-for-data-preparation-for-machine-learning/)
 - [Pandas for One-Hot Encoding Data Preventing High Cardinality](https://towardsdatascience.com/pandas-for-one-hot-encoding-data-preventing-high-cardinality-16148a0ca399)
 - [Feature Engineering for Machine Learning: 10 Examples](https://www.kdnuggets.com/2018/12/feature-engineering-explained.html)
-
+- [Hidden Data Science Gem: Rainbow Method for Label Encoding](https://towardsdatascience.com/hidden-data-science-gem-rainbow-method-for-label-encoding-dfd69f4711e1)
 
 
