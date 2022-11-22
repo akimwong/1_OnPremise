@@ -14,6 +14,7 @@
 - [The Right way to learn SQL](https://medium.com/@parvezshah.shaik/the-right-way-to-learn-sql-ea41db68af91)
 - [How to Split and Sample a Dataset in BigQuery Using SQL](https://towardsdatascience.com/how-to-split-and-sample-a-dataset-in-bigquery-using-sql-a94fc05fdc71)
 - [How to Convert Database Tables into Pandas Data Frames](https://morioh.com/p/a53d9a50bab6?f=5ece19cf823ab46e1ec20d78)
+- [Key-Value Databases, Explained](https://www.kdnuggets.com/2021/04/nosql-explained-understanding-key-value-databases.html)
 
 
 
