@@ -14,4 +14,7 @@
 - [Nonlinear Time Series — an intuitive introduction](https://towardsdatascience.com/nonlinear-time-series-an-intuitive-introduction-7390aae8b446)
 - [Machine Learning for Forecasting: Transformations and Feature Extraction](https://towardsdatascience.com/machine-learning-for-forecasting-transformations-and-feature-extraction-bbbea9de0ac2)
 - [Time Series Analysis Introduction — A Comparison of ARMA, ARIMA, SARIMA Models](https://towardsdatascience.com/time-series-analysis-introduction-a-comparison-of-arma-arima-sarima-models-eea5cbf43c73)
--[Getting Serious with Time Series](https://towardsdatascience.com/getting-serious-with-time-series-837836eb751e)
+- [Getting Serious with Time Series](https://towardsdatascience.com/getting-serious-with-time-series-837836eb751e)
+- [Detecting stationarity in time series data](https://www.kdnuggets.com/2019/08/stationarity-time-series-data.html)
+- [Choosing the Best ML Time Series Model for Your Data](https://towardsdatascience.com/choosing-the-best-ml-time-series-model-for-your-data-664a7062f418)
+- [Build Complex Time Series Regression Pipelines with sktime](https://towardsdatascience.com/build-complex-time-series-regression-pipelines-with-sktime-910bc25c96b6)
