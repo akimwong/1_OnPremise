@@ -1,8 +1,8 @@
 
-- [Interpreting Exploratory Data Analysis (EDA) (!)](https://www.datasciencecentral.com/interpreting-exploratory-data-analysis-eda/)
-- [So You’ve Got a Really Big Dataset. Here’s How You Clean It. (!)](https://towardsdatascience.com/so-youve-got-a-dataset-here-s-how-you-clean-it-5d0b04a2ed86)
-- [Exploratory Data Analysis - NIST HandBook (!)](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
-- [Why Data Quality Is Harder than Code Quality (!)](https://towardsdatascience.com/why-data-quality-is-harder-than-code-quality-a7ab78c9d9e)
+- [Interpreting Exploratory Data Analysis (EDA) (SMRY)](https://www.datasciencecentral.com/interpreting-exploratory-data-analysis-eda/)
+- [So You’ve Got a Really Big Dataset. Here’s How You Clean It. (SMRY)](https://towardsdatascience.com/so-youve-got-a-dataset-here-s-how-you-clean-it-5d0b04a2ed86)
+- [Exploratory Data Analysis - NIST HandBook (SMRY)](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
+- [Why Data Quality Is Harder than Code Quality (SMRY)](https://towardsdatascience.com/why-data-quality-is-harder-than-code-quality-a7ab78c9d9e)
 - [Data Quality Considerations for Machine Learning Models](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
 - [Handling Missing Data in Python](https://towardsdatascience.com/handling-missing-data-in-python-c1ffe6e0f325)
 - [Don’t Take Shortcuts When Handling Missing Values](https://towardsdatascience.com/dont-take-shortcuts-when-handling-missing-values-afb9312e73c3)
@@ -18,3 +18,4 @@
 - [¿Cómo seleccionar las variables adecuadas para tu modelo?](https://www.maximaformacion.es/blog-dat/como-seleccionar-las-variables-adecuadas-para-tu-modelo/)
 - [Correlation Analysis in R?](https://finnstats.com/index.php/2020/11/14/correlation-analysis-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [From Data Pre-processing to Optimizing a Regression Model Performance](https://www.kdnuggets.com/2019/07/data-pre-processing-optimizing-regression-model-performance.html)
+- [How to Prepare Your Dataset for Machine Learning and Analysis](https://blog.jetbrains.com/datalore/2022/11/08/how-to-prepare-your-dataset-for-machine-learning-and-analysis/)
