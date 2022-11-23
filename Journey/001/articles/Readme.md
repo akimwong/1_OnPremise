@@ -4,6 +4,7 @@
 - [40 Data Analysis Projects with Python](https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c)
 - [14 Kaggle Competitions to Start your Data Science Journey](https://towardsdatascience.com/14-kaggle-competitions-to-start-your-data-science-journey-41943496b6f4)
 - [125 Data Science Projects You Can Try with Python](https://python.plainenglish.io/85-data-science-projects-c03c8750599e)
+- [Data Science Projects That Will Land You The Job in 2022](https://www.kdnuggets.com/2022/05/data-science-projects-land-job-2022.html)
 - [How to Build Strong Data Science Portfolio as a Beginner (s)](https://www.kdnuggets.com/2021/10/strong-data-science-portfolio-as-beginner.html)
 - [Find UK open data - Published by central government, local authorities and public bodies](https://www.data.gov.uk)
 - [Start Your Data Project With A Bang: Engage Stakeholders](https://towardsdatascience.com/start-your-data-project-with-a-bang-engage-stakeholders-2a40e6e52e1e)
