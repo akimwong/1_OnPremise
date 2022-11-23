@@ -17,3 +17,4 @@
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
 - [¿Cómo seleccionar las variables adecuadas para tu modelo?](https://www.maximaformacion.es/blog-dat/como-seleccionar-las-variables-adecuadas-para-tu-modelo/)
 - [Correlation Analysis in R?](https://finnstats.com/index.php/2020/11/14/correlation-analysis-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [From Data Pre-processing to Optimizing a Regression Model Performance](https://www.kdnuggets.com/2019/07/data-pre-processing-optimizing-regression-model-performance.html)
