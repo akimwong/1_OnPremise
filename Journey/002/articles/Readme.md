@@ -15,3 +15,4 @@
 - [A recipe to empirically answer any question quickly](https://towardsdatascience.com/a-recipe-to-empirically-answer-any-question-quickly-22e48c867dd5)
 - [Detecting Outliers with Simple and Advanced Techniques](https://towardsdatascience.com/detecting-outliers-with-simple-and-advanced-techniques-cb3b2db60d03)
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
+- [¿Cómo seleccionar las variables adecuadas para tu modelo?](https://www.maximaformacion.es/blog-dat/como-seleccionar-las-variables-adecuadas-para-tu-modelo/)
