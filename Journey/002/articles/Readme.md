@@ -19,3 +19,4 @@
 - [Correlation Analysis in R?](https://finnstats.com/index.php/2020/11/14/correlation-analysis-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [From Data Pre-processing to Optimizing a Regression Model Performance](https://www.kdnuggets.com/2019/07/data-pre-processing-optimizing-regression-model-performance.html)
 - [How to Prepare Your Dataset for Machine Learning and Analysis](https://blog.jetbrains.com/datalore/2022/11/08/how-to-prepare-your-dataset-for-machine-learning-and-analysis/)
+- [DataExplorer: Exploratory Data Analysis in R (DL)](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html?utm_content=bufferdb038&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
