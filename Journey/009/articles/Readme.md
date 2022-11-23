@@ -19,3 +19,4 @@
 - [Choosing the Best ML Time Series Model for Your Data](https://towardsdatascience.com/choosing-the-best-ml-time-series-model-for-your-data-664a7062f418)
 - [Build Complex Time Series Regression Pipelines with sktime](https://towardsdatascience.com/build-complex-time-series-regression-pipelines-with-sktime-910bc25c96b6)
 - [Having missing values is a big problem in our time series analysis](https://twitter.com/daansan_ml/status/1594707716756209664)
+- [Threshold Autoregressive Models — beyond ARIMA + R Code (DL)](https://towardsdatascience.com/threshold-autoregressive-models-beyond-arima-r-code-6af3331e2755)
