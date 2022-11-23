@@ -36,3 +36,5 @@
 - [learnr v0.11.0](https://pkgs.rstudio.com/learnr/articles/releases/learnr_v0-11-0.html)
 - [Top 7 Packages for Making Beautiful Tables in R](https://towardsdatascience.com/top-7-packages-for-making-beautiful-tables-in-r-7683d054e541)
 - [How to Make Beautiful Tables in R](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/)
+- [How To R: Lollipop Charts](https://medium.com/@nickmartin812/how-to-r-lollipop-charts-636a11f21ee3)
+- [How to Get Data: Web Scraping Using R](https://medium.com/@tunaytokmak/how-to-get-data-web-scraping-using-r-5486819ff660)
