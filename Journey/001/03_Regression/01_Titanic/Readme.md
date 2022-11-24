@@ -44,13 +44,13 @@ We can see:
 Type of problem: Quantitative </br>
 Model used: CRISP-DM (the standard of the industry)
 
-1.1. Business understanding - What exactly is the problem we are trying to solve with data
-1.2. Data understanding - What exactly is in our data, such as what does each column mean and how does it relate to the business problem
-1.3. Data prep - Data preprocessing and preparation. This can also include feature engineering
-1.4. Modeling - Getting a model from our data (choosing a machine learning algorithm)
-1.5. Optimizing - Depending on the algorithm the machine learning model is using we can give it different parameters that can optimize the model for better performance
+1.1. Business understanding - What exactly is the problem we are trying to solve with data <br/>
+1.2. Data understanding - What exactly is in our data, such as what does each column mean and how does it relate to the business problem <br/>
+1.3. Data prep - Data preprocessing and preparation. This can also include feature engineering <br/>
+1.4. Modeling - Getting a model from our data (choosing a machine learning algorithm) <br/>
+1.5. Optimizing - Depending on the algorithm the machine learning model is using we can give it different parameters that can optimize the model for better performance <br/>
 - Evaluation: This tells you how well your model will perform on new data, or rather, data that it hasn't seen before. During training your model have good performance, but giving it new data may reveal that it actually is performing bad (metrics)
-- Iterating: Iterating on the model is a part of the process that may not seem necessary, but it can be an important one. Your data may change over time which would then make your model stale. That is, it's relying on data that it used to but due to some process change or something similar it no longer does. And since the underlying data changed the model won't predict as well as it did.
+- Iterating: Iterating on the model is a part of the process that may not seem necessary, but it can be an important one. Your data may change over time which would then make your model stale. That is, it's relying on data that it used to but due to some process change or something similar it no longer does. And since the underlying data changed the model won't predict as well as it did. <br/>
 1.6. Deployment - Deploying the model for production use
 
 
