@@ -41,8 +41,15 @@ We can see:
 </p>
 
 ### 1. The Method <- Why?
+Type of problem: Quantitative (to be solved by standard procedure).
 
-
+1.1. The Dataset -> Provided by Kaggle
+1.2. Preparing the Data -> To explore the information provided <br/>
+1.3. Choosing a Model -> Adjusted to the type of problem proposed <br/>
+1.4. Training the Model -> First approach after model application with treated features  <br/>
+1.5. Evaluating the Model -> Checking the metrics <br/>
+1.6. Parameter Tunning <br/>
+1.8. Making Predictions <br/>
 
 ### 2. The Technique <- Why?
 
