@@ -21,3 +21,4 @@
 - [Having missing values is a big problem in our time series analysis](https://twitter.com/daansan_ml/status/1594707716756209664)
 - [Threshold Autoregressive Models — beyond ARIMA + R Code (DL)](https://towardsdatascience.com/threshold-autoregressive-models-beyond-arima-r-code-6af3331e2755)
 - [Machine Learning for Forecasting: Supervised Learning with Multivariate Time Series (DL)](https://towardsdatascience.com/machine-learning-for-forecasting-supervised-learning-with-multivariate-time-series-b5b5044fe068)
+- [How to Develop LSTM Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
