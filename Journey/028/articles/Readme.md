@@ -29,6 +29,7 @@
 - [Two Killer Jupyter Hacks That Are Guaranteed To Save You Hours Of Work Time](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
 - [The No-Code Pandas Alternative That Data Scientists Have Been Waiting For](https://towardsdatascience.com/the-no-code-pandas-alternative-that-data-scientists-have-been-waiting-for-9e22aaa9cf02)
 - [The ultimate reference for clean Pandas code (DL)](https://towardsdatascience.com/the-ultimate-reference-for-clean-pandas-code-413df676e63c)
+- [21 Pandas Tips Every Data Scientist Should Know (DL)](https://medium.com/@sayahfares19/21-pandas-tips-every-data-scientist-should-know-97c930638e9c)
 
 ### R
 
@@ -39,3 +40,4 @@
 - [How to Make Beautiful Tables in R](https://rfortherestofus.com/2019/11/how-to-make-beautiful-tables-in-r/)
 - [How To R: Lollipop Charts](https://medium.com/@nickmartin812/how-to-r-lollipop-charts-636a11f21ee3)
 - [How to Get Data: Web Scraping Using R](https://medium.com/@tunaytokmak/how-to-get-data-web-scraping-using-r-5486819ff660)
+- [Combine Rows with Same Column Values in R](https://finnstats.com/index.php/2022/08/25/combine-rows-with-same-column-values-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
