@@ -1,6 +1,18 @@
-# 1. Structure Investigation
+df = pd.read_csv(r'.\train.csv')
 
+# 1. Structure Investigation
 # 1.1. Structure of non-numerical features
+
+# Show size of the dataset
+df.shape
+# (891, 12)
+
+# Count how many times each data type is present in the dataset
+pd.value_counts(df.dtypes)
+# object     5
+# int64      5
+# float64    2
+# dtype: int64
 
 # 1.2. Structure of numerical features
 
