@@ -5,3 +5,4 @@
 - [A new, old lens on AI and its implications for IP disputes](https://towardsdatascience.com/double-descent-and-ml-models-as-generalized-database-indexes-5d3b1db49b5b)
 - [Tour of Evaluation Metrics for Imbalanced Classification](https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/)
 - [Model Evaluation Metrics in Machine Learning (DL)](https://www.kdnuggets.com/2020/05/model-evaluation-metrics-machine-learning.html)
+- [Why is MSE = Bias² + Variance? (DL)](https://towardsdatascience.com/why-is-mse-bias%C2%B2-variance-dbdeda6f0e70)
