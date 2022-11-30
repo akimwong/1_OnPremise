@@ -6,3 +6,4 @@
 - [Tour of Evaluation Metrics for Imbalanced Classification](https://machinelearningmastery.com/tour-of-evaluation-metrics-for-imbalanced-classification/)
 - [Model Evaluation Metrics in Machine Learning (DL)](https://www.kdnuggets.com/2020/05/model-evaluation-metrics-machine-learning.html)
 - [Why is MSE = Bias² + Variance? (DL)](https://towardsdatascience.com/why-is-mse-bias%C2%B2-variance-dbdeda6f0e70)
+- [You deserve a better ROC curve (DL)](https://towardsdatascience.com/you-deserve-a-better-roc-curve-970617528ce8)
