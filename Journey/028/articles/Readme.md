@@ -30,6 +30,7 @@
 - [The No-Code Pandas Alternative That Data Scientists Have Been Waiting For](https://towardsdatascience.com/the-no-code-pandas-alternative-that-data-scientists-have-been-waiting-for-9e22aaa9cf02)
 - [The ultimate reference for clean Pandas code (DL)](https://towardsdatascience.com/the-ultimate-reference-for-clean-pandas-code-413df676e63c)
 - [21 Pandas Tips Every Data Scientist Should Know (DL)](https://medium.com/@sayahfares19/21-pandas-tips-every-data-scientist-should-know-97c930638e9c)
+- [Pandas and Python Tips and Tricks for Data Science and Data Analysis (DL)](https://towardsdatascience.com/pandas-and-python-tips-and-tricks-for-data-science-and-data-analysis-1b1e05b7d93a)
 
 ### R
 
