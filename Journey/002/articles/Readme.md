@@ -22,3 +22,4 @@
 - [DataExplorer: Exploratory Data Analysis in R (DL)](https://www.business-science.io/code-tools/2021/03/02/use-dataexplorer-for-EDA.html?utm_content=bufferdb038&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
 - [How To R: Visualizing Distributions](https://medium.com/@nickmartin812/how-to-r-visualizing-distributions-49ea4141fb32)
 - [Best Practice to Calculate and Interpret Model Feature Importance (DL)](https://towardsdatascience.com/best-practice-to-calculate-and-interpret-model-feature-importance-14f0e11ee660)
+- [Step By Step Guide To Automated Exploratory Data Analysis Using Sweetviz in Python (DL)](https://towardsdatascience.com/step-by-step-guide-to-automated-exploratory-data-analysis-using-sweetviz-in-python-1061ed3f91da)
