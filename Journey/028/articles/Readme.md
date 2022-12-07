@@ -22,6 +22,7 @@
 - [10 Most Used Machine Learning Algorithms In Python With Code](https://www.theinsaneapp.com/2021/11/machine-learning-algorithms-for-beginners.html)
 - [*args, **kwargs & How To Specify Arguments Correctly](https://towardsdatascience.com/args-kwargs-how-to-specify-arguments-correctly-ed995f3f3c05)
 - [3 Time-Saving Ways to Get All Files in a Directory using Python](https://towardsdatascience.com/3-time-saving-ways-to-get-all-files-in-a-directory-using-python-32113a801701)
+- [A Guide to Python Comprehensions (DL)](https://towardsdatascience.com/a-guide-to-python-comprehensions-4d16af68c97e)
 
 #### Python - Pandas
 
