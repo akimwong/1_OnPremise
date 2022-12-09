@@ -40,3 +40,23 @@
 ### Conclusion
 Using the best feature engineering techniques at the right time can be truly handy and generate valuable predictions for companies to use as a result of using artificial intelligence.
 
+# Standardization vs Normalization
+
+## Standardization
+- Standardization or Z-Score Normalization is one of the feature scaling techniques.
+- Transformation of features is done by subtracting from the mean and dividing by standard deviation. 
+- This is often called Z-score normalization. 
+- The resulting data will have the mean as 0 and the standard deviation as 1.
+
+## Normalization
+- It transforms features by subtracting from the minimum value of the data and dividing by (maximum minus minimum).
+
+## Observations:
+
+- The resulting data after standardization will have a mean of 0 and a standard deviation of 1, whereas the resulting data after min-max scaling will have a minimum value as0 and a maximum value of 1 (Here the mean and standard deviation can be anything).
+- The scatter plots and KDE plots above show that there will be no change in the distribution of data before and after applying the standard scaler or min-max scaler, only the scale changes.
+- The feature scaling step has to be performed while applying algorithms where distance gets calculated (Eg: KNN, KMEANS) and involves gradient descent (Eg: Linear and Logistic regressions, neural networks).
+- There will not be any effect of scaling when we use tree-based algorithms like decision trees or random forests.
+- In the above examples, the accuracy of Logistic regression and KNN increased significantly after scaling. But there was no effect on accuracy when the decision tree or random forest was used.
+- Outliers in the dataset will still remain an outlier even after applying the feature scaling methods, as data scientists, it is our responsibility to handle the outliers.
+- There is no hard rule to tell which technique to use, but we need to check both standardization and normalization and decide based on the result which one to use.
