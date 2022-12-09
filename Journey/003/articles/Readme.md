@@ -13,5 +13,6 @@
 - [Feature Engineering for Machine Learning: 10 Examples](https://www.kdnuggets.com/2018/12/feature-engineering-explained.html)
 - [Hidden Data Science Gem: Rainbow Method for Label Encoding](https://towardsdatascience.com/hidden-data-science-gem-rainbow-method-for-label-encoding-dfd69f4711e1)
 - [Feature Engineering with Image Data (DL)](https://towardsdatascience.com/feature-engineering-with-image-data-14fe4fcd4353)
+- [Standardization vs Normalization](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
 
 
