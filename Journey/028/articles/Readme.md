@@ -25,6 +25,7 @@
 - [A Guide to Python Comprehensions (DL)](https://towardsdatascience.com/a-guide-to-python-comprehensions-4d16af68c97e)
 - [Pandas Isn’t Enough. Learn These 25 Pandas to SQL Translations To Upgrade Your Data Analysis Game (DL)](https://towardsdatascience.com/pandas-isnt-enough-learn-these-25-pandas-to-sql-translations-to-upgrade-your-data-analysis-game-af8d0c26948d)
 - [How to Handle Large Datasets in Python (DL)](https://towardsdatascience.com/how-to-handle-large-datasets-in-python-1f077a7e7ecf)
+- [What does if __name__ == ”__main__” do in Python? (DL)](https://towardsdatascience.com/python-main-b729fab7a8c3)
 
 #### Python - Pandas
 
