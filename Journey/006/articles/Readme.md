@@ -10,3 +10,4 @@
 - [Stop Using 0.5 as the Threshold for Your Binary Classifier (DL)](https://towardsdatascience.com/stop-using-0-5-as-the-threshold-for-your-binary-classifier-8d7168290d44)
 - [Metrics of Recommender Systems: An Overview (DL)](https://towardsdatascience.com/metrics-of-recommender-systems-cde64042127a)
 - [The Ultimate Guide to Evaluation and Selection of Models in Machine Learning](https://neptune.ai/blog/the-ultimate-guide-to-evaluation-and-selection-of-models-in-machine-learning)
+- [Complete Guide to Regularization Techniques in Machine Learning_Vidhya](https://www.analyticsvidhya.com/blog/2021/05/complete-guide-to-regularization-techniques-in-machine-learning/)
