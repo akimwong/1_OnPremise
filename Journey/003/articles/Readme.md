@@ -15,5 +15,6 @@
 - [Feature Engineering with Image Data (DL)](https://towardsdatascience.com/feature-engineering-with-image-data-14fe4fcd4353)
 - [Standardization vs Normalization (SMRY)](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
 - [A Reference Guide to Feature Engineering Methods_KaggleTitanic](https://www.kaggle.com/code/prashant111/a-reference-guide-to-feature-engineering-methods/notebook)
+- [Fundamental Techniques of Feature Engineering for Machine Learning (DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 
 
