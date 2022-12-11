@@ -24,3 +24,4 @@
 - [How to Develop LSTM Models for Time Series Forecasting](https://machinelearningmastery.com/how-to-develop-lstm-models-for-time-series-forecasting/)
 - [Information Theory and Ensemble Models (DL)](https://towardsdatascience.com/information-theory-and-ensemble-models-ded31db10d8)
 - [3 Ways to Visualize Time Series You May Not Know](https://towardsdatascience.com/3-ways-to-visualize-time-series-you-may-not-know-c8572952ea9c)
+- [4 Things to Do When Applying Cross-Validation with Time Series (DL)](https://towardsdatascience.com/4-things-to-do-when-applying-cross-validation-with-time-series-c6a5674ebf3a)
