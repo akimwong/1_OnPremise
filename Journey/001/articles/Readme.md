@@ -19,6 +19,7 @@
 - [Key-Value Databases, Explained](https://www.kdnuggets.com/2021/04/nosql-explained-understanding-key-value-databases.html)
 - [4 Useful Intermediate SQL Queries for Data Science](https://www.kdnuggets.com/2022/12/4-useful-intermediate-sql-queries-data-science.html)
 - [https://gist.github.com/mshakhomirov/638f8f09346769ad480d11764f11975c (DL)](https://towardsdatascience.com/advanced-sql-techniques-for-beginners-211851a28488)
+- [Don’t Start Your SQL Queries with the ‘Select’ Statement (DL)](https://towardsdatascience.com/dont-start-your-sql-queries-with-select-clause-d30fa1b701f6)
 
 
 
