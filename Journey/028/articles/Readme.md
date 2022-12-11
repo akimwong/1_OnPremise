@@ -36,6 +36,7 @@
 - [The ultimate reference for clean Pandas code (DL)](https://towardsdatascience.com/the-ultimate-reference-for-clean-pandas-code-413df676e63c)
 - [21 Pandas Tips Every Data Scientist Should Know (DL)](https://medium.com/@sayahfares19/21-pandas-tips-every-data-scientist-should-know-97c930638e9c)
 - [Pandas and Python Tips and Tricks for Data Science and Data Analysis (DL)](https://towardsdatascience.com/pandas-and-python-tips-and-tricks-for-data-science-and-data-analysis-1b1e05b7d93a)
+- [10 Quick Pandas Tricks to Energize your Analytics Project (DL)](https://towardsdatascience.com/10-quick-pandas-tricks-to-energize-your-analytics-project-2333a144946b)
 
 ### R
 
