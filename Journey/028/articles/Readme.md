@@ -28,6 +28,7 @@
 - [How to Handle Large Datasets in Python (DL)](https://towardsdatascience.com/how-to-handle-large-datasets-in-python-1f077a7e7ecf)
 - [What does if __name__ == ”__main__” do in Python? (DL)](https://towardsdatascience.com/python-main-b729fab7a8c3)
 - [Multithreading VS Multiprocessing in Python (DL)](https://medium.com/contentsquare-engineering-blog/multithreading-vs-multiprocessing-in-python-ece023ad55a)
+- [Say Goodbye to Loops in Python, and Welcome Vectorization! (DL)](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
 
 #### Python - Pandas
 
