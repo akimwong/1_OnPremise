@@ -12,3 +12,4 @@
 - [The Ultimate Guide to Evaluation and Selection of Models in Machine Learning](https://neptune.ai/blog/the-ultimate-guide-to-evaluation-and-selection-of-models-in-machine-learning)
 - [Complete Guide to Regularization Techniques in Machine Learning_Vidhya](https://www.analyticsvidhya.com/blog/2021/05/complete-guide-to-regularization-techniques-in-machine-learning/)
 - [How to Avoid Overfitting_KdNuggets](https://www.kdnuggets.com/2022/08/avoid-overfitting.html)
+- [Guía definitiva a Bias-Variance tradeoff (DL)](https://medium.com/@nicolasarrioja/gu%C3%ADa-definitiva-a-bias-variance-tradeoff-94fb5c118d0f)
