@@ -29,6 +29,7 @@
 - [What does if __name__ == ”__main__” do in Python? (DL)](https://towardsdatascience.com/python-main-b729fab7a8c3)
 - [Multithreading VS Multiprocessing in Python (DL)](https://medium.com/contentsquare-engineering-blog/multithreading-vs-multiprocessing-in-python-ece023ad55a)
 - [Say Goodbye to Loops in Python, and Welcome Vectorization! (DL)](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
+- [Getting Started with Python for Data Scientists (DL)](https://towardsdatascience.com/getting-started-with-python-for-data-scientists-a9b20058b46e)
 
 #### Python - Pandas
 
