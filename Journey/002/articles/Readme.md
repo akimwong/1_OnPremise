@@ -25,3 +25,4 @@
 - [Step By Step Guide To Automated Exploratory Data Analysis Using Sweetviz in Python (DL)](https://towardsdatascience.com/step-by-step-guide-to-automated-exploratory-data-analysis-using-sweetviz-in-python-1061ed3f91da)
 - [How to clean the datasets in R?_finnstats](https://finnstats.com/index.php/2021/04/04/how-to-clean-the-datasets-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [11 Essential Code Blocks for Complete EDA (Exploratory Data Analysis)_KdNuggets](https://www.kdnuggets.com/2021/03/11-essential-code-blocks-exploratory-data-analysis.html)
+- [The Essential Data Science Reference Notebook (DL)](https://towardsdatascience.com/the-essential-data-science-reference-notebook-d71ebba922b6)
