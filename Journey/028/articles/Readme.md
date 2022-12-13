@@ -53,3 +53,4 @@
 - [Combine Rows with Same Column Values in R](https://finnstats.com/index.php/2022/08/25/combine-rows-with-same-column-values-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [What is the best way to filter by row number in R?](https://datasciencetut.com/what-is-the-best-way-to-filter-by-row-number-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [How to Calculate Cramer’s V in R](https://finnstats.com/index.php/2021/11/30/how-to-calculate-cramers-v-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [How to Recode Values in R_DScTutorials](https://datasciencetut.com/how-to-recode-values-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
