@@ -3,7 +3,7 @@
 - [So You’ve Got a Really Big Dataset. Here’s How You Clean It. (SMRY)](https://towardsdatascience.com/so-youve-got-a-dataset-here-s-how-you-clean-it-5d0b04a2ed86)
 - [Exploratory Data Analysis - NIST HandBook (SMRY)](https://www.itl.nist.gov/div898/handbook/eda/eda.htm)
 - [Why Data Quality Is Harder than Code Quality (SMRY)](https://towardsdatascience.com/why-data-quality-is-harder-than-code-quality-a7ab78c9d9e)
-- [Data Quality Considerations for Machine Learning Models](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
+- [Data Quality Considerations for Machine Learning Models (DL)](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
 - [Handling Missing Data in Python](https://towardsdatascience.com/handling-missing-data-in-python-c1ffe6e0f325)
 - [Don’t Take Shortcuts When Handling Missing Values](https://towardsdatascience.com/dont-take-shortcuts-when-handling-missing-values-afb9312e73c3)
 - [The Simple Yet Practical Data Cleaning Codes](https://towardsdatascience.com/the-simple-yet-practical-data-cleaning-codes-ad27c4ce0a38)
