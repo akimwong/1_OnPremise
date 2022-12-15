@@ -13,7 +13,7 @@
 - [Defining Empty Variables and Data Structures in Python](https://towardsdatascience.com/defining-empty-variables-and-data-structures-in-python-501995458577)
 - [Correlation Matrix, Demystified](https://towardsdatascience.com/correlation-matrix-demystified-3ae3405c86c1)
 - [A recipe to empirically answer any question quickly](https://towardsdatascience.com/a-recipe-to-empirically-answer-any-question-quickly-22e48c867dd5)
-- [Detecting Outliers with Simple and Advanced Techniques](https://towardsdatascience.com/detecting-outliers-with-simple-and-advanced-techniques-cb3b2db60d03)
+- [Detecting Outliers with Simple and Advanced Techniques (DL)](https://towardsdatascience.com/detecting-outliers-with-simple-and-advanced-techniques-cb3b2db60d03)
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
 - [¿Cómo seleccionar las variables adecuadas para tu modelo?](https://www.maximaformacion.es/blog-dat/como-seleccionar-las-variables-adecuadas-para-tu-modelo/)
 - [Correlation Analysis in R?](https://finnstats.com/index.php/2020/11/14/correlation-analysis-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
