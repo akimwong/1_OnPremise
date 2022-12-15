@@ -40,7 +40,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 26 > [Text Minning (!)](Journey/026/Readme.md)
 - [ ] &#x2A33; 27 > [Scala](Journey/027/Readme.md)
 - [ ] &#x2A33; 28 > [Micro Projects (Python & R) (!)](Journey/028)
-- [ ] &#x2A33; 29 > [UL:Unsupervised Learning (!)](Journey/029)
+- [ ] &#x2A33; 29 > [UL:Unsupervised Learning / RL:Reinforcement Learning (!)](Journey/029)
 
 ```
 man -k
