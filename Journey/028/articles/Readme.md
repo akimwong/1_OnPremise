@@ -40,6 +40,7 @@
 - [21 Pandas Tips Every Data Scientist Should Know (DL)](https://medium.com/@sayahfares19/21-pandas-tips-every-data-scientist-should-know-97c930638e9c)
 - [Pandas and Python Tips and Tricks for Data Science and Data Analysis (DL)](https://towardsdatascience.com/pandas-and-python-tips-and-tricks-for-data-science-and-data-analysis-1b1e05b7d93a)
 - [10 Quick Pandas Tricks to Energize your Analytics Project (DL)](https://towardsdatascience.com/10-quick-pandas-tricks-to-energize-your-analytics-project-2333a144946b)
+- [4x Faster Pandas Operations with Minimal Code Change (DL)](https://towardsdatascience.com/4x-faster-pandas-operations-with-minimal-code-change-bc7079792184)
 
 ### R
 
