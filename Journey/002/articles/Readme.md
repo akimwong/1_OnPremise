@@ -26,3 +26,4 @@
 - [How to clean the datasets in R?_finnstats](https://finnstats.com/index.php/2021/04/04/how-to-clean-the-datasets-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [11 Essential Code Blocks for Complete EDA (Exploratory Data Analysis)_KdNuggets](https://www.kdnuggets.com/2021/03/11-essential-code-blocks-exploratory-data-analysis.html)
 - [The Essential Data Science Reference Notebook (DL)](https://towardsdatascience.com/the-essential-data-science-reference-notebook-d71ebba922b6)
+- [3 Fundamental Processes in Feature Engineering (DL)](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
