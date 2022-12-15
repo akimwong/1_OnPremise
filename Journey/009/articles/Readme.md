@@ -26,3 +26,4 @@
 - [3 Ways to Visualize Time Series You May Not Know](https://towardsdatascience.com/3-ways-to-visualize-time-series-you-may-not-know-c8572952ea9c)
 - [4 Things to Do When Applying Cross-Validation with Time Series (DL)](https://towardsdatascience.com/4-things-to-do-when-applying-cross-validation-with-time-series-c6a5674ebf3a)
 - [A Step-by-Step Guide to Feature Engineering for Multivariate Time Series (DL)](https://towardsdatascience.com/a-step-by-step-guide-to-feature-engineering-for-multivariate-time-series-162ccf232e2f)
+- [Basic Forecasting Techniques (DL)](https://towardsdatascience.com/basic-forecasting-techniques-ef4295248e46)
