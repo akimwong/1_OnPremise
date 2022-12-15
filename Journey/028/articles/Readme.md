@@ -30,6 +30,7 @@
 - [Multithreading VS Multiprocessing in Python (DL)](https://medium.com/contentsquare-engineering-blog/multithreading-vs-multiprocessing-in-python-ece023ad55a)
 - [Say Goodbye to Loops in Python, and Welcome Vectorization! (DL)](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
 - [Getting Started with Python for Data Scientists (DL)](https://towardsdatascience.com/getting-started-with-python-for-data-scientists-a9b20058b46e)
+- [9 Visualizations with Python that Catch More Attention than a Bar Chart (DL)](https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091)
 
 #### Python - Pandas
 
