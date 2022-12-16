@@ -31,6 +31,7 @@
 - [Say Goodbye to Loops in Python, and Welcome Vectorization! (DL)](https://medium.com/codex/say-goodbye-to-loops-in-python-and-welcome-vectorization-e4df66615a52)
 - [Getting Started with Python for Data Scientists (DL)](https://towardsdatascience.com/getting-started-with-python-for-data-scientists-a9b20058b46e)
 - [9 Visualizations with Python that Catch More Attention than a Bar Chart (DL)](https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091)
+- [Do You Read Excel Files with Python? There is a 1000x Faster Way. (DL)](https://towardsdatascience.com/read-excel-files-with-python-1000x-faster-407d07ad0ed8)
 
 #### Python - Pandas
 
