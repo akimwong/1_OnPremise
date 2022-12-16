@@ -34,7 +34,7 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 20 > [ML-XGboost (!)](Journey/020)
 - [ ] &#x2A33; 21 > [DL-Convolutional Neural Networks (!)](Journey/021)
 - [ ] &#x2A33; 22 > [DL-Recurrent Neural Networks](Journey/022/Readme.md)
-- [ ] &#x2A33; 23 > [DL-Natural Language Processing](Journey/023/Readme.md)
+- [ ] &#x2A33; 23 > [DL-Natural Language Processing (!)](Journey/023)
 - [ ] &#x2A33; 24 > [Big Data Technologies-Hadoop & Spark](Journey/024/Readme.md)
 - [ ] &#x2A33; 25 > [Social Networks-Pajek](Journey/025/Readme.md)
 - [ ] &#x2A33; 26 > [Text Minning (!)](Journey/026/Readme.md)
