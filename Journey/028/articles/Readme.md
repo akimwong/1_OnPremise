@@ -33,6 +33,7 @@
 - [9 Visualizations with Python that Catch More Attention than a Bar Chart (DL)](https://towardsdatascience.com/9-visualizations-that-catch-more-attention-than-a-bar-chart-72d3aeb2e091)
 - [Do You Read Excel Files with Python? There is a 1000x Faster Way. (DL)](https://towardsdatascience.com/read-excel-files-with-python-1000x-faster-407d07ad0ed8)
 - [Python Magic Methods You Might Not Have Heard About (DL)](https://towardsdatascience.com/python-magic-methods-you-havent-heard-about-53d11eba448f)
+- [How to use Python Lambdas (DL)](https://towardsdatascience.com/how-to-use-python-lambdas-8d141e378ce)
 
 #### Python - Pandas
 
