@@ -10,6 +10,7 @@
 - [How to Build Strong Data Science Portfolio as a Beginner (s)](https://www.kdnuggets.com/2021/10/strong-data-science-portfolio-as-beginner.html)
 - [Find UK open data - Published by central government, local authorities and public bodies](https://www.data.gov.uk)
 - [Start Your Data Project With A Bang: Engage Stakeholders](https://towardsdatascience.com/start-your-data-project-with-a-bang-engage-stakeholders-2a40e6e52e1e)
+- [Best Public Datasets for Machine Learning and Data Science (DL)](https://pub.towardsai.net/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)
 
 #### Database
 - [SQL and Databases Learning: A Guide for Data Scientists and ML Engineers](https://towardsdatascience.com/sql-and-databases-learning-a-guide-for-data-scientists-and-ml-engineers-a73875b0d6f2)
