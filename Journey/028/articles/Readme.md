@@ -63,3 +63,4 @@
 - [How to Calculate Cramer’s V in R](https://finnstats.com/index.php/2021/11/30/how-to-calculate-cramers-v-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [How to Recode Values in R_DScTutorials](https://datasciencetut.com/how-to-recode-values-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [15 Essential packages in R for Data Science_finnStats](https://finnstats.com/index.php/2021/04/07/essential-packages-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [Three R Libraries Every Data Scientist Should Know (Even if You Use Python) (DL)](https://towardsdatascience.com/three-r-libraries-every-data-scientist-should-know-even-if-you-use-python-7e9d95e4a415)
