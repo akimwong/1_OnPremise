@@ -62,3 +62,4 @@
 - [What is the best way to filter by row number in R?](https://datasciencetut.com/what-is-the-best-way-to-filter-by-row-number-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [How to Calculate Cramer’s V in R](https://finnstats.com/index.php/2021/11/30/how-to-calculate-cramers-v-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [How to Recode Values in R_DScTutorials](https://datasciencetut.com/how-to-recode-values-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [15 Essential packages in R for Data Science_FinStats](https://finnstats.com/index.php/2021/04/07/essential-packages-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
