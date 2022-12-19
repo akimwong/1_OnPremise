@@ -45,6 +45,7 @@
 - [Pandas and Python Tips and Tricks for Data Science and Data Analysis (DL)](https://towardsdatascience.com/pandas-and-python-tips-and-tricks-for-data-science-and-data-analysis-1b1e05b7d93a)
 - [10 Quick Pandas Tricks to Energize your Analytics Project (DL)](https://towardsdatascience.com/10-quick-pandas-tricks-to-energize-your-analytics-project-2333a144946b)
 - [4x Faster Pandas Operations with Minimal Code Change (DL)](https://towardsdatascience.com/4x-faster-pandas-operations-with-minimal-code-change-bc7079792184)
+- [5 Methods for Filtering Strings with Python Pandas (DL)](https://towardsdatascience.com/5-methods-for-filtering-strings-with-python-pandas-ebe4746dcc74)
 
 #### Python - Numpy
 - [25 Numpy Treasures Buried in the Docs Waiting to Be Found (DL)](https://towardsdatascience.com/25-numpy-treasures-buried-in-the-docs-waiting-to-be-found-60d8e17931cd)
