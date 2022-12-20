@@ -4,3 +4,4 @@
 - [How to Create a Covariance Matrix in R](https://finnstats.com/index.php/2021/07/11/how-to-create-a-covariance-matrix-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [Feature Selection Techniques in Machine Learning_Vidhya](https://www.analyticsvidhya.com/blog/2020/10/feature-selection-techniques-in-machine-learning/)
 - [11 Dimensionality reduction techniques you should know in 2021](https://towardsdatascience.com/11-dimensionality-reduction-techniques-you-should-know-in-2021-dcb9500d388b)
+- [7 Techniques to Handle Multicollinearity that Every Data Scientist Should Know (DL)](https://towardsdatascience.com/7-techniques-to-handle-multicollinearity-that-every-data-scientist-should-know-ffa03ba5d29)
