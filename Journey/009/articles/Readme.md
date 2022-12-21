@@ -28,4 +28,4 @@
 - [A Step-by-Step Guide to Feature Engineering for Multivariate Time Series (DL)](https://towardsdatascience.com/a-step-by-step-guide-to-feature-engineering-for-multivariate-time-series-162ccf232e2f)
 - [Basic Forecasting Techniques (DL)](https://towardsdatascience.com/basic-forecasting-techniques-ef4295248e46)
 - [How to Detect Heteroskedasticity in Time Series (DL)](https://www.kdnuggets.com/2022/12/land-senior-data-scientist-position.html)
-- [
+- [Deep understanding of the ARIMA model (DL)](https://towardsdatascience.com/deep-understanding-of-the-arima-model-d3f0751fc709)
