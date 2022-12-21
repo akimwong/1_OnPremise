@@ -65,3 +65,4 @@
 - [How to Recode Values in R_DScTutorials](https://datasciencetut.com/how-to-recode-values-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [15 Essential packages in R for Data Science_finnStats](https://finnstats.com/index.php/2021/04/07/essential-packages-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [Three R Libraries Every Data Scientist Should Know (Even if You Use Python) (DL)](https://towardsdatascience.com/three-r-libraries-every-data-scientist-should-know-even-if-you-use-python-7e9d95e4a415)
+- [How To R: Visualizing Distributions (DL)](https://medium.com/@nickmartin812/how-to-r-visualizing-distributions-49ea4141fb32)
