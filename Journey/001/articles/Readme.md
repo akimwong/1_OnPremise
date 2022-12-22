@@ -24,6 +24,7 @@
 - [Advanced SQL techniques for beginners (DL)](https://towardsdatascience.com/advanced-sql-techniques-for-beginners-211851a28488)
 - [Don’t Start Your SQL Queries with the ‘Select’ Statement (DL)](https://towardsdatascience.com/dont-start-your-sql-queries-with-select-clause-d30fa1b701f6)
 - [How to Take Your SQL from Zero to Data Scientist Level — Part 1/3 (DL)](https://towardsdatascience.com/how-to-take-your-sql-from-zero-to-data-scientist-level-part-1-3-d7225d2d89ad)
+- [How to Take Your SQL from Zero to Data Scientist Level — Part 2/3 (DL)](https://towardsdatascience.com/how-to-take-your-sql-from-zero-to-data-scientist-level-part-2-3-bc1cbb48299e)
 
 
 
