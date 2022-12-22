@@ -1,4 +1,5 @@
 - [Data Documentation Best Practices (DL)](https://towardsdatascience.com/data-documentation-best-practices-3e1a97cfeda6)
+- [How to Create a Data Quality Framework (DL)](https://towardsdatascience.com/how-to-create-a-data-quality-framework-6887dea268ae)
 
 #### Datasets
 - [32 datasets to uplift your skills in data science](https://datasciencedojo.com/blog/datasets-data-science-skills/)
