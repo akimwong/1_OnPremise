@@ -6,6 +6,7 @@
 - [Data Quality Considerations for Machine Learning Models (DL)](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)
 - [A Guide to EDA in Python (DL)](https://levelup.gitconnected.com/cozy-up-with-your-data-6aedfb651172)
 - [Exploratory Data Analysis (EDA) techniques for Kaggle competition beginners (DL)](https://towardsdatascience.com/exploratory-data-analysis-eda-techniques-for-kaggle-competition-beginners-be4237c3c3a9)
+- [Exploratory Data Analysis(EDA): Python (DL)](https://towardsdatascience.com/exploratory-data-analysis-eda-python-87178e35b14)
 - [Handling Missing Data in Python (DL)](https://towardsdatascience.com/handling-missing-data-in-python-c1ffe6e0f325)
 - [Don’t Take Shortcuts When Handling Missing Values](https://towardsdatascience.com/dont-take-shortcuts-when-handling-missing-values-afb9312e73c3)
 - [The Simple Yet Practical Data Cleaning Codes (DL)](https://towardsdatascience.com/the-simple-yet-practical-data-cleaning-codes-ad27c4ce0a38)
