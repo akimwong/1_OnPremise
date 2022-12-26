@@ -11,6 +11,7 @@
 - [The Simple Yet Practical Data Cleaning Codes (DL)](https://towardsdatascience.com/the-simple-yet-practical-data-cleaning-codes-ad27c4ce0a38)
 - [Exploratory Data Analysis in Python — A Step-by-Step Process (DL)](https://towardsdatascience.com/exploratory-data-analysis-in-python-a-step-by-step-process-d0dfa6bf94ee)
 - [Advanced exploratory data analysis (EDA) with Python (DL)](https://medium.com/epfl-extension-school/advanced-exploratory-data-analysis-eda-with-python-536fa83c578a)
+- [Cleaning data for data visualisation_ConfusedCoders](https://confusedcoders.com/data-science/cleaning-data-for-data-visualisation)
 - [Pandas Sidetable Simplifies the Exploratory Data Analysis Process (DL)](https://towardsdatascience.com/pandas-sidetable-simplifies-the-exploratory-data-analysis-process-417b42eebed6)
 - [Defining Empty Variables and Data Structures in Python](https://towardsdatascience.com/defining-empty-variables-and-data-structures-in-python-501995458577)
 - [Correlation Matrix, Demystified](https://towardsdatascience.com/correlation-matrix-demystified-3ae3405c86c1)
