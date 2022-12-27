@@ -5,3 +5,4 @@
 - [Logistic Regression for Classification](https://www.kdnuggets.com/2022/04/logistic-regression-classification.html)
 - [Multiple Logistic Regression for Ordinal Variable and Predicted Probabilities in R (DL)](https://towardsdatascience.com/multiple-logistic-regression-for-ordinal-variable-and-predicted-probabilities-in-r-3e3ef3ba6ca2)
 - [Logistic Regression Models Comparison (DL)](https://towardsdatascience.com/logistic-regression-models-comparison-2a88a9da4eb6)
+- [UNDERSTANDING LOGISTIC REGRESSION (DL)](https://medium.com/@bysanisujith2003/understanding-logistic-regression-ba7b915d819d)
