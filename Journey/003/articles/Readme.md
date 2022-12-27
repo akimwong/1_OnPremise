@@ -17,4 +17,5 @@
 - [A Reference Guide to Feature Engineering Methods_KaggleTitanic](https://www.kaggle.com/code/prashant111/a-reference-guide-to-feature-engineering-methods/notebook)
 - [Fundamental Techniques of Feature Engineering for Machine Learning (DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 - [Classification with Imbalanced Data (DL)](https://towardsdatascience.com/classification-with-imbalanced-data-f13ccb0496b3)
+- [Dummy Variable Example in R_finnstats](https://finnstats.com/index.php/2022/07/08/dummy-variable-example-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 
