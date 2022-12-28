@@ -14,3 +14,4 @@
 - [How to Avoid Overfitting_KdNuggets](https://www.kdnuggets.com/2022/08/avoid-overfitting.html)
 - [Guía definitiva a Bias-Variance tradeoff (DL)](https://medium.com/@nicolasarrioja/gu%C3%ADa-definitiva-a-bias-variance-tradeoff-94fb5c118d0f)
 - [Metrics for uncertainty evaluation in regression problems](https://towardsdatascience.com/metrics-for-uncertainty-evaluation-in-regression-problems-210821761aa)
+- [ROC Analysis and the AUC — Area Under the Curve (DL)](https://towardsdatascience.com/roc-analysis-and-the-auc-area-under-the-curve-404803b694b9)
