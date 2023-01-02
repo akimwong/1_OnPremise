@@ -35,6 +35,7 @@
 - [Python Magic Methods You Might Not Have Heard About (DL)](https://towardsdatascience.com/python-magic-methods-you-havent-heard-about-53d11eba448f)
 - [How to use Python Lambdas (DL)](https://towardsdatascience.com/how-to-use-python-lambdas-8d141e378ce)
 - [Stop Hardcoding Your Unit Tests (DL)](https://towardsdatascience.com/stop-hardcoding-your-unit-tests-e6643dfd254b)
+- [How To Use .groupby() Effectively As A Data Scientist (DL)](https://levelup.gitconnected.com/how-to-use-groupby-effectively-as-a-data-scientist-9e1d931e1619)
 
 #### Python - Pandas
 
