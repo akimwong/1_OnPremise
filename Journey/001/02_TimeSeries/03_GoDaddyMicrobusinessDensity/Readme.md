@@ -17,7 +17,7 @@ The [datasets](https://www.kaggle.com/competitions/godaddy-microbusiness-density
     microbusiness_density - Microbusinesses per 100 people over the age of 18 in the given county**. 
     active - The raw count of microbusinesses in the county. Not provided for the test set.
 
-(*) The first two digits correspond to the state FIPS code, while the following 3 represent the county.
+(*) The first two digits correspond to the state FIPS code, while the following 3 represent the county. <br/>
 (**) This is the target variable. The population figures used to calculate the density are on a two-year lag due to the pace of update provided by the U.S. Census Bureau, which provides the underlying population data annually. 2021 density figures are calculated using 2019 population figures, etc.
 
 ### sample_submission.csv A valid sample submission. This file will remain unchanged throughout the competition.
