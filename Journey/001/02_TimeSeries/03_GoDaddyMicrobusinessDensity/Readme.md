@@ -30,7 +30,7 @@ A valid sample submission. This file will remain unchanged throughout the compet
 Metadata for the submission rows. This file will remain unchanged throughout the competition.
 
     row_id - An ID code for the row.
-    cfips - A unique identifier for each county using the Federal Information Processing System.
+    cfips - The CFIPS code.
     first_day_of_month - The date of the first day of the month.
 
 ### census_starter.csv 
