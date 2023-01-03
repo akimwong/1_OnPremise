@@ -7,22 +7,25 @@ The [datasets](https://www.kaggle.com/competitions/godaddy-microbusiness-density
 - This is a forecasting competition.
 - A great deal of data is publicly available about counties and `we have not attempted to gather it all here`. You are `strongly encouraged to use external data sources` for features.
 
-train.csv
+### train.csv
 
     row_id - An ID code for the row.
-    cfips - A unique identifier for each county using the Federal Information Processing System. The first two digits correspond to the state FIPS code, while the following 3 represent the county.
+    cfips - A unique identifier for each county using the Federal Information Processing System*.
     county_name - The written name of the county.
     state_name - The name of the state.
     first_day_of_month - The date of the first day of the month.
-    microbusiness_density - Microbusinesses per 100 people over the age of 18 in the given county. This is the target variable. The population figures used to calculate the density are on a two-year lag due to the pace of update provided by the U.S. Census Bureau, which provides the underlying population data annually. 2021 density figures are calculated using 2019 population figures, etc.
+    microbusiness_density - Microbusinesses per 100 people over the age of 18 in the given county**. 
     active - The raw count of microbusinesses in the county. Not provided for the test set.
 
-sample_submission.csv A valid sample submission. This file will remain unchanged throughout the competition.
+(*) The first two digits correspond to the state FIPS code, while the following 3 represent the county.
+(**) This is the target variable. The population figures used to calculate the density are on a two-year lag due to the pace of update provided by the U.S. Census Bureau, which provides the underlying population data annually. 2021 density figures are calculated using 2019 population figures, etc.
+
+### sample_submission.csv A valid sample submission. This file will remain unchanged throughout the competition.
 
     row_id - An ID code for the row.
     microbusiness_density - The target variable.
 
-test.csv Metadata for the submission rows. This file will remain unchanged throughout the competition.
+### test.csv Metadata for the submission rows. This file will remain unchanged throughout the competition.
 
     row_id - An ID code for the row.
     cfips - A unique identifier for each county using the Federal Information Processing System.
