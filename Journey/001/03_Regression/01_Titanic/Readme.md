@@ -42,7 +42,7 @@ We can see:
 
 ### 1. The Method <- Why?
 Type of problem: Quantitative (Decision-making justified by numbers) </br>
-Model used: CRISP-DM (the standard of the industry)
+Method used: CRISP-DM (the standard of the industry for quantitative problems)
 
 1.1. Business understanding - What exactly is the problem we are trying to solve with data <br/>
 
