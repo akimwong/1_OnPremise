@@ -127,7 +127,7 @@ Feature engineering is the process of modifying existing features to enhance the
 ## 2. Data Cleaning
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing3.png" width="600" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing3.png" width="500" height="300">
 </p>
 
 - This is the process of identifying and removing or correcting duplicated, corrupted, and missing data from a collected dataset.
@@ -156,7 +156,7 @@ Feature engineering is the process of modifying existing features to enhance the
 ## 3. Data Transformation
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing4.png" width="600" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing4.png" width="500" height="300">
 </p>
 
 - Is the process of converting data into a suitable format or structure that best represents the data patterns and is amenable to model fitting.
