@@ -105,11 +105,15 @@ Feature engineering is the process of modifying existing features to enhance the
 - Some examples include kernel principal component analysis (KPCA) and principal curves. 
 
 -------------------------
-# Three Critical Elements of Data Preprocessing — Part 1
+# Three Critical Elements of Data Preprocessing
 (The backbone of modeling in data science)
 
 - Data preprocessing ensures that quality data is available to machine learning models resulting in excellent prediction performance. 
 - It entails integration, cleaning, and transformation.
+
+<p align="center">
+  <img src="https://github.com/akimwong/akimwong/blob/main/articles/summaries/statistics/boxplot2.png" width="600" height="300">
+</p>
 
 ## 1. Data Integration
 - Involves `exploiting the relationships between disparate datasets` by `combining them` using similar features as connection points.
