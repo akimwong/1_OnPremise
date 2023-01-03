@@ -63,9 +63,9 @@ We will use the binary classification models of:
 And then select the best based on metrics.  Because the computanional cost is not too high due to the scale of the dataset <br/>
 
 We won't use:
-- Deep learning models because the little amount of information
-- Unsupervised learning beacuse the outputs are labeled
-- Reinforcement learning because is not studied enough (by me)
+- Deep learning models, because the small scale of the dataset
+- Unsupervised learning models, because the outputs are labeled
+- Reinforcement learning models, because I haven’t studied them yet
 
 ### 3. The Tool(s) <- Why?
 We will use R and Python.  </br>
