@@ -75,7 +75,7 @@ Feature engineering is the process of modifying existing features to enhance the
 - Many ML models work with `numerical data`, data consisting of integers or decimals. Hence, we `need to encode the raw categorical data`, data consisting of strings to make them usable to the models.
 
 ## 2. Feature Selection
-- This is the process of choosing the most relevant features for the training process. 
+- This is the process of `choosing` the `most relevant features` for the training process. 
 - Feature selection methods fall under three main categories namely wrapper, filter, and embedded methods.
 - Some measures of a feature’s relevance include:
 
