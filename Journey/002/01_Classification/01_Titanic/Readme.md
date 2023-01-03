@@ -1,4 +1,4 @@
-[(the datasets comes from...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/03_Regression/01_Titanic/)
+[(the datasets comes from...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/02_Classification/01_Titanic/)
 
 ## 1. Structure Investigation
 
