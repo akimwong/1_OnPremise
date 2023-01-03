@@ -64,7 +64,7 @@ And then select the best based on metrics.  Because the computanional cost is no
 
 We won't use:
 - Deep learning models because the little amount of information
-- Unsupervised learning beacuse the output is labeled
+- Unsupervised learning beacuse the outputs are labeled
 - Reinforcement learning 
 
 ### 3. The Tool(s) <- Why?
