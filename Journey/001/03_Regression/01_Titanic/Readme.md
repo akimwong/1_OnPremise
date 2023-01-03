@@ -56,7 +56,8 @@ Method used: CRISP-DM (the standard of the industry for quantitative problems)
 1.6. Deployment 
 
 ### 2. The Technique <- Why?
-We will use and compare ALL the binary classification models (except for Deep Learning), and then select the best one based on metrics
+We will use the binary classification models of Supervised Learning (Logistic Regression, Decision Trees, KNN, Naive Bayes) and ensemble learning (Bagging: Random Forest). And then select the best based on metrics.  Because the computanional cost is not too high due to the scale of the dataset <br/>
+We won't use deep learning models because the little amount of information
 
 ### 3. The Tool(s) <- Why?
 We will use R and Python.  </br>
