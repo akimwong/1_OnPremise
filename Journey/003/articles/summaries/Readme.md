@@ -117,7 +117,7 @@ Feature engineering is the process of modifying existing features to enhance the
 - It entails integration, cleaning, and transformation.
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing2.png" width="300" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing2.png" width="500" height="300">
 </p>
 
 ## 1. Data Integration
