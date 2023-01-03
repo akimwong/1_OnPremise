@@ -1,6 +1,6 @@
 The [datasets](https://www.kaggle.com/competitions/godaddy-microbusiness-density-forecasting/data) used for this analysis are from a KAGGLE competition called "GoDaddy - Microbusiness Density Forecasting".
 
-## I. WHAT IS THE CHALLENGE?
+# I. WHAT IS THE CHALLENGE?
 
 - Your challenge in this competition is to `forecast microbusiness activity` across the United States, as `measured by the density of microbusinesses in US counties`.
 - Microbusiness activity may be correlated with other economic indicators of general interest.
@@ -49,3 +49,6 @@ Examples of useful columns from the Census Bureau's `American Community Survey (
 (3) ACS(DP02): SELECTED SOCIAL CHARACTERISTICS IN THE UNITED STATES. <br/>
 (4) ACS(S2405): INDUSTRY BY OCCUPATION FOR THE CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER. <br/>
 (5) ACS(S1901): INCOME IN THE PAST 12 MONTHS (IN 2021 INFLATION-ADJUSTED DOLLARS). <br/>
+
+
+# II. APPROACH:
