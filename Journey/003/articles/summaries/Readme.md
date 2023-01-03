@@ -117,7 +117,7 @@ Feature engineering is the process of modifying existing features to enhance the
 - It entails integration, cleaning, and transformation.
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing2.png" width="500" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing2.png" width="600" height="300">
 </p>
 
 ## 1. Data Integration
@@ -125,6 +125,11 @@ Feature engineering is the process of modifying existing features to enhance the
 - Data integration skills can help data scientists harness informative data available in `silos thereby creating more business value` from existing resources.
 
 ## 2. Data Cleaning
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing3.png" width="600" height="300">
+</p>
+
 - This is the process of identifying and removing or correcting duplicated, corrupted, and missing data from a collected dataset.
 - Improves the quality of data fed to machine learning algorithms and can make or break a data science project.
 - Generating cleaner data is better than spending more computing power and time tuning sophisticated algorithms.
@@ -149,6 +154,11 @@ Feature engineering is the process of modifying existing features to enhance the
 - Eliminating affected data points helps to avoid misrepresentation of the data patterns or issues such as overfitting during modeling.
 
 ## 3. Data Transformation
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing4.png" width="600" height="300">
+</p>
+
 - Is the process of converting data into a suitable format or structure that best represents the data patterns and is amenable to model fitting.
 - We can squeeze more juice out of the data if we properly apply transformations before modeling.
 - Machine learning algorithms accept different data formats and types although numerical data is the most acceptable format. 
