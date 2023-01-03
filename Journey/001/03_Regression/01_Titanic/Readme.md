@@ -22,7 +22,7 @@ Using the patterns you find in the train.csv data, predict whether the other 418
 
 
 # II. APPROACH:
-The proposed problem is estimated as binary estimation: Survives (1) - Dies (0)
+The proposed problem is estimated as binary classification: Survives (1) - Dies (0)
 
 Before we open the dataset and start working on the available features, we will see the conditions necessary to survive in a catastrophic situation.
 This can be used to determine the significance of the features available (or the features needed if we start from scratch without any dataset of features)
@@ -41,10 +41,12 @@ We can see:
 </p>
 
 ### 1. The Method <- Why?
-Type of problem: Quantitative </br>
+Type of problem: Quantitative (Decision-making justified by numbers) </br>
 Model used: CRISP-DM (the standard of the industry)
 
 1.1. Business understanding - What exactly is the problem we are trying to solve with data <br/>
+- What are my chances of survival based on my characteristics?
+- What are the characteristics of people with a higher chance of survival?
 1.2. Data understanding - What exactly is in our data, such as what does each column mean and how does it relate to the business problem <br/>
 1.3. Data prep - Data preprocessing and preparation. This can also include feature engineering <br/>
 1.4. Modeling - Getting a model from our data (choosing a machine learning algorithm) <br/>
