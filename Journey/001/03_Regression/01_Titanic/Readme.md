@@ -45,8 +45,10 @@ Type of problem: Quantitative (Decision-making justified by numbers) </br>
 Model used: CRISP-DM (the standard of the industry)
 
 1.1. Business understanding - What exactly is the problem we are trying to solve with data <br/>
+
 - What are my chances of survival based on my characteristics?
 - What are the characteristics of people with a higher chance of survival?
+
 1.2. Data understanding - What exactly is in our data, such as what does each column mean and how does it relate to the business problem <br/>
 1.3. Data prep - Data preprocessing and preparation. This can also include feature engineering <br/>
 1.4. Modeling - Getting a model from our data (choosing a machine learning algorithm) <br/>
