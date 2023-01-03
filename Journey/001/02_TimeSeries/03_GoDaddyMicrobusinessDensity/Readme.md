@@ -34,7 +34,7 @@ Metadata for the submission rows. This file will remain unchanged throughout the
     first_day_of_month - The date of the first day of the month.
 
 ### census_starter.csv 
-Examples of useful columns from the Census Bureau's American Community Survey (ACS) at data.census.gov. The percentage fields were derived from the raw counts provided by the ACS.  All fields have a `two year lag` to match what information was avaiable at the time a given microbusiness data update was published.
+Examples of useful columns from the Census Bureau's `American Community Survey (ACS) at data.census.gov.'  The percentage fields were derived from the raw counts provided by the ACS.  All fields have a `two year lag` to match what information was avaiable at the time a given microbusiness data update was published.
 
     pct_bb_[year] - % of households in the county with access to broadband of any type (1). 
     cfips - The CFIPS code.
@@ -43,8 +43,8 @@ Examples of useful columns from the Census Bureau's American Community Survey (A
     pct_it_workers_[year] - % of the workforce in the county employed in information related industries (4).
     median_hh_inc_[year] - The median household income in the county (5).
 
-(1) ACS(B28002): PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD.
-(2) ACS(S1501): EDUCATIONAL ATTAINMENT.
-(3) ACS(DP02): SELECTED SOCIAL CHARACTERISTICS IN THE UNITED STATES.
-(4) ACS(S2405): INDUSTRY BY OCCUPATION FOR THE CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER.
-(5) ACS(S1901): INCOME IN THE PAST 12 MONTHS (IN 2021 INFLATION-ADJUSTED DOLLARS).
+(1) ACS(B28002): PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD. <br/>
+(2) ACS(S1501): EDUCATIONAL ATTAINMENT. <br/>
+(3) ACS(DP02): SELECTED SOCIAL CHARACTERISTICS IN THE UNITED STATES. <br/>
+(4) ACS(S2405): INDUSTRY BY OCCUPATION FOR THE CIVILIAN EMPLOYED POPULATION 16 YEARS AND OVER. <br/>
+(5) ACS(S1901): INCOME IN THE PAST 12 MONTHS (IN 2021 INFLATION-ADJUSTED DOLLARS). <br/>
