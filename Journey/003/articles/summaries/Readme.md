@@ -129,3 +129,26 @@ Feature engineering is the process of modifying existing features to enhance the
 - `Depending on the prevalence and type` of missing values being dealt with, missing values `may be estimated` or affected observations (examples) `may be removed`.
 - Based on experience, `dropping observations` when the percentage of missing values is `“very small” (say < 5%) compared with overall available data`. 
 - Similarly, `features with more than 95%` of the data missing `may be dropped` although these are hard not thresholds and can be changed based on domain knowledge.
+
+### 2.3. Tackling outliers
+- Outliers are data points that exist outside the expected range of values for a given variable.
+- All outliers `are not created equal. Some are simply noise` that distracts your machine-learning models, while `others are a representation of your data’s real-world attributes`.
+- Eliminating a “good” outlier may jeopardize the data cleaning process and result in unrepresentative data models
+
+### 2.4. Removal of wrong observations
+- Some observations may be duplicated or corrupted. 
+- Eliminating affected data points helps to avoid misrepresentation of the data patterns or issues such as overfitting during modeling.
+
+## 3. Data Transformation
+- Is the process of converting data into a suitable format or structure that best represents the data patterns and is amenable to model fitting.
+- We can squeeze more juice out of the data if we properly apply transformations before modeling.
+- Machine learning algorithms accept different data formats and types although numerical data is the most acceptable format. 
+- The following data transformations are generally applicable and highly valuable for modeling in data science:
+
+### 3.1. Feature Encoding
+- This is the process of converting categorical data into numerical data. 
+- Two main approaches exist namely, ordinal and one-hot encoding.
+1. Ordinal encoding: In this case, the hierarchy in the categorical data is maintained after transformation. <br/>
+2. One-hot encoding: This approach is used when there is no order in the categorical feature and it has few unique categories (low cardinality).
+
+- 
