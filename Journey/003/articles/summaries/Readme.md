@@ -109,10 +109,15 @@ Feature engineering is the process of modifying existing features to enhance the
 (The backbone of modeling in data science)
 
 - Data preprocessing ensures that quality data is available to machine learning models resulting in excellent prediction performance. 
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing1.png" width="600" height="300">
+</p>
+
 - It entails integration, cleaning, and transformation.
 
 <p align="center">
-  <img src="https://github.com/akimwong/akimwong/blob/main/articles/summaries/statistics/boxplot2.png" width="600" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing1.png" width="600" height="300">
 </p>
 
 ## 1. Data Integration
