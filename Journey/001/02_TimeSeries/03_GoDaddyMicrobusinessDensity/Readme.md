@@ -34,6 +34,7 @@ Metadata for the submission rows. This file will remain unchanged throughout the
     first_day_of_month - The date of the first day of the month.
 
 ### census_starter.csv 
+
 - Examples of useful columns from the Census Bureau's `American Community Survey (ACS) at data.census.gov.`  
 - The percentage fields were derived from the raw counts provided by the ACS.  
 - All fields have a `two year lag` to match what information was avaiable at the time a given microbusiness data update was published.
