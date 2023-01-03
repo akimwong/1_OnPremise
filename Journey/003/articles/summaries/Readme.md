@@ -174,5 +174,5 @@ Feature engineering is the process of modifying existing features to enhance the
 - We may need to reduce the number of features to efficiently build machine learning models while improving predictive performance.
 - Multi-collinearity (where two or more independent features are highly correlated) is another reason why features may be pruned. It affects the model performance and interpretability of especially non-tree-based algorithms such as linear regression.
 - Some methods for data reduction include:
-1. Principal component analysis: This is a very useful method for mapping data features to a lower orthogonal dimensional space while preserving as much information in the data as possible.
-2. Feature elimination: In this case, the least relevant features are dropped while keeping the features with the most predictive power.
+1. Principal component analysis: This is a very useful method for mapping data features to a lower orthogonal dimensional space while preserving as much information in the data as possible.  However, the transformed features are not as interpretable as the original features. Hence, they may not be used in some applications.
+2. Feature elimination: In this case, the least relevant features are dropped while keeping the features with the most predictive power.  The original features which are intuitive and mostly interpretable are used and this avoids the issue of interpretability encountered with PCA. 
