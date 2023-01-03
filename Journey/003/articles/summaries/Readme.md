@@ -64,4 +64,6 @@ Using the best feature engineering techniques at the right time can be truly han
 - There is no hard rule to tell which technique to use, but we need to check both standardization and normalization and decide based on the result which one to use.
 
 ------------------------------
-# 3 Fundamental Processes in Feature Engineering
+# Fundamental Processes in Feature Engineering
+
+
