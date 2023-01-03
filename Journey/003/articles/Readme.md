@@ -1,4 +1,5 @@
 
+- [Which Feature Engineering Techniques improve Machine Learning Predictions? (SMMRY)(DL)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
 - [3 Fundamental Processes in Feature Engineering](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
 - [Three Critical Elements of Data Preprocessing](https://towardsdatascience.com/three-critical-elements-of-data-preprocessing-part-1-3c16f46f8ced)
 - [The Best Methods for One-Hot Encoding Your Data](https://towardsdatascience.com/the-best-methods-for-one-hot-encoding-your-data-c29c78a153fd)
@@ -7,7 +8,6 @@
 - [An Introduction of H2O Wave Table](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
 - [How to Deal with Categorical Data for Machine Learning](https://www.kdnuggets.com/2021/05/deal-with-categorical-data-machine-learning.html)
 - [Outlier Detection With Autoencoders](https://towardsdatascience.com/outlier-detection-with-autoencoders-6c7ac3e2aa90)
-- [Which Feature Engineering Techniques improve Machine Learning Predictions? (s)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
 - [Framework for Data Preparation Techniques in Machine Learning](https://machinelearningmastery.com/framework-for-data-preparation-for-machine-learning/)
 - [Pandas for One-Hot Encoding Data Preventing High Cardinality](https://towardsdatascience.com/pandas-for-one-hot-encoding-data-preventing-high-cardinality-16148a0ca399)
 - [Feature Engineering for Machine Learning: 10 Examples](https://www.kdnuggets.com/2018/12/feature-engineering-explained.html)
