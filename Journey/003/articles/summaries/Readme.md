@@ -40,6 +40,8 @@
 ### Conclusion
 Using the best feature engineering techniques at the right time can be truly handy and generate valuable predictions for companies to use as a result of using artificial intelligence.
 
+
+------------------------------
 # Standardization vs Normalization
 
 ## Standardization
@@ -60,3 +62,6 @@ Using the best feature engineering techniques at the right time can be truly han
 - In the above examples, the accuracy of Logistic regression and KNN increased significantly after scaling. But there was no effect on accuracy when the decision tree or random forest was used.
 - Outliers in the dataset will still remain an outlier even after applying the feature scaling methods, as data scientists, it is our responsibility to handle the outliers.
 - There is no hard rule to tell which technique to use, but we need to check both standardization and normalization and decide based on the result which one to use.
+
+------------------------------
+# 3 Fundamental Processes in Feature Engineering
