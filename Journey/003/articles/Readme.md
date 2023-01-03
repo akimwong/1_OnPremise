@@ -1,7 +1,8 @@
 (SMRY): A summary of the article in the 'summaries' folder / (DL): Downloaded
 
 - [Which Feature Engineering Techniques improve Machine Learning Predictions? (SMMRY)(DL)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
-- [3 Fundamental Processes in Feature Engineering](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
+- [Standardization vs Normalization (SMRY)](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
+- [3 Fundamental Processes in Feature Engineering (DL)](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
 - [Three Critical Elements of Data Preprocessing](https://towardsdatascience.com/three-critical-elements-of-data-preprocessing-part-1-3c16f46f8ced)
 - [The Best Methods for One-Hot Encoding Your Data](https://towardsdatascience.com/the-best-methods-for-one-hot-encoding-your-data-c29c78a153fd)
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
@@ -14,7 +15,6 @@
 - [Feature Engineering for Machine Learning: 10 Examples](https://www.kdnuggets.com/2018/12/feature-engineering-explained.html)
 - [Hidden Data Science Gem: Rainbow Method for Label Encoding](https://towardsdatascience.com/hidden-data-science-gem-rainbow-method-for-label-encoding-dfd69f4711e1)
 - [Feature Engineering with Image Data (DL)](https://towardsdatascience.com/feature-engineering-with-image-data-14fe4fcd4353)
-- [Standardization vs Normalization (SMRY)](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
 - [A Reference Guide to Feature Engineering Methods_KaggleTitanic](https://www.kaggle.com/code/prashant111/a-reference-guide-to-feature-engineering-methods/notebook)
 - [Fundamental Techniques of Feature Engineering for Machine Learning (DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 - [Classification with Imbalanced Data (DL)](https://towardsdatascience.com/classification-with-imbalanced-data-f13ccb0496b3)
