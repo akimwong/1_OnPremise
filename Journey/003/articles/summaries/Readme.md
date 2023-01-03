@@ -48,7 +48,7 @@ Using the best feature engineering techniques at the right time can be truly han
 - Standardization or Z-Score Normalization is one of the feature scaling techniques.
 - Transformation of features is done by subtracting from the mean and dividing by standard deviation. 
 - This is often called Z-score normalization. 
-- The resulting data will have the mean as 0 and the standard deviation as 1.
+- The resulting data will have the `mean as 0 and the standard deviation as 1`.
 
 ## Normalization
 - It transforms features by subtracting from the minimum value of the data and dividing by (maximum minus minimum).
@@ -60,10 +60,15 @@ Using the best feature engineering techniques at the right time can be truly han
 - The feature scaling step has to be performed while applying algorithms where distance gets calculated (Eg: KNN, KMEANS) and involves gradient descent (Eg: Linear and Logistic regressions, neural networks).
 - There will not be any effect of scaling when we use tree-based algorithms like decision trees or random forests.
 - In the above examples, the accuracy of Logistic regression and KNN increased significantly after scaling. But there was no effect on accuracy when the decision tree or random forest was used.
-- Outliers in the dataset will still remain an outlier even after applying the feature scaling methods, as data scientists, it is our responsibility to handle the outliers.
-- There is no hard rule to tell which technique to use, but we need to check both standardization and normalization and decide based on the result which one to use.
+- `Outliers in the dataset will still remain an outlier` even after applying the feature scaling methods, as data scientists, it is our responsibility to handle the outliers.
+- There is no hard rule to tell which technique to use, but `we need to check both standardization and normalization and decide based on the result which one to use`.
 
 ------------------------------
 # Fundamental Processes in Feature Engineering
+(Presenting data patterns to models the right way)
+
+Feature engineering is the process of modifying existing features to enhance the ability of a model to learn from the data.
+
+## 1. Feature Extraction
 
 
