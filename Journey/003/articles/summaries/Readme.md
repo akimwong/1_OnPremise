@@ -79,15 +79,15 @@ Feature engineering is the process of modifying existing features to enhance the
 - Feature selection methods fall under three main categories namely wrapper, filter, and embedded methods.
 - Some measures of a feature’s relevance include:
 
-### 2.2. Correlation analysis 
+#### 2.1. Correlation analysis 
 - (Correlation coefficient) Measures the `relationship between two variables and takes a value between -1 and +1`. 
 - In feature selection, features having a higher correlation with the target variable are chosen because they have a higher predictive power.
 
-### 2.3. Feature importance 
+#### 2.2. Feature importance 
 - Some tree methods such as random forests and gradient-boosting algorithms provide feature importance scores that show the effect of each feature on the target prediction. -
 - These scores may be used the choose the most relevant features. 
 
-### 2.4. Mutual information
+#### 2.3. Mutual information
 - Measures the reduction in the uncertainty of one variable based on the knowledge of another variable. 
 - A reduction in uncertainty results from having more information about the variable. 
 - Features with high mutual information scores are considered more relevant and are chosen for ML modeling. 
@@ -96,10 +96,10 @@ Feature engineering is the process of modifying existing features to enhance the
 - It typically involves `reducing the number of features` fed to an ML algorithm.
 - There are two main classes of feature projection techniques:
 
-### 3.1. Linear projection
+#### 3.1. Linear projection
 - These methods employ a linear combination of the features and do not capture interactions between two or more features. 
 - Some examples include linear discriminant analysis (LDA) and principal component analysis (PCA). 
 
-### 3.2. Non-linear projection
+#### 3.2. Non-linear projection
 - These methods are more complex and described by non-linear equations. 
 - Some examples include kernel principal component analysis (KPCA) and principal curves. 
