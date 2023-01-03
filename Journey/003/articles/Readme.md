@@ -1,3 +1,4 @@
+(SMRY): A summary of the article in the 'summaries' folder / (DL): Downloaded
 
 - [Which Feature Engineering Techniques improve Machine Learning Predictions? (SMMRY)(DL)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
 - [3 Fundamental Processes in Feature Engineering](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
