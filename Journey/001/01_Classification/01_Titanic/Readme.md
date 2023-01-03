@@ -71,5 +71,5 @@ We won't use:
 We will use R and Python.  </br>
 For educational purposes to practice different codes, measure response times, and to check different outputs from different libraries
 
-#### [(next step: Exploratory Data Analysis (EDA) ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/03_Regression/01_Titanic/)
+#### [(next step: Exploratory Data Analysis (EDA) ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
 
