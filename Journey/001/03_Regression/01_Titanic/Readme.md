@@ -59,7 +59,8 @@ Method used: CRISP-DM (the standard of the industry for quantitative problems)
 We will use and compare ALL the binary classification models (except for Deep Learning), and then select the best one based on metrics
 
 ### 3. The Tool(s) <- Why?
-We will use R and Python.  For educational purposes to practice code, measure response times, and to check different outputs from different libraries
+We will use R and Python.  </br>
+For educational purposes to practice code, measure response times, and to check different outputs from different libraries
 
 #### [(next step: Exploratory Data Analysis (EDA) ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/03_Regression/01_Titanic/)
 
