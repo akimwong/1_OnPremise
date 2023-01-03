@@ -103,3 +103,14 @@ Feature engineering is the process of modifying existing features to enhance the
 #### 3.2. Non-linear projection
 - These methods are more complex and described by non-linear equations. 
 - Some examples include kernel principal component analysis (KPCA) and principal curves. 
+
+-------------------------
+# Three Critical Elements of Data Preprocessing — Part 1
+(The backbone of modeling in data science)
+
+- Data preprocessing ensures that quality data is available to machine learning models resulting in excellent prediction performance. 
+- It entails integration, cleaning, and transformation.
+
+## 1. Data Integration
+- Involves `exploiting the relationships between disparate datasets` by `combining them` using similar features as connection points.
+- Data integration skills can help data scientists harness informative data available in `silos thereby creating more business value` from existing resources.
