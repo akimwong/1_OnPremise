@@ -114,3 +114,18 @@ Feature engineering is the process of modifying existing features to enhance the
 ## 1. Data Integration
 - Involves `exploiting the relationships between disparate datasets` by `combining them` using similar features as connection points.
 - Data integration skills can help data scientists harness informative data available in `silos thereby creating more business value` from existing resources.
+
+## 2. Data Cleaning
+- This is the process of identifying and removing or correcting duplicated, corrupted, and missing data from a collected dataset.
+- Improves the quality of data fed to machine learning algorithms and can make or break a data science project.
+- Generating cleaner data is better than spending more computing power and time tuning sophisticated algorithms.
+- Consists of the following tasks:
+
+### 2.1. Correcting structural errors
+- This involves identifying and fixing inconsistencies in the data. 
+- For example, categorical features may be labeled with different capitalization (Male vs male) or target variables may be assigned to the wrong class.
+
+### 2.2. Handling missing values
+- `Depending on the prevalence and type` of missing values being dealt with, missing values `may be estimated` or affected observations (examples) `may be removed`.
+- Based on experience, `dropping observations` when the percentage of missing values is `“very small” (say < 5%) compared with overall available data`. 
+- Similarly, `features with more than 95%` of the data missing `may be dropped` although these are hard not thresholds and can be changed based on domain knowledge.
