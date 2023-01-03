@@ -2,7 +2,7 @@
 
 - [Which Feature Engineering Techniques improve Machine Learning Predictions? (SMMRY)(DL)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
 - [Standardization vs Normalization (SMRY)(DL)](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
-- [3 Fundamental Processes in Feature Engineering (DL)](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
+- [3 Fundamental Processes in Feature Engineering (SMMRY)(DL)](https://towardsdatascience.com/3-fundamental-processes-in-feature-engineering-d6b84983754)
 - [Three Critical Elements of Data Preprocessing](https://towardsdatascience.com/three-critical-elements-of-data-preprocessing-part-1-3c16f46f8ced)
 - [The Best Methods for One-Hot Encoding Your Data](https://towardsdatascience.com/the-best-methods-for-one-hot-encoding-your-data-c29c78a153fd)
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
