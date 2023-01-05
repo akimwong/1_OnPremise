@@ -36,6 +36,8 @@
 - [How to use Python Lambdas (DL)](https://towardsdatascience.com/how-to-use-python-lambdas-8d141e378ce)
 - [Stop Hardcoding Your Unit Tests (DL)](https://towardsdatascience.com/stop-hardcoding-your-unit-tests-e6643dfd254b)
 - [How To Use .groupby() Effectively As A Data Scientist (DL)](https://levelup.gitconnected.com/how-to-use-groupby-effectively-as-a-data-scientist-9e1d931e1619)
+- [Lazy Evaluation Using Recursive Python Generators (DL)](https://towardsdatascience.com/lazy-evaluation-using-recursive-python-generators-9ee6af0dd803)
+- [An Overview of Various Ways to Work With Your JSON Data in Python (DL)](https://towardsdatascience.com/an-overview-of-various-ways-to-work-with-your-json-data-in-python-772b53c9d06a)
 
 #### Python - Pandas
 
