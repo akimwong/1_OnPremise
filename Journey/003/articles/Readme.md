@@ -21,4 +21,4 @@
 - [Fundamental Techniques of Feature Engineering for Machine Learning (DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 - [Classification with Imbalanced Data (DL)](https://towardsdatascience.com/classification-with-imbalanced-data-f13ccb0496b3)
 - [Dummy Variable Example in R_finnstats](https://finnstats.com/index.php/2022/07/08/dummy-variable-example-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
-
+- [Feature Engineering using Regular Expression (RegEx) in Pandas DataFrame (DL)](https://towardsdatascience.com/feature-engineering-using-regular-expression-regex-in-pandas-dataframe-c965380316da)
