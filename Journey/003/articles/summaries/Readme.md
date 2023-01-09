@@ -252,7 +252,7 @@ B. 	Improving the performance of machine learning models. <br/>
 ## 3.Binning
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer1.png" width="700" height="400">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer1.png" width="700" height="200">
 </p>
 
 
