@@ -252,8 +252,88 @@ B. 	Improving the performance of machine learning models. <br/>
 ## 3.Binning
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer1.png" width="700" height="200">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer1.png" width="700" height="180">
 </p>
+
+- Can be applied on both categorical and numerical data:
+- `The main motivation of binning is to make the model more robust and prevent overfitting, however, it has a cost to the performance. 
+- Every time you bin something, you sacrifice information and make your data more regularized. (Please see regularization in machine learning)
+- The trade-off between performance and overfitting is the key point of the binning process`. 
+- In my opinion, for numerical columns, except for some obvious overfitting cases, binning might be redundant for some kind of algorithms, due to its effect on model performance.
+- However, `for categorical columns, the labels with low frequencies probably affect the robustness of statistical models negatively. Thus, assigning a general category to these less frequent values helps to keep the robustness of the model`. For example, if your data size is 100,000 rows, it might be a good option to unite the labels with a count less than 100 to a new category like “Other”.
+
+## 4.Log Transform
+- Logarithm transformation (or log transform) `is one of the most commonly used mathematical transformations in feature engineering`. 
+- What are the benefits of log transform: <br/>
+A. It helps to handle skewed data and after transformation, the distribution becomes more approximate to normal. <br/>
+B. In most of the cases the magnitude order of the data changes within the range of the data. For instance, the difference between ages 15 and 20 is not equal to the ages 65 and 70. In terms of years, yes, they are identical, but for all other aspects, 5 years of difference in young ages mean a higher magnitude difference. This type of data comes from a multiplicative process and log transform normalizes the magnitude differences like that. <br/>
+C. It also decreases the effect of the outliers, due to the normalization of magnitude differences and the model become more robust.
+- A critical note: The `data you apply log transform must have only positive values, otherwise you receive an error`. Also, you can add 1 to your data before transform it. Thus, you ensure the output of the transformation to be positive.
+
+## 5.One-hot encoding
+- Is one of the most common encoding methods in machine learning. 
+- This method spreads the values in a column to multiple flag columns and assigns 0 or 1 to them. 
+- These binary values express the relationship between grouped and encoded column.
+- This method changes your categorical data, which is challenging to understand for algorithms, to a numerical format and enables you to group your categorical data without losing any information. 
+- Why One-Hot?: <br/>
+A. If you have N distinct values in the column, it is enough to map them to N-1 binary columns, because the missing value can be deducted from other columns. <br/> 
+B. If all the columns in our hand are equal to 0, the missing value must be equal to 1. This is the reason why it is called as one-hot encoding. <br/>
+
+## 6.Grouping Operations
+- In most machine learning algorithms, every instance is represented by a row in the training dataset, where every column show a different feature of the instance. This kind of data called “Tidy”.
+- Tidy datasets are easy to manipulate, model and visualise, and have a specific structure: each variable is a column, each observation is a row, and each type of observational unit is a table.
+- Datasets such as transactions rarely fit the definition of tidy data above, because of the multiple rows of an instance. In such a case, we group the data by the instances and then every instance is represented by only one row.
+- `The key point of group by operations is to decide the aggregation functions of the features. For numerical features, average and sum functions are usually convenient options, whereas for categorical features it more complicated`.
+
+### 6.1. Categorical Column Grouping
+- I suggest three different ways for aggregating categorical columns: <br/> 
+A. The first option is to `select the label with the highest frequency`. In other words, this is the max operation for categorical columns, but ordinary max functions generally do not return this value, you need to use a lambda function for this purpose. <br/> 
+B. Second option is to make a `pivot table`. This approach resembles the encoding method in the preceding step with a difference. Instead of binary notation, it can be defined as aggregated functions for the values between grouped and encoded columns. This would be a good option if you aim to go beyond binary flag columns and merge multiple features into aggregated features, which are more informative. <br/> 
+C. Last categorical grouping option is to `apply a group by function after applying one-hot encoding`. This method preserves all the data -in the first option you lose some-, and in addition, you transform the encoded column from categorical to numerical in the meantime. 
+
+### 6.2. Numerical Column Grouping
+- Numerical columns are grouped using sum and mean functions in most of the cases. 
+- Both can be preferable according to the meaning of the feature. 
+- For example, if you want to obtain ratio columns, you can use the average of binary columns. In the same example, sum function can be used to obtain the total count either.
+
+## 7.Feature Split
+- Splitting features is a good way to make them useful in terms of machine learning. 
+- Most of the time the dataset contains string columns that violates tidy data principles. 
+- By extracting the utilizable parts of a column into new features: <br/> 
+A. We enable machine learning algorithms to comprehend them. <br/> 
+B. Make possible to bin and group them. <br/> 
+C. Improve model performance by uncovering potential information. <br/> 
+- Split function is a good option, however, `there is no one way of splitting features. It depends on the characteristics of the column`, how to split it. 
+
+## 8.Scaling
+- In most cases, the numerical features of the dataset do not have a certain range and they differ from each other. 
+- In real life, it is nonsense to expect age and income columns to have the same range. 
+- But from the machine learning point of view, how these two columns can be compared?  `Scaling solves this problem. The continuous features become identical in terms of the range, after a scaling process. This process is not mandatory for many algorithms, but it might be still nice to apply. However, the algorithms based on distance calculations such as k-NN or k-Means need to have scaled continuous features as model input`.
+- Basically, there are two common ways of scaling:
+
+### 8.1. Normalization
+- Normalization (or min-max normalization) `scale all values in a fixed range between 0 and 1`. 
+- This transformation does not change the distribution of the feature and due to the decreased standard deviations, the effects of the outliers increases. 
+- Therefore, `before normalization, it is recommended to handle the outliers`.
+
+### 8.2. Standardization
+- Standardization (or z-score normalization) scales the values while taking into account standard deviation. 
+- If the standard deviation of features is different, their range also would differ from each other. 
+- This reduces the effect of the outliers in the features.
+
+## 9.Extracting Date
+- Though `date columns usually provide valuable information about the model target`, they are neglected as an input or used nonsensically for the machine learning algorithms. 
+- It might be the reason for this, that `dates can be present in numerous formats, which make it hard to understand by algorithms`, even they are simplified to a format like "01–01–2017".
+- Building an ordinal relationship between the values is very challenging for a machine learning algorithm if you leave the date columns without manipulation. 
+- Here, I suggest three types of preprocessing for dates: <br/> 
+A. `Extracting` the parts of the date into different columns: Year, month, day, etc. <br/> 
+B. `Extracting` the time period between the current date and columns in terms of years, months, days, etc. <br/> 
+C. `Extracting` some specific features from the date: Name of the weekday, Weekend or not, holiday or not, etc. <br/> 
+
+#### After this article, proceeding with other topics of data preparation such as feature selection, train/test splitting, and sampling might be a good option.
+ 
+
+
 
 
 
