@@ -1,5 +1,4 @@
 (SMRY): A summary of the article in the 'summaries' folder / (DL): Downloaded
-(SMRY):   (DL)
 
 - [Which Feature Engineering Techniques improve Machine Learning Predictions? (SMMRY)(DL)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
 - [Standardization vs Normalization (SMRY)(DL)](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
