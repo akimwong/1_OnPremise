@@ -1,4 +1,5 @@
 (SMRY): A summary of the article in the 'summaries' folder / (DL): Downloaded
+(SMRY):   (DL)
 
 - [Which Feature Engineering Techniques improve Machine Learning Predictions? (SMMRY)(DL)](https://towardsdatascience.com/which-feature-engineering-techniques-improve-machine-learning-predictions-227d732068f5)
 - [Standardization vs Normalization (SMRY)(DL)](https://medium.com/@gowthamsr37/which-feature-scaling-technique-to-use-standardization-vs-normalization-9dcf8eafdf8c)
@@ -6,6 +7,7 @@
 - [Three Critical Elements of Data Preprocessing_Part 1 (SMRY)(DL)](https://towardsdatascience.com/three-critical-elements-of-data-preprocessing-part-1-3c16f46f8ced)
 - [Three Critical Elements of Data Preprocessing_Part 2 (SMRY)(DL)](https://towardsdatascience.com/three-critical-elements-of-data-preprocessing-part-2-2078110ae8e7)
 - [Three Critical Elements of Data Preprocessing_Part 3 (SMRY)(DL)](https://towardsdatascience.com/three-critical-elements-of-data-preprocessing-part-3-6a7da681ae16)
+- [Fundamental Techniques of Feature Engineering for Machine Learning (SMRY)(DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 - [The Best Methods for One-Hot Encoding Your Data](https://towardsdatascience.com/the-best-methods-for-one-hot-encoding-your-data-c29c78a153fd)
 - [7 Techniques to Handle Imbalanced Data](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
 - [Class Imbalance in Machine Learning Problems: A Practical Guide](https://towardsdatascience.com/class-imbalance-in-machine-learning-problems-a-practical-guide-4fb81eee0041)
@@ -18,7 +20,6 @@
 - [Hidden Data Science Gem: Rainbow Method for Label Encoding](https://towardsdatascience.com/hidden-data-science-gem-rainbow-method-for-label-encoding-dfd69f4711e1)
 - [Feature Engineering with Image Data (DL)](https://towardsdatascience.com/feature-engineering-with-image-data-14fe4fcd4353)
 - [A Reference Guide to Feature Engineering Methods_KaggleTitanic](https://www.kaggle.com/code/prashant111/a-reference-guide-to-feature-engineering-methods/notebook)
-- [Fundamental Techniques of Feature Engineering for Machine Learning (DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 - [Classification with Imbalanced Data (DL)](https://towardsdatascience.com/classification-with-imbalanced-data-f13ccb0496b3)
 - [Dummy Variable Example in R_finnstats](https://finnstats.com/index.php/2022/07/08/dummy-variable-example-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [Feature Engineering using Regular Expression (RegEx) in Pandas DataFrame (DL)](https://towardsdatascience.com/feature-engineering-using-regular-expression-regex-in-pandas-dataframe-c965380316da)
