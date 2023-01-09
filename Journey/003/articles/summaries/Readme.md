@@ -213,7 +213,45 @@ B. 	Improving the performance of machine learning models. <br/>
 - I think the best way to achieve expertise in feature engineering is practicing different techniques on various datasets and observing their effect on model performances.
 
 ## 1.Imputation
-- 
+- Missing values affect the performance of the machine learning models (might be human errors, interruptions in the data flow, privacy concerns, and so on).
+- Some machine learning platforms automatically drop the rows which include missing values in the model training phase and it decreases the model performance because of the reduced training size. 
+- On the other hand, most of the algorithms do not accept datasets with missing values and gives an error.
+- The `most simple solution to the missing values is to drop the rows or the entire column`. 
+- `There is not an optimum threshold` for dropping but you can use 70% as an example value and try to drop the rows and columns which have missing values with higher than this threshold.
+
+### 1.1. Numerical Imputation
+- Imputation is a more preferable option rather than dropping because it preserves the data size. 
+- However, there is an important selection of what you impute to the missing values. 
+- I suggest beginning with considering a possible default value of missing values in the column. 
+- For example, if you have a column that only has 1 and NA, then it is likely that the NA rows correspond to 0. For another example, if you have a column that shows the “customer visit count in last month”, the missing values might be replaced with 0 as long as you think it is a sensible solution.
+- Another reason for the missing values is joining tables with different sizes and in this case, imputing 0 might be reasonable as well.
+- `Except for the case of having a default value for missing values, I think the best imputation way is to use the medians of the columns`. As the averages of the columns are sensitive to the outlier values, while `medians are more solid` in this respect.
+
+### 1.2. Categorical Imputation
+- Replacing the missing values with the maximum occurred value in a column is a good option for handling categorical columns. 
+- But if you think the values in the column are distributed uniformly and there is not a dominant value, imputing a category like “Other” might be more sensible, because in such a case, your imputation is likely to converge a random selection.
+
+## 2.Handling Outliers
+- The best way to detect the outliers is to demonstrate the data `visually`. All other statistical methodologies are open to making mistakes, whereas `visualizing the outliers gives a chance to take a decision with high precision`.
+
+### 2.1. Outlier Detection with Standard Deviation
+- If a value has a distance to the average higher than x * standard deviation, it can be assumed as an outlier. 
+- Then what x should be? There is no trivial solution for x, but `usually, a value between 2 and 4 seems practical`.
+- Z-score (or standard score) standardizes the distance between a value and the mean using the standard deviation.
+
+### 2.2. Outlier Detection with Percentiles
+- You can assume a certain percent of the value from the top or the bottom as an outlier. 
+- The key point is here to ' set the percentage value once again, and this depends on the distribution of your data as mentioned earlier`.
+- A common mistake is using the percentiles according to the range of the data. In other words, if your data ranges from 0 to 100, your top 5% is not the values between 96 and 100. `Top 5% means here the values that are out of the 95th percentile of data`.
+
+### 2.3. An Outlier Dilemma: Drop or Cap
+- Another option for handling outliers is to cap them instead of dropping. 
+- So you can keep your data size and at the end of the day, it might be better for the final model performance.
+- On the other hand, `capping can affect the distribution of the data, thus it better not to exaggerate it`.
+
+## 3.Binning
+
+
 
 
 
