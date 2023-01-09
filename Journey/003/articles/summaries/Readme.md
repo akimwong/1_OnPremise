@@ -195,3 +195,22 @@ Feature engineering is the process of modifying existing features to enhance the
 - Some methods for data reduction include:
 1. Principal component analysis: This is a very useful method for mapping data features to a lower orthogonal dimensional space while preserving as much information in the data as possible.  However, the transformed features are not as interpretable as the original features. Hence, they may not be used in some applications.
 2. Feature elimination: In this case, the least relevant features are dropped while keeping the features with the most predictive power.  The original features which are intuitive and mostly interpretable are used and this avoids the issue of interpretability encountered with PCA. 
+
+-----------------------
+
+# Fundamental Techniques of Feature Engineering for Machine Learning
+(All required methods for comprehensive data preprocessing with Pandas examples)
+
+## Introduction
+- All machine learning algorithms use some input data to create outputs. 
+- This input data comprise features, which are usually in the form of structured columns. 
+- `Algorithms require features with some specific characteristic to work properly`. 
+- Feature engineering efforts mainly have two goals: <br/>
+A.	Preparing the proper input dataset, compatible with the machine learning algorithm requirements. <br/>
+B. 	Improving the performance of machine learning models. <br/>
+- `The features you use influence more than everything else the result`. 
+- `No algorithm alone, to my knowledge, can supplement the information gain given by correct feature engineering`.
+
+
+
+
