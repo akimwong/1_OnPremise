@@ -209,8 +209,11 @@ Feature engineering is the process of modifying existing features to enhance the
 A.	Preparing the proper input dataset, compatible with the machine learning algorithm requirements. <br/>
 B. 	Improving the performance of machine learning models. <br/>
 - `The features you use influence more than everything else the result`. 
-- `No algorithm alone, to my knowledge, can supplement the information gain given by correct feature engineering`.
+- `No algorithm alone can supplement the information gain given by correct feature engineering`.
+- I think the best way to achieve expertise in feature engineering is practicing different techniques on various datasets and observing their effect on model performances.
 
+## 1.Imputation
+- 
 
 
 
