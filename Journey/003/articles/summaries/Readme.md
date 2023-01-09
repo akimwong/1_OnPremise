@@ -251,6 +251,9 @@ B. 	Improving the performance of machine learning models. <br/>
 
 ## 3.Binning
 
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/DataPreprocessing1.png" width="400" height="400">
+</p>
 
 
 
