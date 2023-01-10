@@ -56,7 +56,7 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 (How to Use Data Visualization to Guide Feature Selection)
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/EdaAndFeatureSelectionTechniques.png" width="800" height="500">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/EdaAndFeatureSelectionTechniques.png" width="800" height="450">
 </p>
 
 
