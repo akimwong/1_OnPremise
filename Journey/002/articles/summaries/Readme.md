@@ -56,6 +56,11 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 (How to Use Data Visualization to Guide Feature Selection)
 
 
+
+
+https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/EdaAndFeatureSelectionTechniques.png
+
+
 -------------------
 
 # Why Data Quality Is Harder than Code Quality
