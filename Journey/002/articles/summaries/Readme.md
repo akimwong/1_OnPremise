@@ -72,10 +72,10 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 
 Before jumping into the feature selection, we should always load the dataset, perform data preprocessing and data transformation:
 
-1.1. Load dataset and import libraries
-1.2. Define the prediction
-1.3. Examine missing data
-1.4. Variable transformation (consists of encoding categorical variables and transforming all variables into the same scale (label encoder/min-max scaling)).
+1.1. Load dataset and import libraries <br/>
+1.2. Define the prediction <br/>
+1.3. Examine missing data <br/>
+1.4. Variable transformation (consists of encoding categorical variables and transforming all variables into the same scale (label encoder/min-max scaling)). <br/>
 
 ## 2. Exploratory Data Analysis (EDA)
 
