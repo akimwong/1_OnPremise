@@ -68,6 +68,18 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 3. `reduce overfitting` and the model is more likely to be generalized to new data
 4. `increase the explainability` of models
 
+## 1. Data Preprocessing
+
+Before jumping into the feature selection, we should always load the dataset, perform data preprocessing and data transformation:
+
+1.1. Load dataset and import libraries
+1.2. Define the prediction
+1.3. Examine missing data
+1.4. Variable transformation (consists of encoding categorical variables and transforming all variables into the same scale (label encoder/min-max scaling)).
+
+## 2. Exploratory Data Analysis (EDA)
+
+
 
 
 -------------------
