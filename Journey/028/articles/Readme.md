@@ -39,6 +39,7 @@
 - [Lazy Evaluation Using Recursive Python Generators (DL)](https://towardsdatascience.com/lazy-evaluation-using-recursive-python-generators-9ee6af0dd803)
 - [An Overview of Various Ways to Work With Your JSON Data in Python (DL)](https://towardsdatascience.com/an-overview-of-various-ways-to-work-with-your-json-data-in-python-772b53c9d06a)
 - [Top 3 Pythonic Thinking Tips for Python List Creation (DL)](https://towardsdatascience.com/top-3-pythonic-thinking-tips-for-python-list-creation-161fe893e81a)
+- [How to Perform Unit Testing in Python?_KdNuggets](https://www.kdnuggets.com/2023/01/perform-unit-testing-python.html)
 
 #### Python - Pandas
 
