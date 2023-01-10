@@ -1,3 +1,4 @@
+- [Feature Selection and EDA in Machine Learning (DL)](https://towardsdatascience.com/feature-selection-and-eda-in-python-c6c4eb1058a3)
 - [How to Choose a Feature Selection Method For Machine Learning_MlMastery](https://machinelearningmastery.com/feature-selection-with-real-and-categorical-data/)
 - [How to Calculate Feature Importance With Python_MLMastery](https://machinelearningmastery.com/calculate-feature-importance-with-python/)
 - [How cross-validation can go wrong and how to fix it](https://towardsdatascience.com/how-cross-validation-can-go-wrong-and-how-to-fix-it-feature-selection-use-case-with-sample-code-abf928be9080)
