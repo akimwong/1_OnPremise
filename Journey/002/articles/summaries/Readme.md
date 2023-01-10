@@ -63,10 +63,10 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 - Including irrelevant variables, especially those with bad data quality, can often contaminate the model output.
 - Feature selection has following advantages:
 
-1. avoid the curse of dimensionality, as some algorithms perform badly when high in dimensionality, e.g. general linear models, decision tree
-2. reduce computational cost and the complexity that comes along with a large amount of data
-3. reduce overfitting and the model is more likely to be generalized to new data
-4. increase the explainability of models
+1. `avoid the curse of dimensionality`, as some algorithms perform badly when high in dimensionality, e.g. general linear models, decision tree
+2. `reduce computational cost and the complexity` that comes along with a large amount of data
+3. `reduce overfitting` and the model is more likely to be generalized to new data
+4. `increase the explainability` of models
 
 
 
