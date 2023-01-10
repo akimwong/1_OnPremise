@@ -55,10 +55,12 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 # Feature Selection and EDA in Machine Learning
 (How to Use Data Visualization to Guide Feature Selection)
 
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/EdaAndFeatureSelectionTechniques.png" width="400" height="400">
+</p>
 
 
 
-https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/EdaAndFeatureSelectionTechniques.png
 
 
 -------------------
