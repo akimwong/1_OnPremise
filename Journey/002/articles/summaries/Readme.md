@@ -72,13 +72,23 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 
 Before jumping into the feature selection, we should always load the dataset, perform data preprocessing and data transformation:
 
-1.1. Load dataset and import libraries <br/>
-1.2. Define the prediction <br/>
-1.3. Examine missing data <br/>
-1.4. Variable transformation (consists of encoding categorical variables and transforming all variables into the same scale (label encoder/min-max scaling)). <br/>
+1. Load dataset and import libraries <br/>
+2. Define the prediction <br/>
+3. Examine missing data <br/>
+4. Variable transformation (consists of encoding categorical variables and transforming all variables into the same scale (label encoder/min-max scaling)). <br/>
 
 ## 2. Exploratory Data Analysis (EDA)
 
+Data visualization and EDA can be great complementary tools to feature selection process, and they can be applied in the following ways:
+
+1. Univariate Analysis: Histogram and Bar Chart help to visualize the distribution and variance of each variable
+
+- To obtain an overview of distribution, firstly let’s classify features in to categorical and numerical variables, then visualize categorical features using bar chart and numerical features using histogram. 
+- Visualizing the distribution gives suggestions on whether the data points are more dense or more spread out, hence whether the variance is low or high. 
+- Low variance features tend to contribute less to the prediction of outcome variable.
+
+3. Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduce collinearity
+4. Bivariate Analysis: Box plot and Grouped bar chart help to spot the dependency and relationship between explanatory variables and response variable
 
 
 
