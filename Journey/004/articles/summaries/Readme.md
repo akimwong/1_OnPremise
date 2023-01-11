@@ -74,3 +74,12 @@ Data visualization and EDA can be great complementary tools to feature selection
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/004/articles/summaries/EdaAndFeatureSelectionTechniques3.png" width="600" height="150">
 </p>
+
+- Find the optimal subsets of features by `evaluating the performance of machine learning models trained` upon these features.
+- It requires more computational power. 
+- This article covers two main wrapper methods, `forward selection` and `backward elimination`.
+- To perform forward selection and backward elimination, we need SequentialFeatureSelector() function which primarily requires four parameters: <br/>
+A. `Model`: for classification problem, we can use Logistic Regression, KNN etc, and for regression problem, we can use linear regression etc <br/>
+B. `k_features`: the number of features to be selected <br/>
+3. `Forward`: determine whether it is forward selection or backward elimination <br/>
+4. `Scoring`: evaluation metrics to determine the model performance, e.g. classification problem — accuracy, precision, recall etc; regression problem — p-value, R-squared etc <br/>
