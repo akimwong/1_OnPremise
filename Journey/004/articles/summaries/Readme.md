@@ -67,7 +67,27 @@ Data visualization and EDA can be great complementary tools to feature selection
 
 - Give a `score to each feature` by evaluating its relationship `with the dependent variable`. 
 - For classification problems with categorical response variables, I am using these three major scoring functions: Chi-Square (score_func = chi2), ANOVA (score_func = f_classif), and Mutual Information (score_func = mutual_info_classif). 
-- To create a feature selection model, we need the SelectKBest() function, then specify which scoring functions to utilize and the how many variables to select.
+- To create a feature selection model, we need: <br/>
+
+A. The SelectKBest() function,  <br/>
+B. Then specify which scoring functions to utilize and  <br/>
+C. The how many variables to select. <br/>
+
+-I would like to know how these two parameters, scoring function and the number of variables, would affect the accuracy of the model trained on the selected features.
+
+#### 1.1. Firstly, to create the carry out the feature selection and examine the performance of the model built upon it, I define a feature_selection function with following steps:
+- import required libraries
+- create a feature selection model based on two parameters: score_function (e.g. chi square) and variable counts (e.g. ranging from 1 to all features)
+- train a logistic regression model based on selected features only
+- calculates the accuracy score
+
+#### 1.2. Secondly, to test how score functions and variable counts would affect the model performance, 
+- I iteratively passing different combinations of two parameters, “variable_counts” and “score_function”, using the following code.
+
+#### Filter Methods with Data Visualization
+- The result was generated in a data frame format and then use line chart to demonstrate how the accuracy progress as the number of selected features grows. As shown, except mutual information method, the accuracy score stabilizes around 0.88 after reaching 8 features (for the example of the article).
+- Afterwards, let’s investigate what is the score of each feature based on various approaches. This time we will use bar charts to visualize the scores has been allocated to features according to chi-square, anova or mutual information.
+- As you can see, `different approach scores the same feature differently`, but `some features always appear higher` up on the list. 
 
 ### 2. Wrapper Methods
 
