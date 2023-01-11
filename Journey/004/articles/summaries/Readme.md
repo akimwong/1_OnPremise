@@ -61,7 +61,7 @@ Data visualization and EDA can be great complementary tools to feature selection
 ### 1. Filter Methods
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/004/articles/summaries/EdaAndFeatureSelectionTechniques2.png" width="800" height="100">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/004/articles/summaries/EdaAndFeatureSelectionTechniques2.png" width="600" height="100">
 </p>
 
 
