@@ -81,5 +81,5 @@ Data visualization and EDA can be great complementary tools to feature selection
 - To perform forward selection and backward elimination, we need SequentialFeatureSelector() function which primarily requires four parameters: <br/>
 A. `Model`: for classification problem, we can use Logistic Regression, KNN etc, and for regression problem, we can use linear regression etc <br/>
 B. `k_features`: the number of features to be selected <br/>
-3. `Forward`: determine whether it is forward selection or backward elimination <br/>
-4. `Scoring`: evaluation metrics to determine the model performance, e.g. classification problem — accuracy, precision, recall etc; regression problem — p-value, R-squared etc <br/>
+C. `Forward`: determine whether it is forward selection or backward elimination <br/>
+D. `Scoring`: evaluation metrics to determine the model performance, e.g. classification problem — accuracy, precision, recall etc; regression problem — p-value, R-squared etc <br/>
