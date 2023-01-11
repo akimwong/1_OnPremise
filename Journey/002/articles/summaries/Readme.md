@@ -56,7 +56,7 @@ This was by no means an exhaustive guide for all you could do to clean data. The
 (How to Use Data Visualization to Guide Feature Selection)
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/summaries/EdaAndFeatureSelectionTechniques1.png" width="900" height="600">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/summaries/EdaAndFeatureSelectionTechniques1.jpg" width="900" height="600">
 </p>
 
 - In Machine Learning Lifecycle, feature selection is a critical process that selects a subset of input features that would be relevant to the prediction.
