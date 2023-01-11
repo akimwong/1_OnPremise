@@ -72,5 +72,5 @@ Data visualization and EDA can be great complementary tools to feature selection
 ### 2. Wrapper Methods
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/004/articles/summaries/EdaAndFeatureSelectionTechniques3.png" width="600" height="200">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/004/articles/summaries/EdaAndFeatureSelectionTechniques3.png" width="600" height="150">
 </p>
