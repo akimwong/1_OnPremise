@@ -69,3 +69,8 @@ Data visualization and EDA can be great complementary tools to feature selection
 - For classification problems with categorical response variables, I am using these three major scoring functions: Chi-Square (score_func = chi2), ANOVA (score_func = f_classif), and Mutual Information (score_func = mutual_info_classif). 
 - To create a feature selection model, we need the SelectKBest() function, then specify which scoring functions to utilize and the how many variables to select.
 
+### 2. Wrapper Methods
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/004/articles/summaries/EdaAndFeatureSelectionTechniques3.png" width="600" height="100">
+</p>
