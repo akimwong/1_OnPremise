@@ -83,3 +83,15 @@ A. `Model`: for classification problem, we can use Logistic Regression, KNN etc,
 B. `k_features`: the number of features to be selected <br/>
 C. `Forward`: determine whether it is forward selection or backward elimination <br/>
 D. `Scoring`: evaluation metrics to determine the model performance, e.g. classification problem — accuracy, precision, recall etc; regression problem — p-value, R-squared etc <br/>
+
+#### 2.1. Forward Selection
+- Starts with no features in the model and incrementally adds one feature to the feature subset at a time. 
+- During each iteration, the new feature is chosen based on the evaluation of the model trained by the feature subset.
+- Since the machine learning model is wrapped within the feature selection algorithm, we need to specify a model as one of the input parameters. I choose Logistic Regression for this classification problem and accuracy as the evaluation metrics. 
+- There is a slight difference in calculating the accuracy in the wrapper method compared to the filter method. Since we only fit the training set to the wrapper model, the accuracy score returned by the wrapper method itself is purely based on the training dataset. 
+- Therefore, it is necessary to train an additional model on the selected features and further evaluated based on the test set.
+
+#### 2.2. Backward Elimination
+- It is just the opposite of the forward selection, starting with including all features to train the model. 
+- Then, features are iteratively removed from the feature subset based on whether they contribute to the model performance. 
+- Similarly, logistic regression and accuracy are used as the model and evaluation metrics correspondingly.
