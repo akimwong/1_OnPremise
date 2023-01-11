@@ -27,11 +27,11 @@ Before jumping into the feature selection, we should always load the dataset, pe
 
 Data visualization and EDA can be great complementary tools to feature selection process, and they can be applied in the following ways:
 
-1. Univariate Analysis: Histogram and Bar Chart help to visualize the distribution and variance of each variable
+1. `Univariate Analysis`: Histogram and Bar Chart help to visualize the `distribution and variance of each variable`
 
 - To obtain an overview of distribution, firstly let’s classify features in to categorical and numerical variables, then visualize categorical features using bar chart and numerical features using histogram. 
-- Visualizing the distribution gives suggestions on whether the data points are more dense or more spread out, hence whether the variance is low or high. 
-- Low variance features tend to contribute less to the prediction of outcome variable.
+- Visualizing the distribution gives `suggestions on whether the data points are more dense or more spread out`, hence whether the variance is low or high. 
+- `Low variance features` tend to `contribute less to the prediction` of outcome variable.
 
 2. Correlation Analysis: Heatmap facilitates the identification of highly correlated explanatory variables and reduce collinearity
 
