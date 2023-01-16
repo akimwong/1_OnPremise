@@ -137,4 +137,12 @@ D. `Scoring`: evaluation metrics to determine the model performance, e.g. classi
 - Univariate Feature Selection is a feature selection method `based on the univariate statistical test`, e,g: chi2, Pearson-correlation, and many more.
 - The premise with SelectKBest is `combining the univariate statistical test with selecting the K-number of features` based on the statistical result between the X and y.
 
+## 3. Recursive Feature Elimination (RFE)
+- `Utilizing a machine learning model` to selecting the features by eliminating the least important feature after recursively training.
+- First, the estimator is trained on the initial set of features, and the importance of each feature is obtained either through a coef_attribute or through a feature_importances_attribute. 
+- Then, the least important features are pruned from the current set of features. 
+- `That procedure is recursively repeated` on the pruned set until the desired number of features to select is eventually reached.
+- RFE selects top k features based on the machine learning model that has coef_attribute or feature_importances_attribute from their model (Almost any model). 
+- RFE would eliminate the least important features then retrain the model `until it only selects the K-features you want`.
+- This method `only works` if the model has `coef_ or features_importances_ attribute`, if there are models out there having these attributes, you could apply RFE on Scikit-Learn.
 
