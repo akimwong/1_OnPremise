@@ -146,3 +146,14 @@ D. `Scoring`: evaluation metrics to determine the model performance, e.g. classi
 - RFE would eliminate the least important features then retrain the model `until it only selects the K-features you want`.
 - This method `only works` if the model has `coef_ or features_importances_ attribute`, if there are models out there having these attributes, you could apply RFE on Scikit-Learn.
 
+## 4. Feature Selection via SelectFromModel
+- `SelectFromModel` from Scikit-Learn is based on a Machine Learning Model estimation for selecting the features. 
+- The differences are that `SelectFromModel feature selection is based on the importance attribute` (often is coef_ or feature_importances_ but it could be any callable) threshold. By default, the threshold is the mean.
+
+## 5. Feature Selection Sequential Feature Selection (SFS)
+- Is a greedy algorithm to find the best features by either going forward or backward based on the cross-validation score an estimator.
+- SFS-Forward made a feature selection by starting with zero feature and find the one feature that maximizes a cross-validated score when a machine learning model is trained on this single feature. 
+- Once that first feature is selected, the procedure is repeated by adding a new feature to selected features. 
+- The procedure is stopped when we find the desired number of features is reached.
+- SFS-Backward follows the same idea but works in the opposite direction: It starts with all the features and greedily removes all the features until it reached the desired number of features.
+- `SFS differs from RFE and SelectFromModel` because the machine learning model did `not need the coef_ or feature_importances_ attribute`. Although, it is considerably slower as it evaluated the result by fitting the model multiple times.
