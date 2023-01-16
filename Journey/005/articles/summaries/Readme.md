@@ -31,4 +31,31 @@
 
 Note: The number assigned to the random_state parameter doesn’t really matter as long as it isn’t changed during the experimentation.
 
+## 5. Specify the scoring parameter in hyperparameter tuning
+- How can models perform well when they are evaluated with the wrong metric? 
+- This is a very possible outcome when you use the default value for the scoring parameter in the Scikit Learn module’s GridSearchCV and RandomizedSearchCV objects.
+- By default, the grid search and random search evaluates hyperparameters of classification models by accuracy. 
+- Unfortunately, this is rarely the suitable metric for a machine learning application.
+- To avoid this, `identify the most fitting evaluation metric for the model of interest and assign it to the scoring parameter`. 
+- One can find the list of available metrics in the package’s [documentation](https://scikit-learn.org/stable/modules/model_evaluation.html).
+- If none of the provided metrics are suitable, one can also create their own custom metric with the make_scorer function. 
+- This is a useful feature when users favor one type of error over another.
+
+## 6. Transform data with pipelines
+- Beginners starting out with Scikit Learn might be used to carrying one transformation at a time. 
+- This approach entails using the fit and transform methods multiple times on the training and testing set.
+- Transforming data in this manner requires many lines of code and can easily lead to mistakes (e.g., using fit on the testing set). 
+- So, you will be glad to know that Scikit Learn offers a tool that facilitates these operations with much greater ease: `the pipeline`.
+- The `Scikit Learn pipeline` is a tool that chains together a series of transformations and estimators, enabling users to execute operations with code that is easier to write, read, and debug.
+
+## 7. Get familiar with other packages compatible with Scikit Learn
+- In the end, the Scikit Learn package’s wide range of tools can not account for every case imaginable.
+- Thus, it is worth it to familiarize oneself with other packages that are compatible with Scikit Learn. 
+- These packages contain tools that can be used together with Scikit Learn for feature engineering and data modeling.
+- Two noteworthy examples are the `feature_engine` and `XGBoost packages`, which boast their own unique transformers and machine learning algorithms that can be used with other Scikit Learn tools.
+
+
+
+
+
 
