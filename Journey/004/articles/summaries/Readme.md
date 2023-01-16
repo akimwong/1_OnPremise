@@ -131,8 +131,10 @@ D. `Scoring`: evaluation metrics to determine the model performance, e.g. classi
 - A feature with a higher variance means that the value within that feature varies or has a high cardinality.
 - A variance Threshold is a simple approach to eliminating features based on our expected variance within each feature.
 - Although, there are some down-side to the Variance Threshold method. 
-- The Variance Threshold feature selection `only sees the input features (X) without considering any information from the dependent variable (y). It is only useful for eliminating features for Unsupervised Modelling rather than Supervised Modelling`.
+- The Variance Threshold feature selection `only sees the input features (X) without considering any information from the dependent variable (y). It is only useful for eliminating features for Unsupervised Modelling` rather than Supervised Modelling.
 
 ## 2. Univariate Feature Selection with SelectKBest
+- Univariate Feature Selection is a feature selection method `based on the univariate statistical test`, e,g: chi2, Pearson-correlation, and many more.
+- The premise with SelectKBest is `combining the univariate statistical test with selecting the K-number of features` based on the statistical result between the X and y.
 
 
