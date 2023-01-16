@@ -115,3 +115,24 @@ D. `Scoring`: evaluation metrics to determine the model performance, e.g. classi
 - It is just the opposite of the forward selection, starting with including all features to train the model. 
 - Then, features are iteratively removed from the feature subset based on whether they contribute to the model performance. 
 - Similarly, logistic regression and accuracy are used as the model and evaluation metrics correspondingly.
+
+----------------------
+# 5 Feature Selection Method from Scikit-Learn you should know
+(Improve your performance by selecting only the most important features)
+
+- Increasing the number of features would help the model to have a good prediction power, `but only until a certain point`. 
+- This is what we called a `Curse of Dimensionality`, where the model's performance would increase with the higher number of features we used. 
+- Still, `the performance will deteriorate when the feature number is past the peak`. 
+- That is why we need to select only the features that are effectively capable of prediction.
+- `Feature selection is similar to the dimensionality reduction technique`, where the aim is to reduce the number of the features, but fundamentally they are different. 
+- The difference is that `feature selection selects features to keep or remove from the dataset`, whereas `dimensionality reduction creates a projection of the data resulting in entirely new input features`. 
+
+## 1. Variance Threshold Feature Selection
+- A feature with a higher variance means that the value within that feature varies or has a high cardinality.
+- A variance Threshold is a simple approach to eliminating features based on our expected variance within each feature.
+- Although, there are some down-side to the Variance Threshold method. 
+- The Variance Threshold feature selection `only sees the input features (X) without considering any information from the dependent variable (y). It is only useful for eliminating features for Unsupervised Modelling rather than Supervised Modelling`.
+
+## 2. Univariate Feature Selection with SelectKBest
+
+
