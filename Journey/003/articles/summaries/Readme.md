@@ -390,3 +390,23 @@ There is `no best approach or model suited for all problems` and it is strongly 
 -----------------------
 # Class Imbalance in Machine Learning Problems: A Practical Guide
 (Five lessons from the trenches of applied data science)
+
+## 1. Class imbalance is the norm, not the exception
+Imbalance is simply part of the reality that we live in. In fact, the opposite is rare.
+- in credit card fraud detection, most transactions are legitimate, and only a small fraction are fraudulent.
+- in spam detection, it’s the other way around: most Emails sent around the globe today are spam.
+- in ads conversion prediction, most users will ignore the ad, and only a small fraction will click on it.
+- in user churn prediction, most users will stay on the platform, and only a small fraction will ‘churn’ (i.e., leave the platform).
+
+## 2. Class imbalance itself is not the problem
+When working on an imbalanced ML problem, there are 3 things can go wrong:
+
+2.1. Choosing the wrong metric. 
+`Accuracy is a bad metric` to quantify the performance of an ML model `on an imbalanced problem`: if the positivity rate is just 1%, then a naive classifier labeling everything as negative has 99% accuracy by definition. This sounds good on paper, but is bad in practice. This problem can of course be avoided by choosing a more suitable metric such as precision at fixed recall, recall at fixed precision, PR-AUC, or ROC-AUC.
+
+2.2. Training/serving skew. 
+This refers to the problem when the `data used for training the model is not the same as the data used at inference time`, for example because the `training data has been manually rebalanced`. The problem with training/serving skew is that the performance on the training data is not a good proxy for the performance at serving time, and the model may end up being worse than expected. For example, if at training time we down-sampled negatives by a factor of 10X, then, in the worst case, the precision in production may be 10X worse than expected.
+
+2.3. Data scarcity. 
+In imbalanced problems, it may be `hard to gather a sufficiently large number of labeled positive samples to train a ML model with reasonable performance`. For example, if you only have 10 to 100 positive samples, the model may easily memorize these samples, leading to an overfit model that generalized poorly. The more imbalanced the problem, the fewer positive samples you may have available for training the model.
+
