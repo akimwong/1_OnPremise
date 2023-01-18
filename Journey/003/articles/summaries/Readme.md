@@ -431,3 +431,11 @@ b. in spam detection, filter for Emails from addresses that haven’t been seen 
 c. in e-commerce product classification, filter for products that contain a certain keyword, or combination of keywords.  <br/>
 d. in ads conversion prediction, filter for a certain demographic segment of the user population.  <br/>
 
+- Coming up with a good domain filter `requires domain knowledge`, so a good tip is to `source ideas from the program stakeholders, who know the problem domain best, and then validate these ideas on the data`.
+
+## 5. Hyperparameters should be the last thing to experiment with
+
+- If the model performance is acceptable, deploy the model into production as soon as possible, so that you can confirm that the modeling pipeline is actually working, and that the performance is as expected. 
+- If the model performance is not acceptable, instead of tuning hyperparameters, a better use of your time may be to invest in data quality: collect more training data, construct better features, and make sure the labels are correct.
+
+#### There are numerous techniques for class imbalance that I did not cover here, but `in practice oftentimes the highest-leverage thing you can do is stick to the simplest methods and deploy your model as soon as possible`.
