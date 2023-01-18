@@ -386,3 +386,7 @@ Note that `there is no absolute advantage of one resampling method over another`
 - For example, tweaking an SVM to penalize wrong classifications of the rare class by the same ratio that this class is underrepresented. 
 
 There is `no best approach or model suited for all problems` and it is strongly recommended to `try different techniques and models` to evaluate what works best. Try to be creative and combine different approaches. It is also important, to `be aware that in many domains (e.g. fraud detection, real-time-bidding), where imbalanced classes occur`, the “market-rules” are constantly changing. So, check if past data might have become obsolete.
+
+-----------------------
+# Class Imbalance in Machine Learning Problems: A Practical Guide
+(Five lessons from the trenches of applied data science)
