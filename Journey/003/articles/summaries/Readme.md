@@ -332,6 +332,18 @@ C. `Extracting` some specific features from the date: Name of the weekday, Weeke
 
 #### After this article, proceeding with other topics of data preparation such as feature selection, train/test splitting, and sampling might be a good option.
  
+---------------------------
+# 7 Techniques to Handle Imbalanced Data
+(techniques that are commonly applied in domains like intrusion detection or real-time bidding, because the datasets are often extremely imbalanced)
+
+## 1. Use the right evaluation metrics
+If accuracy is used to measure the goodness of a model, a model which classifies all testing samples into “0” will have an excellent accuracy (99.8%), but obviously, this model won’t provide any valuable information for us.
+
+- Precision/Specificity: how many selected instances are relevant.
+- Recall/Sensitivity: how many relevant instances are selected.
+- F1 score: harmonic mean of precision and recall.
+- MCC: correlation coefficient between the observed and predicted binary classifications.
+- AUC: relation between true-positive rate and false positive rate. 
 
 
 
