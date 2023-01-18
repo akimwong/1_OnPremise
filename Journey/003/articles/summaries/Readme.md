@@ -410,3 +410,24 @@ This refers to the problem when the `data used for training the model is not the
 2.3. Data scarcity. 
 In imbalanced problems, it may be `hard to gather a sufficiently large number of labeled positive samples to train a ML model with reasonable performance`. For example, if you only have 10 to 100 positive samples, the model may easily memorize these samples, leading to an overfit model that generalized poorly. The more imbalanced the problem, the fewer positive samples you may have available for training the model.
 
+## 3. Upsampling the minority class may not be a good idea
+There are two reasons why upsampling can actually hurt model performance:
+
+3.1. First, upsampling introduces training/serving skew.  When you then pick an operating point on the the training data, that `operating point may be sub-optimal in the real world`.  After upsampling the minority class in the training data, the log-loss on unseen data increased from 1.28 to 2.3, a notable degradation.  His conclusion: Your Dataset Is Imbalanced? Do Nothing!
+
+3.2. Second, another potential problem with upsampling is data leakage: if you first upsample the data and then split the data into training and validation folds, `your model can simply memorize the positives from the training data and achieve artificially strong performance on the validation data, causing you to think that the model is much better than it actually is. If you have to upsample, always do it after splitting the data into training and validation folds, not before`.
+
+## 4. Downsample the majority class with caution
+There are two scenarios when you’ll want to consider doing this:
+
+4.1. when the training data doesn’t fit into memory (and your ML training pipeline requires it to be in memory), or
+4.2. when model training takes unreasonably long (days to weeks), causing too long iteration cycles, and preventing you from iterating quickly.
+
+- When you downsample randomly, you may drop some of the most informative samples from the data, leading to worse model performance than if you hadn’t dropped anything.
+- Instead of random downsampling, a better idea may therefore be a `domain filter`: a simple heuristic rule that cuts down most of the majority class, while keeping nearly all of the minority class. For example, if a rule can retain 99% of positives but only 1% of the negatives, this would make a great domain filter. Then, `apply that rule both at training time and at inference time prior to your ML model`. Here are some examples of good population filters:
+
+A. in credit card fraud prediction, filter for new credit cards, i.e. those without a purchase history. <br/>
+B. in spam detection, filter for Emails from addresses that haven’t been seen before.  <br/>
+C. in e-commerce product classification, filter for products that contain a certain keyword, or combination of keywords.  <br/>
+D. in ads conversion prediction, filter for a certain demographic segment of the user population.  <br/>
+
