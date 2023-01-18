@@ -420,14 +420,14 @@ There are two reasons why upsampling can actually hurt model performance:
 ## 4. Downsample the majority class with caution
 There are two scenarios when you’ll want to consider doing this:
 
-4.1. when the training data doesn’t fit into memory (and your ML training pipeline requires it to be in memory), or
+4.1. when the training data doesn’t fit into memory (and your ML training pipeline requires it to be in memory), or <br/>
 4.2. when model training takes unreasonably long (days to weeks), causing too long iteration cycles, and preventing you from iterating quickly.
 
 - When you downsample randomly, you may drop some of the most informative samples from the data, leading to worse model performance than if you hadn’t dropped anything.
 - Instead of random downsampling, a better idea may therefore be a `domain filter`: a simple heuristic rule that cuts down most of the majority class, while keeping nearly all of the minority class. For example, if a rule can retain 99% of positives but only 1% of the negatives, this would make a great domain filter. Then, `apply that rule both at training time and at inference time prior to your ML model`. Here are some examples of good population filters:
 
-A. in credit card fraud prediction, filter for new credit cards, i.e. those without a purchase history. <br/>
-B. in spam detection, filter for Emails from addresses that haven’t been seen before.  <br/>
-C. in e-commerce product classification, filter for products that contain a certain keyword, or combination of keywords.  <br/>
-D. in ads conversion prediction, filter for a certain demographic segment of the user population.  <br/>
+a. in credit card fraud prediction, filter for new credit cards, i.e. those without a purchase history. <br/>
+b. in spam detection, filter for Emails from addresses that haven’t been seen before.  <br/>
+c. in e-commerce product classification, filter for products that contain a certain keyword, or combination of keywords.  <br/>
+d. in ads conversion prediction, filter for a certain demographic segment of the user population.  <br/>
 
