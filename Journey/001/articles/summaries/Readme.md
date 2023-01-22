@@ -92,8 +92,26 @@ You can write a blog about your current project by using embedded links and grap
 - Here are some techniques which will help you making marketing attribution:
 
 3.1. Channel Attribution analysis
+- Take a sample dataset on website navigations by customers. 
+- The dataset contains information on cookie, time of interaction, interaction (whether impression or conversion), conversion (0=No, 1=Yes) and conversion value.
+- The different channels are Paid Search, Video, Instagram, Facebook etc
+- So attribution will attribute the conversion value to these other channels proportionately
+- There are various ways of attribution. One of the most common way is to equally distribute conversion to all channels which led to conversion
+
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_7.jpg" width="470" height="180">
    To.. 
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_8.jpg" width="350" height="220">
 </p>
+
+3.2. Transition Matrix
+- Gives you an overall picture on how the transition between different channels is happening. 
+- In addition you can also see which channels are leading to conversion.
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_9.jpg" width="350" height="350">
+</p>
+
+## 4. Final
+- So that was a brief overview of top advanced analytics use-cases and techniques to better understand your customer. 
+- Once you master them, your business is destined to achieve new heights
