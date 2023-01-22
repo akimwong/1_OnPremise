@@ -23,6 +23,17 @@ You can also display your project on a personal website, and if you are not a we
 #### Weight & Biases:
 You can write a blog about your current project by using embedded links and graph integration. It is quite similar to other portfolio platforms I mentioned, but it comes with the perk of direct integration with Python libraries.
 
+----------------------------------
+# 3 must-know advanced analytics for understanding your customers
+(Top Use-cases for customer analytics and how to do them)
+
+- The success of your business depends upon how well you understand your customers.
+- Every industry will analyse customers in a different way. 
+- However the top 3 customer analytics across all industries are the following:
+1.	Customer Segmentation
+2.	Customer Journey Analysis
+3.	Marketing Attribution
+
 
 
 
