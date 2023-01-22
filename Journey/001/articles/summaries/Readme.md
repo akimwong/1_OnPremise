@@ -57,8 +57,7 @@ You can write a blog about your current project by using embedded links and grap
 - The analysis is to have three segment, so there are three colors.
 - Some of the columns which determine the clusters are `age, marital, education, job`.
 <p align="center">
-  FROM ...
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="500" height="500">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="500" height="400">
 </p>
 
 
