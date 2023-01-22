@@ -14,6 +14,7 @@
 - [Best Public Datasets for Machine Learning and Data Science (DL)](https://pub.towardsai.net/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)
 - [These 17 Projects Will Teach You Python Way Better Than “Hello World” (DL)](https://towardsdatascience.com/these-17-python-projects-will-teach-you-way-better-than-hello-world-14b28aa4c308)
 - [3 must-know advanced analytics for understanding your customers (DL)](https://towardsdatascience.com/3-must-know-advanced-analytics-for-understanding-your-customers-f650f4ac7f57)
+- [31 Datasets For Your Next Data Science Project (DL)](https://towardsdatascience.com/31-datasets-for-your-next-data-science-project-6ef9a6f8cac6)
 
 #### Database
 - [SQL and Databases Learning: A Guide for Data Scientists and ML Engineers](https://towardsdatascience.com/sql-and-databases-learning-a-guide-for-data-scientists-and-ml-engineers-a73875b0d6f2)
