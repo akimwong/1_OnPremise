@@ -71,7 +71,7 @@ You can write a blog about your current project by using embedded links and grap
 - As we can see that top paths for vehicle category are Compact — Prime
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_4.jpg" width="500" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_4.jpg" width="500" height="250">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_5.jpg" width="500" height="300">
 </p>
 
