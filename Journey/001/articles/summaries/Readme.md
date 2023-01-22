@@ -43,6 +43,10 @@ You can write a blog about your current project by using embedded links and grap
 
 3.1.1. Heatmap — making segments based on pre-selected columns
 
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/articles/summaries/EdaAndFeatureSelectionTechniques1.jpg" width="900" height="600">
+</p>
+
 3.1.2. Making segments based on multiple columns
 
 
