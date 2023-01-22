@@ -11,5 +11,5 @@
 - [11 Dimensionality reduction techniques you should know in 2021](https://towardsdatascience.com/11-dimensionality-reduction-techniques-you-should-know-in-2021-dcb9500d388b)
 - [7 Techniques to Handle Multicollinearity that Every Data Scientist Should Know (DL)](https://towardsdatascience.com/7-techniques-to-handle-multicollinearity-that-every-data-scientist-should-know-ffa03ba5d29)
 - [Principal Component Analysis (PCA) with Python Examples — Tutorial (DL)](https://pub.towardsai.net/principal-component-analysis-pca-with-python-examples-tutorial-67a917bae9aa)
-
+- [Powerful Feature Selection with Recursive Feature Elimination (RFE) of Sklearn (DL)](https://towardsdatascience.com/powerful-feature-selection-with-recursive-feature-elimination-rfe-of-sklearn-23efb2cdb54e)
 
