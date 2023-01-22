@@ -92,4 +92,8 @@ You can write a blog about your current project by using embedded links and grap
 - Here are some techniques which will help you making marketing attribution:
 
 3.1. Channel Attribution analysis
-- 
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_7.jpg" width="470" height="180">
+   To.. 
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_8.jpg" width="470" height="300">
+</p>
