@@ -22,3 +22,4 @@
 - [Classification with Imbalanced Data (DL)](https://towardsdatascience.com/classification-with-imbalanced-data-f13ccb0496b3)
 - [Dummy Variable Example in R_finnstats](https://finnstats.com/index.php/2022/07/08/dummy-variable-example-in-r/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [Feature Engineering using Regular Expression (RegEx) in Pandas DataFrame (DL)](https://towardsdatascience.com/feature-engineering-using-regular-expression-regex-in-pandas-dataframe-c965380316da)
+- [Preprocessing with sklearn: a complete and comprehensive guide (DL)](https://towardsdatascience.com/preprocessing-with-sklearn-a-complete-and-comprehensive-guide-670cb98fcfb9)
