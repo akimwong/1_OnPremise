@@ -95,5 +95,5 @@ You can write a blog about your current project by using embedded links and grap
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_7.jpg" width="470" height="180">
    To.. 
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_8.jpg" width="470" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_8.jpg" width="300" height="180">
 </p>
