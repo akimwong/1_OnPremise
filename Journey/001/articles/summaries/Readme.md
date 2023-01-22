@@ -58,7 +58,7 @@ You can write a blog about your current project by using embedded links and grap
 - Some of the columns which determine the clusters are `age, marital, education, job`.
 <p align="center">
   FROM ...
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="450" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="500" height="500">
 </p>
 
 
