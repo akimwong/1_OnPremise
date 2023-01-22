@@ -47,11 +47,19 @@ You can write a blog about your current project by using embedded links and grap
   FROM ...
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_1.jpg" width="450" height="300">
   TO ...
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_2.jpg" width="300" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_2.jpg" width="250" height="300">
 </p>
 
 3.1.2. Making segments based on multiple columns
-
+- However in many situations, you do not have specific columns in mind to make segments. 
+- Clustering is a way to make segments using multiple columns. 
+- Clustering groups similar data records based on multiple columns into clusters or segments.
+- The analysis is to have three segment, so there are three colors.
+- Some of the columns which determine the clusters are `age, marital, education, job`.
+<p align="center">
+  FROM ...
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="450" height="300">
+</p>
 
 
 
