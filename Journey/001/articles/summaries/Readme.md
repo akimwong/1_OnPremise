@@ -82,5 +82,5 @@ You can write a blog about your current project by using embedded links and grap
 - And this kind of analytics can be useful to in different ways — for example anticipating which path customer might take and then making product recommendations
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_6.jpg" width="5500" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_6.jpg" width="550" height="300">
 </p>
