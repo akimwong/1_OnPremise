@@ -34,14 +34,14 @@ You can write a blog about your current project by using embedded links and grap
 2.	Customer Journey Analysis
 3.	Marketing Attribution
 
-## 3.1. Customer Segmentation
+## 1. Customer Segmentation
 - It will group similar customer into segments. 
 - So now you can send an email message per segment. 
 - As customers in a segment are similar, you can tailor the message for each segment. 
 - Also as you save lot of time, as you are creating message for each segment and not for each customer.
 - Here are some techniques which you can use for customer segmentation
 
-3.1.1. Heatmap — making segments based on pre-selected columns
+1.1. Heatmap — making segments based on pre-selected columns
 
 <p align="center">
   FROM ...
@@ -50,7 +50,7 @@ You can write a blog about your current project by using embedded links and grap
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_2.jpg" width="250" height="300">
 </p>
 
-3.1.2. Making segments based on multiple columns
+1.2. Making segments based on multiple columns
 - However in many situations, you do not have specific columns in mind to make segments. 
 - Clustering is a way to make segments using multiple columns. 
 - Clustering groups similar data records based on multiple columns into clusters or segments.
@@ -60,13 +60,13 @@ You can write a blog about your current project by using embedded links and grap
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="500" height="400">
 </p>
 
-## 3.2. Customer Journey Analysis
+## 2. Customer Journey Analysis
 - Helps understand how customers interact with you in a chronological order. 
 - It helps you understand customer experience overtime. 
 - It encompasses all customer interactions across all channels, devices and touch-points throughout every stage of the customer lifecycle — from awareness to loyalty.
 - Here are some techniques to understand customer journey:
 
-3.2.1. Path Analysis
+2.1. Path Analysis
 - (In the example) we can determine the pattern of vehicle rented over time. 
 - As we can see that top paths for vehicle category are Compact — Prime
 
@@ -76,7 +76,7 @@ You can write a blog about your current project by using embedded links and grap
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_5.jpg" width="470" height="300">
 </p>
 
-3.2.2. Sankey Chart
+2.2. Sankey Chart
 - Represent the chronological events in a flow style visualisation. 
 - Shown below is all paths taken by customers. For example customers start with Sedan and then go towards Automatic cars.
 - And this kind of analytics can be useful to in different ways — for example anticipating which path customer might take and then making product recommendations
@@ -84,3 +84,12 @@ You can write a blog about your current project by using embedded links and grap
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_6.jpg" width="550" height="300">
 </p>
+
+## 3. Marketing Attribution
+- `Is key to let customer know about you and buy from you`. 
+- And now-a-days there are various channels for marketing. 
+- `How do you decide effectiveness of the marketing channels? This is where attribution is useful as it helps you “attribute” the customer conversion to different channels`.
+- Here are some techniques which will help you making marketing attribution:
+
+3.1. Channel Attribution analysis
+- 
