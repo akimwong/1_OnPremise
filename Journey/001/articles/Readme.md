@@ -2,18 +2,19 @@
 - [How to Create a Data Quality Framework (DL)](https://towardsdatascience.com/how-to-create-a-data-quality-framework-6887dea268ae)
 
 #### Datasets
+- [How to Build Strong Data Science Portfolio as a Beginner_KdNuggets (SMRY)](https://www.kdnuggets.com/2021/10/strong-data-science-portfolio-as-beginner.html)
+- [3 must-know advanced analytics for understanding your customers (SMRY)(DL)](https://towardsdatascience.com/3-must-know-advanced-analytics-for-understanding-your-customers-f650f4ac7f57)
 - [32 datasets to uplift your skills in data science](https://datasciencedojo.com/blog/datasets-data-science-skills/)
 - [40 Data Analysis Projects with Python](https://amankharwal.medium.com/data-analysis-projects-with-python-a262a6f9e68c)
 - [14 Kaggle Competitions to Start your Data Science Journey](https://towardsdatascience.com/14-kaggle-competitions-to-start-your-data-science-journey-41943496b6f4)
 - [125 Data Science Projects You Can Try with Python](https://python.plainenglish.io/85-data-science-projects-c03c8750599e)
 - [Data Science Projects That Will Land You The Job in 2022](https://www.kdnuggets.com/2022/05/data-science-projects-land-job-2022.html)
 - [Your First Machine Learning Project in Python Step-By-Step](https://machinelearningmastery.com/machine-learning-in-python-step-by-step/)
-- [How to Build Strong Data Science Portfolio as a Beginner (s)](https://www.kdnuggets.com/2021/10/strong-data-science-portfolio-as-beginner.html)
+
 - [Find UK open data - Published by central government, local authorities and public bodies](https://www.data.gov.uk)
 - [Start Your Data Project With A Bang: Engage Stakeholders](https://towardsdatascience.com/start-your-data-project-with-a-bang-engage-stakeholders-2a40e6e52e1e)
 - [Best Public Datasets for Machine Learning and Data Science (DL)](https://pub.towardsai.net/best-datasets-for-machine-learning-data-science-computer-vision-nlp-ai-c9541058cf4f)
 - [These 17 Projects Will Teach You Python Way Better Than “Hello World” (DL)](https://towardsdatascience.com/these-17-python-projects-will-teach-you-way-better-than-hello-world-14b28aa4c308)
-- [3 must-know advanced analytics for understanding your customers (DL)](https://towardsdatascience.com/3-must-know-advanced-analytics-for-understanding-your-customers-f650f4ac7f57)
 - [31 Datasets For Your Next Data Science Project (DL)](https://towardsdatascience.com/31-datasets-for-your-next-data-science-project-6ef9a6f8cac6)
 
 #### Database
