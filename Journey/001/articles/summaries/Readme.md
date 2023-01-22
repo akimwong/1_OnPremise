@@ -34,6 +34,16 @@ You can write a blog about your current project by using embedded links and grap
 2.	Customer Journey Analysis
 3.	Marketing Attribution
 
+## 3.1. Customer Segmentation
+- It will group similar customer into segments. 
+- So now you can send an email message per segment. 
+- As customers in a segment are similar, you can tailor the message for each segment. 
+- Also as you save lot of time, as you are creating message for each segment and not for each customer.
+- Here are some techniques which you can use for customer segmentation
+
+3.1.1. Heatmap — making segments based on pre-selected columns
+
+3.1.2. Making segments based on multiple columns
 
 
 
