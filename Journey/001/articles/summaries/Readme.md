@@ -71,8 +71,16 @@ You can write a blog about your current project by using embedded links and grap
 - As we can see that top paths for vehicle category are Compact — Prime
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_4.jpg" width="480" height="180">
-  To..
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_5.jpg" width="480" height="300">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_4.jpg" width="470" height="180">
+   To.. 
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_5.jpg" width="470" height="300">
 </p>
 
+3.2.2. Sankey Chart
+- Represent the chronological events in a flow style visualisation. 
+- Shown below is all paths taken by customers. For example customers start with Sedan and then go towards Automatic cars.
+- And this kind of analytics can be useful to in different ways — for example anticipating which path customer might take and then making product recommendations
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_6.jpg" width="470" height="180">
+</p>
