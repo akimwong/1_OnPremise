@@ -60,5 +60,18 @@ You can write a blog about your current project by using embedded links and grap
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_3.jpg" width="500" height="400">
 </p>
 
+## 3.2. Customer Journey Analysis
+- Helps understand how customers interact with you in a chronological order. 
+- It helps you understand customer experience overtime. 
+- It encompasses all customer interactions across all channels, devices and touch-points throughout every stage of the customer lifecycle — from awareness to loyalty.
+- Here are some techniques to understand customer journey:
 
+3.2.1. Path Analysis
+- (In the example) we can determine the pattern of vehicle rented over time. 
+- As we can see that top paths for vehicle category are Compact — Prime
+
+<p align="center">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_4.jpg" width="500" height="400">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/001/articles/summaries/customer_analytic_5.jpg" width="500" height="400">
+</p>
 
