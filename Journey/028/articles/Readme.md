@@ -4,7 +4,7 @@
 - [Difference between R and Python_DScTutorials](https://datasciencetut.com/difference-between-r-and-python/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 
 
-### Python
+### PYTHON
 
 - [How Data Scientists Level Up Their Coding Skills (DL)](https://towardsdatascience.com/how-data-scientists-level-up-their-coding-skills-edf15bbde334)
 - [11 Tips And Tricks To Write Better Python Code_JoelKelly](https://morioh.com/p/f332ff09290c?f=5c21fb01c16e2556b555ab32)
@@ -41,7 +41,7 @@
 - [Top 3 Pythonic Thinking Tips for Python List Creation (DL)](https://towardsdatascience.com/top-3-pythonic-thinking-tips-for-python-list-creation-161fe893e81a)
 - [How to Perform Unit Testing in Python?_KdNuggets](https://www.kdnuggets.com/2023/01/perform-unit-testing-python.html)
 
-#### Python - Pandas
+#### PYTHON - PANDAS
 
 - [Master Data Transformation in Pandas with These Three Useful Techniques](https://towardsdatascience.com/master-data-transformation-in-pandas-with-these-three-useful-techniques-20699f03e51d)
 - [Two Killer Jupyter Hacks That Are Guaranteed To Save You Hours Of Work Time](https://towardsdatascience.com/two-killer-jupyter-hacks-that-are-guaranteed-to-save-you-hours-of-work-time-2b9e430988dd)
@@ -55,8 +55,11 @@
 - [Tips and Tricks for Loading Large CSV Files into Pandas DataFrames — Part 2 (DL)](https://towardsdatascience.com/tips-and-tricks-for-loading-large-csv-files-into-pandas-dataframes-part-2-5fc02fc4e3ab)
 - [4 Techniques for Scaling Pandas to Large Datasets (DL)](https://towardsdatascience.com/4-techniques-for-scaling-pandas-to-large-datasets-acf8805d30eb)
 
-#### Python - Numpy
+#### PYTHON - NUMPY
 - [25 Numpy Treasures Buried in the Docs Waiting to Be Found (DL)](https://towardsdatascience.com/25-numpy-treasures-buried-in-the-docs-waiting-to-be-found-60d8e17931cd)
+
+### PYTHON - SKLEARN
+- [7 Scikit-Learn Best Practices For Data Scientists (SMRY)(DL)]
 
 ### R
 
