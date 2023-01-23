@@ -58,10 +58,10 @@
 #### PYTHON - NUMPY
 - [25 Numpy Treasures Buried in the Docs Waiting to Be Found (DL)](https://towardsdatascience.com/25-numpy-treasures-buried-in-the-docs-waiting-to-be-found-60d8e17931cd)
 
-### PYTHON - SKLEARN
+#### PYTHON - SKLEARN
 - [7 Scikit-Learn Best Practices For Data Scientists (SMRY)(DL)]
 
-### R
+#### R
 
 - [A Guide to using h20.ai in R](https://towardsdatascience.com/a-guide-to-using-h2o-ai-in-r-99cf6265bc05)
 - [How to Reverse-Code an Interval Scale in R](https://towardsdatascience.com/how-to-reverse-code-an-interval-scale-in-r-917c13e4888e)
