@@ -59,7 +59,7 @@
 - [25 Numpy Treasures Buried in the Docs Waiting to Be Found (DL)](https://towardsdatascience.com/25-numpy-treasures-buried-in-the-docs-waiting-to-be-found-60d8e17931cd)
 
 #### PYTHON - SKLEARN
-- [7 Scikit-Learn Best Practices For Data Scientists (SMRY)(DL)]
+- [7 Scikit-Learn Best Practices For Data Scientists (SMRY)(DL)](https://medium.com/towards-data-science/7-scikit-learn-best-practices-for-data-scientists-f232a6ed2756)
 
 #### R
 
