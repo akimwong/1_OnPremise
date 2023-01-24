@@ -1,5 +1,7 @@
 #### [(Anterior: Datasets)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
 
+## EXPLORATORY
+
 ## 1. Structure Investigation
 
 - Number of columns and rows:
