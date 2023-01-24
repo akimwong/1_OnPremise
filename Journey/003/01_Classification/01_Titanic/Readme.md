@@ -1,4 +1,6 @@
-#### [(ANTERIOR: EDA)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
+#### [(Anterior: EDA)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
+
+### FEATURE ENGINEERING
 
 se <b>eliminan</b> las siguientes variables:
 
