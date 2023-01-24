@@ -1,3 +1,5 @@
+
+
 se <b>eliminan</b> las siguientes variables:
 
 - `PassengerId` - aparentemente no aporta información predictora;
