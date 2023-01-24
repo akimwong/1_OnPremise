@@ -112,6 +112,6 @@ While there are many ways we could explore our features for particular patterns,
 
 (for example) Whe have to visualize the relationships between these features.
 
-#### [(next step: Feature Engineering ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/003/01_Classification/01_Titanic/)
+#### [(Siguiente paso: Feature Engineering ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/003/01_Classification/01_Titanic/)
 
 
