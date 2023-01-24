@@ -1,4 +1,4 @@
-
+[(conclusiones EDA ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
 
 se <b>eliminan</b> las siguientes variables:
 
@@ -30,3 +30,5 @@ Se hará <b>one-hot-encode</b> en pipeline sklearn de las siguientes variables c
 <b>No se modificará</b> - al estar en formato numérico y ser ordinal:
 
 - `Pclass`.
+
+[código Feature_Engineering](x)
