@@ -1,4 +1,4 @@
-[(the datasets comes from...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
+#### [(Anterior: Datasets)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
 
 ## 1. Structure Investigation
 
@@ -112,6 +112,6 @@ While there are many ways we could explore our features for particular patterns,
 
 (for example) Whe have to visualize the relationships between these features.
 
-#### [(Siguiente paso: Feature Engineering ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/003/01_Classification/01_Titanic/)
+#### [(Siguiente: Feature Engineering)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/003/01_Classification/01_Titanic/)
 
 
