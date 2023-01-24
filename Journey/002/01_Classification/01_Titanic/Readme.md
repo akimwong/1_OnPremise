@@ -1,6 +1,6 @@
 #### [(Anterior: Datasets)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
 
-## EXPLORATORY
+### EXPLORATORY DATA ANALYSIS (EDA)
 
 ## 1. Structure Investigation
 
