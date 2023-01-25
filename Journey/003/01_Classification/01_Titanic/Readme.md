@@ -34,4 +34,4 @@ Se hará <b>one-hot-encode</b> en pipeline sklearn de las siguientes variables c
 
 - `Pclass`.
 
-#### [(Siguiente: Pipeline Sklern ...)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/004/01_Classification/01_Titanic/)
+#### [(Siguiente: Feature Selection)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/004/01_Classification/01_Titanic/)
