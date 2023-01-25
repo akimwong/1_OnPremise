@@ -1,4 +1,6 @@
-### [Anterior: Feature Engineeering](https://github.com/akimwong/1_OnPremise/tree/main/Journey/003/01_Classification/01_Titanic)
+#### [Anterior: Feature Engineeering](https://github.com/akimwong/1_OnPremise/tree/main/Journey/003/01_Classification/01_Titanic)
+
+### Feature Selection
 
 Sólo se <b>eliminan</b> las siguientes variables:
 
