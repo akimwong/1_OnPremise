@@ -450,3 +450,10 @@ d. in ads conversion prediction, filter for a certain demographic segment of the
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer2.PNG" width="900" height="400">
 </p>
+
+(1) Data (Pre-)Processing: The initial preparation of the data — for example, smoothing a signal, dealing with outliers, etc.   <br/>
+(2) Feature engineering: Defining input features for our model.   <br/>
+(3) Feature Selection: Selection of features that have a significant impact on the target variable. By selecting the important features and thus reducing the dimensionality, we can significantly reduce the modeling costs and increase the robustness and performance of the model.   <br/>
+
+
+
