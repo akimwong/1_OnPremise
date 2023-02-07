@@ -448,5 +448,5 @@ d. in ads conversion prediction, filter for a certain demographic segment of the
 - `The quality of the data, as well as the proper preparation of the data set features, have a greater impact on the success of a machine learning model than any other part of the ML pipeline`
 
 <p align="center">
-  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer2.PNG" width="900" height="580">
+  <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer2.PNG" width="900" height="480">
 </p>
