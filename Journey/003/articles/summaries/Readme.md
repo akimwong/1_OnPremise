@@ -439,3 +439,10 @@ d. in ads conversion prediction, filter for a certain demographic segment of the
 - If the model performance is not acceptable, instead of tuning hyperparameters, a better use of your time may be to invest in data quality: collect more training data, construct better features, and make sure the labels are correct.
 
 #### There are numerous techniques for class imbalance that I did not cover here, but `in practice oftentimes the highest-leverage thing you can do is stick to the simplest methods and deploy your model as soon as possible`.
+
+---------------------------------
+## 7 of the Most Used Feature Engineering Techniques
+(Hands-on Feature Engineering with Scikit-Learn, Tensorflow, Pandas and Scipy)
+
+## Introduction
+- `The quality of the data, as well as the proper preparation of the data set features, have a greater impact on the success of a machine learning model than any other part of the ML pipeline`
