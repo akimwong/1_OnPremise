@@ -9,6 +9,7 @@
 - [Fundamental Techniques of Feature Engineering for Machine Learning (SMRY)(DL)](https://towardsdatascience.com/feature-engineering-for-machine-learning-3a5e293a5114)
 - [7 Techniques to Handle Imbalanced Data_KdNuggets (SMRY)](https://www.kdnuggets.com/2017/06/7-techniques-handle-imbalanced-data.html)
 - [Class Imbalance in Machine Learning Problems: A Practical Guide (SMRY)(DL)](https://towardsdatascience.com/class-imbalance-in-machine-learning-problems-a-practical-guide-4fb81eee0041)
+- [7 of the Most Used Feature Engineering Techniques (SMRY)(DL)](https://towardsdatascience.com/7-of-the-most-used-feature-engineering-techniques-bcc50f48474d)
 - [The Best Methods for One-Hot Encoding Your Data](https://towardsdatascience.com/the-best-methods-for-one-hot-encoding-your-data-c29c78a153fd)
 - [An Introduction of H2O Wave Table](https://towardsdatascience.com/an-introduction-of-h2o-wave-table-95a91da3672e)
 - [How to Deal with Categorical Data for Machine Learning](https://www.kdnuggets.com/2021/05/deal-with-categorical-data-machine-learning.html)
