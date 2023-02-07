@@ -446,6 +446,7 @@ d. in ads conversion prediction, filter for a certain demographic segment of the
 
 ## Introduction
 - `The quality of the data, as well as the proper preparation of the data set features, have a greater impact on the success of a machine learning model than any other part of the ML pipeline`
+- Each feature describes a kind of information “piece”. The sum of these pieces allows the algorithm to draw conclusions about the target variables — at least if you have a data set that actually contains information about your target variable.
 
 <p align="center">
   <img src="https://github.com/akimwong/1_OnPremise/blob/main/Journey/003/articles/summaries/FeatureEngineer2.PNG" width="900" height="400">
@@ -454,6 +455,69 @@ d. in ads conversion prediction, filter for a certain demographic segment of the
 (1) Data (Pre-)Processing: The initial preparation of the data — for example, smoothing a signal, dealing with outliers, etc.   <br/>
 (2) Feature engineering: Defining input features for our model.   <br/>
 (3) Feature Selection: Selection of features that have a significant impact on the target variable. By selecting the important features and thus reducing the dimensionality, we can significantly reduce the modeling costs and increase the robustness and performance of the model.   <br/>
+
+- `Once we have enough data that describes the characteristics of the problem, we still have to make sure that the computer can understand the data`.
+
+## 1. Encoding
+
+- Is a process used to transform categorical data into numerical values that can be understood by ML algorithms.
+- `The disadvantage of one-hot encoding is that it can significantly increase the size of the dataset, which can be a problem if the column you want to encode contains hundreds or thousands of unique categorical values`.
+
+### 1.1 Label Encoding
+### 1.2 One-Hot Encoding
+
+## 2. Feature Hashing
+- Feature hashing is primarily a dimensionality reduction technique and is often used in Natural Language Processing.
+- Hashing can also be useful when we want to vectorize categorical features with several hundred and thousand unique categories.
+- Hashing is thus a low-memory alternative to OneHotEncoding and other feature vectorizing methods.
+
+## 3. Binning / Bucketizing
+- Binning is used for both categorical and numerical data. 
+- Since we are reducing the number of unique values in the data set, it can help to: <br/>
+A. Prevent overfitting <br/>
+B. Increase the robustness of the model and mitigate the influence of anomalies <br/>
+C. Reduce the model complexity and the required resources to train the model <br/>
+- It is especially helpful if we can already form a hypothesis before we are defining the bins.
+
+## 4. Transformer
+- Used to change the form or distribution of a data set. 
+- Some common transformation techniques, such as the log or Box-Cox functions, are used to convert data that is not normally distributed into a form that is more symmetrical and follows a bell curve shape. 
+- These techniques can be useful `when the data needs to meet certain assumptions that are required by certain statistical models or techniques`. 
+- `The specific transformation method that is used may depend on the desired outcome and the characteristics of the data`.
+
+### 4.1 Log-Transformer 
+- Log transformers are used to change the scale of the data by applying a logarithmic function to each value. 
+- This transformation is often used to convert highly skewed data into data that more closely resembles a normal distribution.
+
+### 4.2 Box-Cox Function 
+- Power transformers are a family of parametric transformations that aim to transform any distribution of data into a data set that is normally distributed and minimize variance and skewness.
+- To use the Box-Cox function, we must determine the transformation parameter lambda. If you do not manually specify a lambda, the transformer tries to find the best lambda by maximizing the likelihood function. 
+- The parameter lambda (λ) can be adjusted to tailor the transformation to the characteristics of the data being analyzed. A value of 0 for lambda produces a log transformation, while values between 0 and 1 create increasingly “strong” transformations. If lambda is set to 1, the function does not perform any transformation on the data.
+
+## 5. Normalize / Standardize
+- hey can help algorithms to converge faster and can even increase the model accuracy.
+
+### 5.1 Normalize and Standardize using Scikit-learn
+- Scikit-learn’s MinMaxScaler scales features to a given range. It transforms features by scaling each feature to a given range between 0 and 1
+- Scikit-learn’s StandardScaler transforms data to have a mean of 0 and a standard deviation of 1
+
+## 6. Feature Crossing
+- Is the process of connecting multiple features from a dataset to create a new feature. 
+- This can include combining data from other sources to emphasize existing correlations.
+
+### 6.1 Feature Crossing in Polynomial Regression
+
+- Scikit-learn does not contain a function for polynomial regression, we create a pipeline out of:
+1. feature transformation step and
+2. A linear regression model-building step.
+
+### 6.2 Feature Crossing and the Kernel-Trick
+- Another example where feature crossing is already inherently used is the kernel trick, for example in Support Vector Regression. 
+
+## 7. Principal Component Analysis (PCA)
+- Reduces the dimension of a dataset by creating a set of new features derived from the raw features. 
+- Thus, similar to hashing, we reduce the complexity of the dataset and thus the computational effort required.
+
 
 
 
