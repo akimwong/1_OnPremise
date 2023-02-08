@@ -4,7 +4,7 @@
 
 ## 1. Structure Investigation
 
-- Number of columns and rows:
+- Number of columns and rows: 
 - Number of data types that those features include:
 
 ### 1.1. Structure of non-numerical features
