@@ -32,12 +32,12 @@ survived: 2 <br/>
 
 - Number of Ordinal (3 to ~10 unique values) <br/>
 pclass: 3 <br/>
-sibsp:    <br/>
-parch:    <br/>
+sibsp: 7   <br/>
+parch: 7  <br/>
 
 - Number of continuous (more than 10 unique values) features in the dataset.  <br/>
-age:    <br/>
-fare:     <br/>
+age: 88  <br/>
+fare: 248 <br/>
 
 #### 1.3. Conclusion of structure investigation
 
