@@ -1,14 +1,14 @@
 #### (from https://www.kaggle.com/code/benpowis/customer-propensity-to-purchase/notebook)
 
-# I. WHAT IS THE CHALLENGE?
+# I. ¿Cuál es el DESAFÍO?
 
-On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in:
-- Death: 1502
-- Total passengers and crew: 2224
+- Tenemos muchos visitantes a nuestro sitio web todos los días, algunos compran pero muchos no. 
+- Gastamos dinero reorientando los visitantes anteriores, nos gustaría optar por esta actividad dirigiéndonos a los visitantes que tienen más probabilidades de convertirse. 
+- Para ello, hemos tomado datos que muestran `con qué partes de nuestros usuarios del sitio web interactuaron`, nuestras preguntas son:
 
-It seems some groups of people were more likely to survive than others.
+1. ¿Cuál de estas interacciones afecta a los usuarios probablemente a la compra?
+2. ¿Podemos anotar visitantes de ayer que no compraron, para ver quiénes son las perspectivas más valauve?
 
-In this challenge, we ask you to build a predictive model that answers the question: <b>“what sorts of people were more likely to survive?”</b> using passenger data (ie name, age, gender, socio-economic class, etc). 
 
 #### What Data Will I Use in This Competition?
 
