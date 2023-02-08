@@ -10,34 +10,36 @@
 #### 1.1. Structure of non-numerical features
 
 - Number of unique values each non-numerical feature has  <br/>
-name: 891  <br/>
-sex: 2  <br/>
+PassengerId: 891  <br/>
+name: 891 <br/>
+sex: 2 <br/>
 ticket: 681  <br/>
 cabin: 148   <br/>
 embarked: 3   <br/>
 
 - Frequency the most prominent value is present  <br/>
+PassengerId: 1 (1) <br/>
 name: Turpin, Mr. William John Robert(1) <br/>
-sex: male(577) <br/>
-ticket: 347082(7)<br/>
-cabin: B96 B98(4)  <br/>
-embarked: S(644)  <br/>
+sex: male (577) <br/>
+ticket: 347082 (7)<br/>
+cabin: B96 B98 (4)  <br/>
+embarked: S (644)  <br/>
 
 #### 1.2. Structure of numerical features
 
 How many unique values each of these feature has. This process will give us some insights about:  <br/>
 
 - Number of binary (2 unique values) <br/>
-survived: 2 <br/>
+survived: 2 <- Objective Feature <br/>
 
 - Number of Ordinal (3 to ~10 unique values) <br/>
 pclass: 3 <br/>
-sibsp: 7   <br/>
+sibsp: 7  <br/>
 parch: 7  <br/>
 
 - Number of continuous (more than 10 unique values) features in the dataset.  <br/>
-age: 88  <br/>
-fare: 248 <br/>
+age: 88 -> Binning  <br/>
+fare: 248 -> Binning <br/>
 
 #### 1.3. Conclusion of structure investigation
 
@@ -49,14 +51,12 @@ Number of samples and features, what kind of data type each feature has, and how
 Have a global view on the dataset with regards to things like duplicates, missing values and unwanted entries or recording errors.
 
 #### 2.1. Duplicates
-
 - Duplicates: No
 - Some reason?: -
 
 #### 2.2. Missing values
 
 ##### 2.2.1. Per sample
-
 - Samples where more than 50% of the feature values are missing (filling the missing values with some replacement values is probably not a good idea)
 - Drop samples that have more than 20% of missing values.
 
