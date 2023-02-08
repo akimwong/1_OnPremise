@@ -7,22 +7,18 @@
 - Para ello, hemos tomado datos que muestran `con qué partes de nuestra web interactuaron nuestros usuarios`, nuestras preguntas son:
 
 1. ¿Cuál de estas interacciones afecta a los usuarios probablemente a la compra?
-2. ¿Podemos segmentar a los visitantes de ayer que no compraron, para ver quiénes son los que tienen mayor perspectiva de compra?
+2. ¿Podemos segmentar a los visitantes de ayer que no compraron? ¿para ver quiénes son los que tienen mayor probabilidad de compra?
 
 
-#### What Data Will I Use in This Competition?
+#### ¿Qué datos usaremos?
 
-In this competition, you’ll gain access to two similar datasets that include passenger information like name, `age, gender, socio-economic class, etc.` One dataset is titled `train.csv` and the other is titled `test.csv`.
+- Tenemos un montón de columnas de enteros, cada una reflejando una acción en el sitio web.
+- Y una columna de objeto, que parece un identificador de usuario.
+- Tenemos 1’s o 0’s en las columnas, indicando si un usuario interactuó o no con estas áreas del sitio web. 
+- La última columna muestra si el usuario ordenó o no, ésta es la importante!
 
-- `train.csv` contain the details of a subset of the passengers on board (891 to be exact) and importantly, `will reveal whether they survived or not,` also known as the “ground truth”.
-
-- `test.csv` contains similar information but `does not disclose` the “ground truth” for each passenger. `It’s your job to predict these outcomes.`
-
-Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived. 
-
-
-# II. APPROACH:
-The proposed problem is estimated as binary classification: Survives (1) - Dies (0)
+# II. ENFOQUE:
+El problema propuesto es de clasificación: Convierte (1) - No convierte (0)
 
 Before we open the dataset and start working on the available features, we will see the conditions necessary to survive in a catastrophic situation.
 This can be used to determine the significance of the features available (or the features needed if we start from scratch without any dataset of features)
