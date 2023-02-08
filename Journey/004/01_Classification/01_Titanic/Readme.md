@@ -5,10 +5,10 @@
 
 Sólo se <b>eliminan</b> las siguientes variables:
 
-- `SexMale` - muy alta correlación (87%) con `Title_Mister`;
+- `SexMale` - muy alta correlación (87%) con `Title_Mr`;
 - `hasCabin` - alta correlación (73%) con `Pclass`; <br/>
 
-(`Title_Mister` y `Pclass` no se eliminan por ser más predictoras de la variable objetivo)
+(`Title_Mr` y `Pclass` no se eliminan por ser más predictoras de la variable objetivo)
 
 Resultados:
 
