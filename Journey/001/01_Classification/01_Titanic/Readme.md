@@ -57,7 +57,7 @@ Method used: CRISP-DM (the standard of the industry for quantitative problems)
 
 ### 2. The Technique <- Why?
 We will use the binary classification models of:
-- Supervised Learning (Logistic Regression, Decision Trees, KNN, Naive Bayes)
+- Supervised Learning (Logistic Regression, SVM)
 - Ensemble learning (Bagging: Random Forest)
 
 And then select the best based on metrics.  Because the computanional cost is not too high due to the scale of the dataset <br/>
