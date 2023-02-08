@@ -1,7 +1,7 @@
 #### [(Anterior: EDA)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
 
 ### FEATURE ENGINEERING
-[JPYNB: Feature_Engineering](https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/01_Classification/01_Titanic/02_titanic_feature_engineeering.ipynb)
+[JPYNB: Feature_Engineering](https://github.com/akimwong/1_OnPremise/blob/main/Journey/002/01_Classification/01_Titanic/02_titanic.ipynb)
 
 se <b>eliminan</b> las siguientes variables:
 
