@@ -9,16 +9,36 @@
 
 #### 1.1. Structure of non-numerical features
 
-- Number of unique values each non-numerical feature has
-- Frequency the most prominent value is present
+- Number of unique values each non-numerical feature has  <br/>
+name: 891
+sex: 2 
+ticket: 
+cabin: 
+embarked: 3
+
+- Frequency the most prominent value is present  <br/>
+name: 891
+sex: 2 
+ticket: 
+cabin: 
+embarked: 3
 
 #### 1.2. Structure of numerical features
 
 How many unique values each of these feature has. This process will give us some insights about:
 
 - Number of binary (2 unique values)
+survived: 2 <br/>
+
 - Number of Ordinal (3 to ~10 unique values)
+pclass: 3 <br/>
+
 - Number of continuous (more than 10 unique values) features in the dataset.
+age:    <br/>
+sibsp:    <br/>
+parch:    <br/>
+fare:     <br/>
+
 
 #### 1.3. Conclusion of structure investigation
 
