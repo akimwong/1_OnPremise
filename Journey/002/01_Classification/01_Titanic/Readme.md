@@ -32,13 +32,12 @@ survived: 2 <br/>
 
 - Number of Ordinal (3 to ~10 unique values) <br/>
 pclass: 3 <br/>
+sibsp:    <br/>
+parch:    <br/>
 
 - Number of continuous (more than 10 unique values) features in the dataset.  <br/>
 age:    <br/>
-sibsp:    <br/>
-parch:    <br/>
 fare:     <br/>
-
 
 #### 1.3. Conclusion of structure investigation
 
@@ -51,8 +50,8 @@ Have a global view on the dataset with regards to things like duplicates, missin
 
 #### 2.1. Duplicates
 
-- Duplicates?:
-- Some reason?:
+- Duplicates: No
+- Some reason?: -
 
 #### 2.2. Missing values
 
