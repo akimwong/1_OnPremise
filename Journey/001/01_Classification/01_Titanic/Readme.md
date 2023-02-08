@@ -68,7 +68,7 @@ We won't use:
 - Reinforcement learning models, because I haven’t studied them yet
 
 ### 3. The Tool(s) <- Why?
-We will use R and Python.  </br>
+We will use Python (Pandas, Numpy, SKlearn) and R.  </br>
 For educational purposes to practice different codes, measure response times, and to check different outputs from different libraries
 
 #### [(Siguiente: Exploratory Data Analysis (EDA))](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
