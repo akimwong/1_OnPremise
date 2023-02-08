@@ -1,20 +1,18 @@
 #### [(Anterior: Dataset)](https://github.com/akimwong/1_OnPremise/tree/main/Journey/001/01_Classification/01_Titanic/)
 
-### EXPLORATORY DATA ANALYSIS (EDA)
+## EXPLORATORY DATA ANALYSIS (EDA)
 
-## 1. Structure Investigation
+### 1. Structure Investigation
 
-- Number of columns and rows: 
-- Number of data types that those features include:
+- Number of columns and rows: 12 x 891
+- Number of data types that those features include: float64(2), int64(5), object(5)
 
-### 1.1. Structure of non-numerical features
-
-(Even though "sex" is a numerical feature, it somehow was stored as a non-numerical one. This is sometimes due to some typo in data recording. These kind of things need to be taken care of during data preparation.)
+#### 1.1. Structure of non-numerical features
 
 - Number of unique values each non-numerical feature has
 - Frequency the most prominent value is present
 
-### 1.2. Structure of numerical features
+#### 1.2. Structure of numerical features
 
 How many unique values each of these feature has. This process will give us some insights about:
 
