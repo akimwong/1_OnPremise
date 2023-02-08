@@ -3,11 +3,11 @@
 # I. ¿Cuál es el DESAFÍO?
 
 - Tenemos muchos visitantes a nuestro sitio web todos los días, algunos compran pero muchos no. 
-- Gastamos dinero reorientando los visitantes anteriores, nos gustaría optar por esta actividad dirigiéndonos a los visitantes que tienen más probabilidades de convertirse. 
-- Para ello, hemos tomado datos que muestran `con qué partes de nuestros usuarios del sitio web interactuaron`, nuestras preguntas son:
+- Gastamos dinero reorientando los visitantes que no compran, nos gustaría optar por esta actividad dirigiéndonos a los visitantes que tienen más probabilidades de convertir. 
+- Para ello, hemos tomado datos que muestran `con qué partes de nuestra web interactuaron nuestros usuarios`, nuestras preguntas son:
 
 1. ¿Cuál de estas interacciones afecta a los usuarios probablemente a la compra?
-2. ¿Podemos anotar visitantes de ayer que no compraron, para ver quiénes son las perspectivas más valauve?
+2. ¿Podemos segmentar a los visitantes de ayer que no compraron, para ver quiénes son los que tienen mayor perspectiva de compra?
 
 
 #### What Data Will I Use in This Competition?
