@@ -8,7 +8,7 @@ On April 15, 1912, during her maiden voyage, the widely considered “unsinkable
 
 It seems some groups of people were more likely to survive than others.
 
-In this challenge, `we ask you to build a predictive model that answers the question: <b>“what sorts of people were more likely to survive?”</b>` using passenger data (ie name, age, gender, socio-economic class, etc). 
+In this challenge, we ask you to build a predictive model that answers the question: <b>“what sorts of people were more likely to survive?”</b> using passenger data (ie name, age, gender, socio-economic class, etc). 
 
 #### What Data Will I Use in This Competition?
 
