@@ -12,16 +12,16 @@
 - Number of unique values each non-numerical feature has  <br/>
 name: 891  <br/>
 sex: 2  <br/>
-ticket:   <br/>
-cabin:    <br/>
+ticket: 681  <br/>
+cabin: 148   <br/>
 embarked: 3   <br/>
 
 - Frequency the most prominent value is present  <br/>
-name: 891  <br/>
-sex: 2 <br/>
-ticket:   <br/>
-cabin:    <br/>
-embarked: 3  <br/>
+name: Turpin, Mr. William John Robert(1) <br/>
+sex: male(577) <br/>
+ticket: 347082(7)<br/>
+cabin: B96 B98(4)  <br/>
+embarked: S(644)  <br/>
 
 #### 1.2. Structure of numerical features
 
