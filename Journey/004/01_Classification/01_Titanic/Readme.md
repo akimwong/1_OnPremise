@@ -7,9 +7,10 @@ Se decide en función de la matriz de correlaciones. <br/>
 
 Sólo se <b>eliminan</b> las siguientes variables:
 
-- `SexMale` - muy alta correlación (87%) con `Title_Mr`; <br/>
-- `Title_Mrs`  - alta correlación (65%) con `Title_Mr`; <br/>
-- `hasCabin` - alta correlación (73%) con `Pclass`; <br/>
+- `SexMale` - muy alta correlación (87%) con `Title_Mr` - mejora la predicción; <br/>
+- `Title_Miss` - alta correlación (67%) con `Title_Mr` - mejora la predicción; <br/>
+- `Title_Mrs`  - alta correlación (55%) con `Title_Mr` - no aporta señal, ni mejora ni empeora la predicción; <br/>
+- `hasCabin` - alta correlación (73%) con `Pclass` - mejora la predicción; <br/>
 
 (`Title_Mr` y `Pclass` no se eliminan por ser más predictoras de la variable objetivo)
 
