@@ -46,6 +46,7 @@ Método usado: CRISP-DM (estándar de la industria para resolver problemas cuant
 
 - Se presentan columnas de potenciales acciones en nuestra web: 0 si NO se hizo / 1 si se hizo
 
+
 1.3. Data preprocesing  <br/>
 
 - Comprobación de nivel de correlación de las diferentes acciones con nuestra variables objetivo
