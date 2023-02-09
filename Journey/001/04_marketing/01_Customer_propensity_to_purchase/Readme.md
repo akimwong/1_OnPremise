@@ -64,7 +64,7 @@ Método usado: CRISP-DM (estándar de la industria para resolver problemas cuant
 1.6. Despliegue
 
 
-### 2. La Técnica <- ¿Por qué?
+### 2. ¿Qué Técnica? <- ¿Por qué?
 
 - Se usará la técnica de Ensemble: Random Forest como modelo de referencia
 (Aunque no existe un modelo que satisfaga todas las necesidades, Random Forest funciona habitualmente bien cuando se hacen comparativas)
@@ -74,11 +74,13 @@ No se usarán:
 - Modelos de aprendizaje No Supervisado, debido a que la variable objetivo se encuentra etiquetada
 - Modelos de aprendizaje Por Refuerzo, debido a que todavía no ha sido estudiada en profundidad
 
-### 3. The Tool(s) <- Why?
+### 3. ¿Qué Herrramienta(s)? <- ¿por Qué?
+
 Se usará Python (Pandas, Numpy, SKlearn), y posteiormente, R.  </br>
-El objeto de la práctica es principalmente educativo: 
-- Conocer diferentes necesidades de negocio
+El objetivo de la práctica es educativo: 
+- Conocer diferentes casos de uso de negocio
 - Conocer diferentes tipos de datasets que hay en el mercado
+- Exponer los resultados desde un punto de vista de Data Analyst
 - Practicar diferentes códigos
 - Medir tiempos de respuesta
 - Comprobar los resultados de diferentes librerías
