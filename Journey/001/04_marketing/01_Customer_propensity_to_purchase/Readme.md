@@ -74,7 +74,7 @@ No se usarán:
 - Modelos de aprendizaje No Supervisado, debido a que la variable objetivo se encuentra etiquetada
 - Modelos de aprendizaje Por Refuerzo, debido a que todavía no ha sido estudiada en profundidad
 
-### 3. ¿Qué Herrramienta(s)? <- ¿por Qué?
+### 3. ¿Qué Herrramienta(s)? <- ¿Por Qué?
 
 Se usará Python (Pandas, Numpy, SKlearn), y posteiormente, R.  </br>
 El objetivo de la práctica es educativo: 
