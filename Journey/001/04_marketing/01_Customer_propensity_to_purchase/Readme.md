@@ -6,58 +6,82 @@
 - Gastamos dinero reorientando los visitantes que no compran, nos gustaría optar por esta actividad dirigiéndonos a los visitantes que tienen más probabilidades de convertir. 
 - Para ello, hemos tomado datos que muestran `con qué partes de nuestra web interactuaron nuestros usuarios`, nuestras preguntas son:
 
-1. ¿Cuál de estas interacciones afecta a los usuarios probablemente a la compra?
-2. ¿Podemos segmentar a los visitantes de ayer que no compraron? ¿para ver quiénes son los que tienen mayor probabilidad de compra?
+1. ¿Cuales de estas interacciones tienen relación con una posible compra?
+2. ¿Podemos segmentar a los visitantes de ayer que no compraron? ¿para estimar quiénes son los que tienen mayor probabilidad de comprar?
 
 
 #### ¿Qué datos usaremos?
 
-- Tenemos un montón de columnas de enteros, cada una reflejando una acción en el sitio web.
-- Y una columna de objeto, que parece un identificador de usuario.
+- Tenemos columnas de enteros, cada una reflejando una acción en el sitio web.
+- Y una columna, que parece un identificador de usuario.
 - Tenemos 1’s o 0’s en las columnas, indicando si un usuario interactuó o no con estas áreas del sitio web. 
-- La última columna muestra si el usuario ordenó o no, ésta es la importante!
+- La última columna muestra si el usuario compró o no, ésta es la objetivo!
 
 # II. ENFOQUE:
 El problema propuesto es de clasificación: Convierte (1) - No convierte (0)
 
-Before we open the dataset and start working on the available features, we will see the conditions necessary to survive in a catastrophic situation.
-This can be used to determine the significance of the features available (or the features needed if we start from scratch without any dataset of features)
+Antes de abrir el dataset y de empezar a trabajar con las features disponibles se decriben las condiciones necesarias para una posible compra:
 
-Now we can try to organize the features within this general scheme.
-We can see:
-- Note that being a woman and a girl can be a disadvantage compared to a grown man in a circumstance of jungle law, but on the contrary, it can be a great advantage to survive according to the rules of a civilized world.
-- There are variables that a priori are estimated that do not determine survival in a disaster situation such as the name or ticket number.  We keep them under observation until they go through the analysis process. 
+1. Existencia de la necesidad de un producto o servicio
+2. Búsqueda del producto o servicio
+3. Comprobación de precio
+4. Comparación del producto con productos similares
+5. Revisión de valoraciones (de haber) del producto elegido
+6. Facilidad de compra / navegación por el sitio web
+7. Coste del envío
+8. Política de devolución
 
-### 1. The Method <- Why?
-Type of problem: Quantitative (Decision-making justified by numbers) </br>
-Method used: CRISP-DM (the standard of the industry for quantitative problems)
+### 1. ¿Qué Método? <- ¿Por qué?
 
-1.1. Business understanding - What exactly is the problem we are trying to solve with data <br/>
+Tipo de problema: Quantitativo (Toma de decisión justificada por números) </br>
 
-- What are my chances of survival based on my characteristics?
-- What are the characteristics of people with the higher chance of survival?
+Método usado: CRISP-DM (estándar de la industria para resolver problemas cuantitativos)
+
+1.1. Business understanding - ¿Cuál es exactamente el problema que tratamos de resolver con los datos? <br/>
+
+- ¿Qué interacciones tienen los usuarios con nuestra página web que finalmente derivan en una posible compra?
+- ¿Cómo segmentar a los usuarios que tienen mayor potencial de compra en función de sus interacciones con nuestra página web?
 
 1.2. Data understanding <br/>
+
+- Se presentan columnas de potenciales acciones en nuestra web: 0 si NO se hizo / 1 si se hizo
+
 1.3. Data preprocesing  <br/>
-1.4. Modeling <br/>
-1.5. Optimizing  <br/>
-1.6. Deployment 
 
-### 2. The Technique <- Why?
-We will use the binary classification models of:
-- Supervised Learning (Logistic Regression, SVM)
-- Ensemble learning (Bagging: Random Forest)
+- Comprobación de nivel de correlación de las diferentes acciones con nuestra variables objetivo
+- Extración (drop) de variables identificativa, eliminación de filas duplicadas -> nueva comprobación de correlaciones
+- Comprobación de missings (imputaciones)
+- Filtro de variables
 
-And then select the best based on metrics.  Because the computanional cost is not too high due to the scale of the dataset <br/>
+1.4. Modelo <br/>
 
-We won't use:
-- Deep learning models, because the small scale of the dataset
-- Unsupervised learning models, because the outputs are labeled
-- Reinforcement learning models, because I haven’t studied them yet
+- Se usará un modelo de clasificación binaria
+
+1.5. Optimización  <br/>
+
+- Grid para búsqueda de hiperparámetros
+
+1.6. Despliegue
+
+
+### 2. La Técnica <- ¿Por qué?
+
+- Se usará la técnica de Ensemble: Random Forest como modelo de referencia
+(Aunque no existe un modelo que satisfaga todas las necesidades, Random Forest funciona habitualmente bien cuando se hacen comparativas)
+
+No se usarán:
+- Modelos de Deep learning, debido a la pequeña escala del dataset
+- Modelos de aprendizaje No Supervisado, debido a que la variable objetivo se encuentra etiquetada
+- Modelos de aprendizaje Por Refuerzo, debido a que todavía no ha sido estudiada en profundidad
 
 ### 3. The Tool(s) <- Why?
-We will use Python (Pandas, Numpy, SKlearn) and R.  </br>
-For educational purposes to practice different codes, measure response times, and to check different outputs from different libraries
+Se usará Python (Pandas, Numpy, SKlearn), y posteiormente, R.  </br>
+El objeto de la práctica es principalmente educativo: 
+- Conocer diferentes necesidades de negocio
+- Conocer diferentes tipos de datasets que hay en el mercado
+- Practicar diferentes códigos
+- Medir tiempos de respuesta
+- Comprobar los resultados de diferentes librerías
 
 #### [(Siguiente: Exploratory Data Analysis (EDA))](https://github.com/akimwong/1_OnPremise/tree/main/Journey/002/01_Classification/01_Titanic/)
 
