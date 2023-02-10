@@ -1,6 +1,6 @@
 #### (from https://www.kaggle.com/code/benpowis/customer-propensity-to-purchase/notebook)
 
-# I. ¿Cuál es el DESAFÍO?
+# I. ¿Cuál es el problema?
 
 - Tenemos muchos visitantes a nuestro sitio web todos los días, algunos compran pero muchos no. 
 - Gastamos dinero reorientando los visitantes que no compran, nos gustaría optar por esta actividad dirigiéndonos a los visitantes que tienen más probabilidades de convertir. 
