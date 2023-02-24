@@ -35,7 +35,7 @@ Random Forest has some <b>limitations</b> as well. The main ones are:
 Ejemplo: <br/>
 
 param_grid = {  <br/>
-<p>'n_estimators': [100, 200, 300], </p><br/>
+<p>'n_estimators': [100, 200, 300], </p>
         'max_depth': [10, 20, 30],  <br/>
         'min_samples_split': [2, 4, 6], <br/>
         'min_samples_leaf': [1, 2, 4],  <br/>
