@@ -38,7 +38,7 @@ param_grid = {  <br/>
 
     'n_estimators': [100, 200, 300], <br/>
     'max_depth': [10, 20, 30], <br/>
-        'min_samples_split': [2, 4, 6], <br/>
-        'min_samples_leaf': [1, 2, 4],  <br/>
-        'criterion': ['gini', 'entropy'] <br/>
+    'min_samples_split': [2, 4, 6], <br/>
+    'min_samples_leaf': [1, 2, 4],  <br/>
+    'criterion': ['gini', 'entropy'] <br/>
 }
