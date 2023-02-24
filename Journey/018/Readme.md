@@ -19,7 +19,7 @@ Random Forest has some <b>limitations</b> as well. The main ones are:
     It may `not perform well on imbalanced data` sets, where one class is much more prevalent than the other.
     It may `not work well on data sets with high levels of multicollinearity`.
 
-## Hiperparámetros:
+## 2. Hiperparámetros:
     
 1. n_estimators: El número de árboles en el bosque. A medida que se incrementa este valor, el rendimiento mejora, pero también aumenta el tiempo de entrenamiento y la memoria necesaria.
 2. criterion: La función de medición de calidad de la división. Los dos criterios disponibles son “gini” para el índice Gini y “entropy” para la ganancia de información. Por defecto, se utiliza Gini.  Si el tiempo de ejecución es una preocupación importante, se puede utilizar la medida Gini para el criterio de selección de características. Si la precisión de clasificación es una prioridad, la entropía puede proporcionar mejores resultados, aunque a costa de un mayor tiempo de ejecución.
