@@ -32,7 +32,7 @@ Random Forest has some <b>limitations</b> as well. The main ones are:
 9. oob_score: Si se utiliza el error de fuera de bolsa para estimar la precisión generalizada (false por defecto).
 10. n_jobs: El número de trabajos en paralelo para la construcción de árboles. Si se establece en -1, se utilizarán todos los núcleos disponibles.
 
-Ejemplo: <br/>
+### Ejemplo:
 
 param_grid = {  <br/>
 
