@@ -36,7 +36,7 @@ Ejemplo: <br/>
 
 param_grid = {  <br/>
 <p>'n_estimators': [100, 200, 300], </p>
-        'max_depth': [10, 20, 30],  <br/>
+<p>'max_depth': [10, 20, 30],  </p>
         'min_samples_split': [2, 4, 6], <br/>
         'min_samples_leaf': [1, 2, 4],  <br/>
         'criterion': ['gini', 'entropy'] <br/>
