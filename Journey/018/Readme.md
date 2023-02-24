@@ -9,15 +9,15 @@ In random forest, multiple decision trees are built using bootstrapped samples o
 Random Forest is a powerful algorithm that can be used for both classification and regression tasks. Some of its key advantages are:
 
     It can handle large data sets with high dimensionality.
-    It is less prone to overfitting than decision trees.
-    It can provide feature importance ranking, which can be used to identify the most relevant features in the data set.
+    It is less `prone to overfitting` than decision trees.
+    It can `provide feature importance ranking`, which can be used to identify the most relevant features in the data set.
     It can handle both categorical and numerical features.
 
-Random Forest has some limitations as well. The main ones are:
+Random Forest has some <b>limitations</b> as well. The main ones are:
 
-    It is a black box model, which makes it difficult to interpret the results.
-    It may not perform well on imbalanced data sets, where one class is much more prevalent than the other.
-    It may not work well on data sets with high levels of multicollinearity.
+    It is a `black box model`, which makes it difficult to interpret the results.
+    It may `not perform well on imbalanced data` sets, where one class is much more prevalent than the other.
+    It may `not work well on data sets with high levels of multicollinearity`.
 
 ## Hiperparámetros:
     
