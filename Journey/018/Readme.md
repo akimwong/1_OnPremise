@@ -22,7 +22,7 @@ Random Forest has some <b>limitations</b> as well. The main ones are:
 ## Hiperparámetros:
     
 1. n_estimators: El número de árboles en el bosque. A medida que se incrementa este valor, el rendimiento mejora, pero también aumenta el tiempo de entrenamiento y la memoria necesaria.
-2. criterion: La función de medición de calidad de la división. Los dos criterios disponibles son “gini” para el índice Gini y “entropy” para la ganancia de información. Por defecto, se utiliza Gini.
+2. criterion: La función de medición de calidad de la división. Los dos criterios disponibles son “gini” para el índice Gini y “entropy” para la ganancia de información. Por defecto, se utiliza Gini.  Si el tiempo de ejecución es una preocupación importante, se puede utilizar la medida Gini para el criterio de selección de características. Si la precisión de clasificación es una prioridad, la entropía puede proporcionar mejores resultados, aunque a costa de un mayor tiempo de ejecución.
 3. max_depth: La profundidad máxima del árbol. Si no se define, los nodos se expandirán hasta que todas las hojas contengan menos de min_samples_split muestras.
 4. min_samples_split: El número mínimo de muestras necesarias para dividir un nodo interno.
 5. min_samples_leaf: El número mínimo de muestras que deben contener las hojas finales del árbol. Si el número de muestras es menor que este valor, no se dividirá y se considerará una hoja.
