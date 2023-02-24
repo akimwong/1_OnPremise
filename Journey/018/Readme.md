@@ -21,10 +21,14 @@ Random Forest has some <b>limitations</b> as well. The main ones are:
 
 ## Hiperparámetros:
     
-1. n_estimators: número de árboles que se deben crear en el bosque.
-2. criterion: criterio utilizado para medir la calidad de una división. Puede ser "gini" o "entropy".
-3. max_depth: profundidad máxima de cada árbol.
-4. min_samples_split: número mínimo de muestras necesarias para dividir un nodo interno.
-5. min_samples_leaf: número mínimo de muestras necesarias en cada hoja.
-6. max_features: número máximo de características a considerar en cada división.
+1. n_estimators: El número de árboles en el bosque. A medida que se incrementa este valor, el rendimiento mejora, pero también aumenta el tiempo de entrenamiento y la memoria necesaria.
+2. criterion: La función de medición de calidad de la división. Los dos criterios disponibles son “gini” para el índice Gini y “entropy” para la ganancia de información. Por defecto, se utiliza Gini.
+3. max_depth: La profundidad máxima del árbol. Si no se define, los nodos se expandirán hasta que todas las hojas contengan menos de min_samples_split muestras.
+4. min_samples_split: El número mínimo de muestras necesarias para dividir un nodo interno.
+5. min_samples_leaf: El número mínimo de muestras que deben contener las hojas finales del árbol. Si el número de muestras es menor que este valor, no se dividirá y se considerará una hoja.
+6. max_features: El número máximo de características que se considerarán para cada división. Si es “auto”, entonces max_features = sqrt(n_features).
+7. max_leaf_nodes: El número máximo de hojas en el árbol. Si no se define, entonces no hay límite en el número de hojas.
+8. bootstrap: Si se utiliza bootstrap (true por defecto) o no (false). Si se establece en False, todas las muestras se utilizarán para construir cada árbol.
+9. oob_score: Si se utiliza el error de fuera de bolsa para estimar la precisión generalizada (false por defecto).
+10. n_jobs: El número de trabajos en paralelo para la construcción de árboles. Si se establece en -1, se utilizarán todos los núcleos disponibles.
 
