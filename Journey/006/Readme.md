@@ -12,20 +12,25 @@
 - RMSE es una medida de la magnitud de los errores de predicción del modelo <b>en las mismas unidades que la variable de respuesta</b>. 
 - If your response variable units are dollars, the units of MSE are dollars-squared, but the RMSE will be in dollars.
 
-## 1.3. 
+## 1.3. MAE: Mean absolute error. 
+- Media de las diferencias absolutas entre las predicciones del modelo y los valores reales observados.  Esto significa que, para cada punto de datos, se toma la diferencia absoluta entre la predicción del modelo y el valor real observado, y luego se calcula la media de esas diferencias absolutas.
+- Mide la magnitud promedio de los errores en la predicción del modelo, sin tener en cuenta la dirección de los errores (es decir, si la predicción es demasiado alta o demasiado baja).
+- Similar a MSE, pero en lugar de elevar al cuadrado, solo toma la diferencia media absoluta entre los valores reales y predichos.  Esto resulta en menos énfasis en errores más grandes en comparación con MSE.
+- Objetivo: Minimizar
 
-Deviance: Short for mean residual deviance. In essence, it provides a degree to which a model explains the variation in a set of data when using maximum likelihood estimation. Essentially this compares a saturated model (i.e. fully featured model) to an unsaturated model (i.e. intercept only or average). If the response variable distribution is Gaussian, then it will be approximately equal to MSE. When not, it usually gives a more useful estimate of error. Deviance is often used with classification models.10 Objective: minimize
+## 1.4. RMSLE: Root mean squared logarithmic error. 
+- Compara el logaritmo de las predicciones con el logaritmo de los valores reales. 
+- Luego, se calcula la diferencia cuadrática media de estos logaritmos. 
+- La razón detrás del uso de los logaritmos es que los errores relativamente grandes en valores pequeños y los errores relativamente pequeños en valores grandes pueden tener un efecto similar en la medida de evaluación. 
+- Al tomar los logaritmos de los valores, se reduce la influencia de los valores extremos en la medida de evaluación. 
+- Objetivo: Minimizar (cuanto más cercano a cero, mejor es el modelo).
 
-## 1.4.
-MAE: Mean absolute error. Similar to MSE but rather than squaring, it just takes the mean absolute difference between the actual and predicted values (MAE=1n∑ni=1(|yi−^yi|)
-
-). This results in less emphasis on larger errors than MSE. Objective: minimize
-
-## 1.5. 
-RMSLE: Root mean squared logarithmic error. Similar to RMSE but it performs a log() on the actual and predicted values prior to computing the difference (RMSLE=√1n∑ni=1(log(yi+1)−log(^yi+1))2
-
-). When your response variable has a wide range of values, large response values with large errors can dominate the MSE/RMSE metric. RMSLE minimizes this impact so that small response values with large errors can have just as meaningful of an impact as large response values with large errors. Objective: minimize
-
-## 1.6.
-R2
-: This is a popular metric that represents the proportion of the variance in the dependent variable that is predictable from the independent variable(s). Unfortunately, it has several limitations. For example, two models built from two different data sets could have the exact same RMSE but if one has less variability in the response variable then it would have a lower R2 than the other. You should not place too much emphasis on this metric. Objective: maximize
+## 1.5. R2
+- Medida de qué tan bien los valores predichos por un modelo de regresión lineal se ajustan a los valores reales de la variable de respuesta. 
+- El valor de R2 varía de 0 a 1, donde un valor de 1 indica una perfecta ajuste del modelo a los datos.
+- Para calcular R2, se compara la variabilidad explicada por el modelo con la variabilidad total de los datos. 
+- La variabilidad explicada se refiere a la cantidad de variación en la variable de respuesta que puede ser explicada por las variables predictoras en el modelo, mientras que la variabilidad total es la cantidad total de variación en la variable de respuesta.
+- Se calcula como la proporción de la variabilidad explicada por el modelo sobre la variabilidad total. 
+- Un valor de R2 cercano a 1 indica que el modelo explica la mayor parte de la variabilidad en los datos, mientras que un valor cercano a 0 indica que el modelo no explica la variabilidad en los datos mejor que simplemente usar la media de la variable de respuesta como predicción.
+- Este es un métrica popular que representa la proporción de la varianza en la variable dependiente que es predecible a partir de la(s) variable(s) independiente(s). 
+- Desafortunadamente, tiene varias limitaciones. Por ejemplo, dos modelos construidos a partir de dos conjuntos de datos diferentes podrían tener el mismo RMSE exacto, pero si uno tiene menos variabilidad en la variable de respuesta, entonces tendría un R2 más bajo que el otro. No se debe hacer demasiado énfasis en esta métrica.
