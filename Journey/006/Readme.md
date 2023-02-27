@@ -27,6 +27,7 @@
 - La razón detrás del uso de los logaritmos es que los errores relativamente grandes en valores pequeños y los errores relativamente pequeños en valores grandes pueden tener un efecto similar en la medida de evaluación. 
 - Al tomar los logaritmos de los valores, se reduce la influencia de los valores extremos en la medida de evaluación. 
 - Objetivo: Minimizar (cuanto más cercano a cero, mejor es el modelo).
+- Algunos ejemplos de casos de uso de RMSLE son la predicción de precios de bienes raíces, la predicción de ventas de productos de alto valor y la predicción de ingresos anuales de empresas.
 
 ## 1.5. R2
 - Medida de qué tan bien los valores predichos por un modelo de regresión lineal se ajustan a los valores reales de la variable de respuesta. 
