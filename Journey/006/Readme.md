@@ -56,11 +56,11 @@
 - Mide la proporción de ejemplos positivos que fueron correctamente clasificados como positivos (es decir, verdaderos positivos) en comparación con el número total de ejemplos positivos en el conjunto de datos. 
 - Es útil en problemas donde el costo de un falso negativo es alto.
 
-## F1-score
+## 2.4. F1-score
 - Es la media armónica entre la precisión y la sensibilidad, y mide la eficacia general del modelo. 
 - Es una métrica útil para problemas de clasificación desequilibrados, donde hay una clase minoritaria que es más importante que las demás.
 
-## Curva ROC (ROC Curve)
+## 2.5. Curva ROC (ROC Curve)
 - Es una representación gráfica de la sensibilidad versus la tasa de falsos positivos para diferentes umbrales de clasificación. 
 - Es una métrica útil para evaluar la capacidad de discriminación del modelo y comparar diferentes modelos. 
 - El área bajo la curva ROC (AUC) se utiliza a menudo como una medida agregada de la calidad del modelo.
