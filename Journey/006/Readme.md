@@ -38,4 +38,29 @@
 - Un valor de R2 cercano a 1 indica que el modelo explica la mayor parte de la variabilidad en los datos, mientras que un valor cercano a 0 indica que el modelo no explica la variabilidad en los datos mejor que simplemente usar la media de la variable de respuesta como predicción.
 - Este es un métrica popular que representa la proporción de la varianza en la variable dependiente que es predecible a partir de la(s) variable(s) independiente(s). 
 - Desafortunadamente, tiene varias limitaciones. Por ejemplo, dos modelos construidos a partir de dos conjuntos de datos diferentes podrían tener el mismo RMSE exacto, pero si uno tiene menos variabilidad en la variable de respuesta, entonces tendría un R2 más bajo que el otro. No se debe hacer demasiado énfasis en esta métrica.
-- R2 no indica si el modelo es teóricamente sólido o no, ni si los coeficientes son estadísticamente significativos o no. Además, el R2 puede ser engañoso si se utiliza en situaciones en las que las variables independientes están altamente correlacionadas entre sí o si el modelo es inadecuado para los datos. Por lo tanto, <b> es importante utilizar el R2 junto con otras métricas y análisis para evaluar la calidad de un modelo de regresión </b>.
+- R2 no indica si el modelo es teóricamente sólido o no, ni si los coeficientes son estadísticamente significativos o no. Además, el R2 puede ser engañoso si se utiliza en situaciones en las que las variables independientes están altamente correlacionadas entre sí o si el modelo es inadecuado para los datos. Por lo tanto, <b> es importante utilizar el R2 junto con otras métricas y análisis para evaluar la calidad de un modelo de regresión </b>
+
+
+# 2. Modelos de Clasificación
+
+## 2.1. Exactitud (Accuracy)
+- Mide la proporción de ejemplos que fueron correctamente clasificados por el modelo en comparación con el número total de ejemplos en el conjunto de datos.
+- Es una métrica útil para problemas de clasificación balanceados donde todas las clases tienen aproximadamente el mismo número de ejemplos. 
+- Sin embargo, puede ser engañosa si las clases están desequilibradas en términos de cantidad de ejemplos.
+
+## 2.2. Precisión (Precision)
+- Mide la proporción de ejemplos que fueron correctamente clasificados como positivos (es decir, verdaderos positivos) en comparación con el número total de ejemplos que el modelo clasificó como positivos (tanto verdaderos positivos como falsos positivos). 
+- Es útil en problemas donde el costo de un falso positivo es alto.
+
+## 2.3. Sensibilidad o tasa de verdaderos positivos (Recall o True Positive Rate)
+- Mide la proporción de ejemplos positivos que fueron correctamente clasificados como positivos (es decir, verdaderos positivos) en comparación con el número total de ejemplos positivos en el conjunto de datos. 
+- Es útil en problemas donde el costo de un falso negativo es alto.
+
+## F1-score
+- Es la media armónica entre la precisión y la sensibilidad, y mide la eficacia general del modelo. 
+- Es una métrica útil para problemas de clasificación desequilibrados, donde hay una clase minoritaria que es más importante que las demás.
+
+## Curva ROC (ROC Curve)
+- Es una representación gráfica de la sensibilidad versus la tasa de falsos positivos para diferentes umbrales de clasificación. 
+- Es una métrica útil para evaluar la capacidad de discriminación del modelo y comparar diferentes modelos. 
+- El área bajo la curva ROC (AUC) se utiliza a menudo como una medida agregada de la calidad del modelo.
