@@ -9,6 +9,7 @@
 ## 1.2. RMSE: Root mean squared error (raíz cuadrada del MSE)
 - Mide la desviación entre los valores observados y los valores predichos por el modelo. 
 - Objetivo: Minimizar
+- RMSE es una medida de la magnitud de los errores de predicción del modelo <b>en las mismas unidades que la variable de respuesta</b>. 
 - If your response variable units are dollars, the units of MSE are dollars-squared, but the RMSE will be in dollars.
 
 ## 1.3. 
