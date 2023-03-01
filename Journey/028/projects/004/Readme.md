@@ -1,6 +1,6 @@
 (from https://github.com/kyclark/tiny_python_projects/tree/master/03_picnic)
 
-# Picnic
+# Picnic_
 
 Write a program that will correctly format the items we're taking on our picnic.
 For one item, it should print the one item:
