@@ -31,6 +31,7 @@
 - [How to Take Your SQL from Zero to Data Scientist Level — Part 2/3 (DL)](https://towardsdatascience.com/how-to-take-your-sql-from-zero-to-data-scientist-level-part-2-3-bc1cbb48299e)
 - [How to Take Your SQL from Zero to Data Scientist Level — Part 3/3 (DL)](https://towardsdatascience.com/how-to-take-your-sql-from-zero-to-data-scientist-level-part-3-3-fe3996059577)
 - [SQL Concepts that Beginners Have Trouble With (DL)](https://towardsdatascience.com/sql-concepts-that-beginners-have-trouble-with-44ad41243806)
+- [Advanced SQL Tips and Tricks for Data Analysts (DL)](https://medium.com/geekculture/advanced-sql-tips-and-tricks-for-data-analysts-2f5079c8ba7b)
 
 
 
