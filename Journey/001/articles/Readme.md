@@ -33,5 +33,7 @@
 - [SQL Concepts that Beginners Have Trouble With (DL)](https://towardsdatascience.com/sql-concepts-that-beginners-have-trouble-with-44ad41243806)
 - [Advanced SQL Tips and Tricks for Data Analysts (DL)](https://medium.com/geekculture/advanced-sql-tips-and-tricks-for-data-analysts-2f5079c8ba7b)
 
+#### Data Visualization
 
+- [20 ideas for better data visualization (DL)](https://uxdesign.cc/20-ideas-for-better-data-visualization-73f7e3c2782d)
 
