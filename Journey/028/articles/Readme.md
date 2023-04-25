@@ -2,6 +2,8 @@
 - [R is for Research, Python is for Production](https://www.r-bloggers.com/2021/07/r-is-for-research-python-is-for-production-2/?utm_content=226616732&utm_medium=social&utm_source=twitter&hss_channel=tw-1318985240)
 - [5 Quick and Easy Tips to Become an Efficient Data Scientist in Both Python and R](https://towardsdatascience.com/5-quick-and-easy-tips-to-become-an-efficient-data-scientist-in-both-python-and-r-5cf51f6396a3)
 - [Difference between R and Python_DScTutorials](https://datasciencetut.com/difference-between-r-and-python/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
+- [Setting up Python Projects: Part I (DL)](https://medium.com/towards-data-science/setting-up-python-projects-part-i-408603868c08)
+- [Setting Up Python Projects: Part II (DL)](https://towardsdatascience.com/setting-up-python-projects-part-ii-c4bd84b709d1)
 
 
 ### PYTHON
