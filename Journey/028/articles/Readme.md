@@ -66,7 +66,7 @@
 #### PYTHON - SKLEARN
 - [7 Scikit-Learn Best Practices For Data Scientists (SMRY)(DL)](https://medium.com/towards-data-science/7-scikit-learn-best-practices-for-data-scientists-f232a6ed2756)
 
-#### R
+### R
 
 - [A Guide to using h20.ai in R](https://towardsdatascience.com/a-guide-to-using-h2o-ai-in-r-99cf6265bc05)
 - [How to Reverse-Code an Interval Scale in R](https://towardsdatascience.com/how-to-reverse-code-an-interval-scale-in-r-917c13e4888e)
