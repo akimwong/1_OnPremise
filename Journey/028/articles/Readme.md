@@ -4,7 +4,6 @@
 - [Difference between R and Python_DScTutorials](https://datasciencetut.com/difference-between-r-and-python/?utm_source=ReviveOldPost&utm_medium=social&utm_campaign=ReviveOldPost)
 - [Setting up Python Projects: Part I (DL)](https://medium.com/towards-data-science/setting-up-python-projects-part-i-408603868c08)
 - [Setting Up Python Projects: Part II (DL)](https://towardsdatascience.com/setting-up-python-projects-part-ii-c4bd84b709d1)
-- [How To Create High-Performance Data Products? (DL)](https://towardsdatascience.com/how-to-create-high-performance-data-products-717ff3a47d38)
 
 
 ### PYTHON
