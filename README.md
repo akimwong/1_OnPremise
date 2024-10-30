@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="OnPremise.png" width="800" height="200">
-</p>
-
 # On-Premise
 Definition: The deployment of resources on-premises, using virtualization and resource management tools, is
 sometimes called the “private cloud”.  This deployment model is the same as legacy IT infrastructure while using application management and virtualization technologies to try and increase resource utilization
