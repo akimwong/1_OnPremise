@@ -1,10 +1,16 @@
-# On-Premise
-Definition: The deployment of resources on-premises, using virtualization and resource management tools, is
-sometimes called the “private cloud”.  This deployment model is the same as legacy IT infrastructure while using application management and virtualization technologies to try and increase resource utilization
+## Overview
+Collection of personal data management/ai tools and technology experiments. These solutions focus on automating data collection, processing, and analysis to enhance individual productivity and learning.</p>
 
-This section is not intended to include operational code to deploy a private cloud as is the definition. Here I will analyze different use case using standard datasets with different languages & libraries outside the cloud
+## Projects
 
+### 1. Excel to MongoDB Data Pipeline
 
+<b>Short name:</b>  </p>
+<b>Role:</b>  </p>
+<b>Technologies:</b>  </p>
+<b>Tags:</b>  </p>
+<b>Key Tools:</b>  </p>
+<b>Description:</b> 
 
 ```
 man -k
