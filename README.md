@@ -1,5 +1,5 @@
 ## Overview
-Collection of personal tools and technology experiments. These solutions focus on practicing with new technologies to enhance individual productivity and learning. All projects are designed for local testing and development, without any connections to cloud services.</p>
+Collection of personal tools and technology experiments. These solutions focus on practicing with new technologies and different roles to enhance individual productivity and learning. All projects are designed for local testing and development, without any connections to cloud services.</p>
 
 ## Projects
 
