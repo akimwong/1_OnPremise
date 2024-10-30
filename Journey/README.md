@@ -17,24 +17,24 @@ This section is not intended to include operational code to deploy a private clo
 - [ ] &#x2A33; 7 > [Linear Regression (!)](007)
 - [ ] &#x2A33; 8 > [Logistic Regression (!)](Journey/008)
 - [ ] &#x2A33; 9 > [Time Series (!)](Journey/009)
-- [ ] &#x2A33; 10 > [Score Cards](Journey/010)
+- [ ] &#x2A33; 10 > Score Cards
 - [ ] &#x2A33; 11 > [Spatial Statistics (!)](Journey/011)
-- [ ] &#x2A33; 12 > [ML-Support Vector Machine](Journey/012)
-- [ ] &#x2A33; 13 > [ML-Ensemble Bagging](Journey/013/Readme.md)
+- [ ] &#x2A33; 12 > ML-Support Vector Machine
+- [ ] &#x2A33; 13 > ML-Ensemble Bagging
 - [ ] &#x2A33; 14 > ML-Ensemble Boosting
 - [ ] &#x2A33; 15 > ML-Ensemble Stacking
 - [ ] &#x2A33; 16 > [ML-Neural Networks (!)](Journey/016)
 - [ ] &#x2A33; 17 > [ML-Decission Tree (!)](Journey/017)
 - [ ] &#x2A33; 18 > [ML-Random Forest (!)](Journey/018)
-- [ ] &#x2A33; 19 > [ML-Gradient Boosting](Journey/019)
+- [ ] &#x2A33; 19 > ML-Gradient Boosting
 - [ ] &#x2A33; 20 > [ML-XGboost (!)](Journey/020)
 - [ ] &#x2A33; 21 > [DL-Convolutional Neural Networks (!)](Journey/021)
-- [ ] &#x2A33; 22 > [DL-Recurrent Neural Networks](Journey/022/Readme.md)
+- [ ] &#x2A33; 22 > DL-Recurrent Neural Networks
 - [ ] &#x2A33; 23 > [DL-Natural Language Processing (!)](Journey/023)
-- [ ] &#x2A33; 24 > [Big Data Technologies-Hadoop & Spark](Journey/024/Readme.md)
-- [ ] &#x2A33; 25 > [Social Networks-Pajek](Journey/025/Readme.md)
+- [ ] &#x2A33; 24 > Big Data Technologies-Hadoop & Spark
+- [ ] &#x2A33; 25 > Social Networks-Pajek
 - [ ] &#x2A33; 26 > [Text Minning (!)](Journey/026/Readme.md)
-- [ ] &#x2A33; 27 > [Scala](Journey/027/Readme.md)
+- [ ] &#x2A33; 27 > Scala
 - [ ] &#x2A33; 28 > [Micro Projects (Python & R) (!)](Journey/028)
 - [ ] &#x2A33; 29 > [UL:Unsupervised Learning / RL:Reinforcement Learning (!)](Journey/029)
 
