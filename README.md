@@ -3,7 +3,7 @@ Collection of personal tools and technology experiments. These solutions focus o
 
 ## Projects
 
-### 1. Excel to MongoDB Data Pipeline
+### 1. 
 
 <b>Short name:</b>  </p>
 <b>Role:</b>  </p>
