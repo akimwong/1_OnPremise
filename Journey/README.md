@@ -9,12 +9,12 @@ This section is not intended to include operational code to deploy a private clo
 ## Sections
 
 - [ ] &#x2A33; 1 > [The Datasets (!)](001)
-- [ ] &#x2A33; 2 > [Exploratory Data Analysis(EDA) (!)](Journey/002)
-- [ ] &#x2A33; 3 > [Feature Engineering (!)](Journey/003)
-- [ ] &#x2A33; 4 > [Feature Selection (!)](Journey/004)
-- [ ] &#x2A33; 5 > [Training (!)](Journey/005)
-- [ ] &#x2A33; 6 > [Metrics (!)](Journey/006)
-- [ ] &#x2A33; 7 > [Linear Regression (!)](Journey/007)
+- [ ] &#x2A33; 2 > [Exploratory Data Analysis(EDA) (!)](002)
+- [ ] &#x2A33; 3 > [Feature Engineering (!)](003)
+- [ ] &#x2A33; 4 > [Feature Selection (!)](004)
+- [ ] &#x2A33; 5 > [Training (!)](005)
+- [ ] &#x2A33; 6 > [Metrics (!)](006)
+- [ ] &#x2A33; 7 > [Linear Regression (!)](007)
 - [ ] &#x2A33; 8 > [Logistic Regression (!)](Journey/008)
 - [ ] &#x2A33; 9 > [Time Series (!)](Journey/009)
 - [ ] &#x2A33; 10 > [Score Cards](Journey/010)
