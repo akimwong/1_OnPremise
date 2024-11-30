@@ -10,7 +10,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 
 ## Projects
 
-### 1. Excel Data Visualization for Large Projects
+### 1. Excel Data Visualization for LARGE Projects
 
 <b>Short name:</b> LargeProject_Vis </p>
 <b>Role:</b> Python Developer </p>
@@ -22,7 +22,7 @@ Developed a Python-based tool that extracts information from multiple Excel file
 
 This solution enables project managers to centralize and simplify data visualization for multiple large projects, ensuring efficient decision-making and improving milestone tracking accuracy.
 
-### 2. Excel Data Visualization for Small Projects
+### 2. Excel Data Visualization for SMALL Projects
 
 <b>Short name:</b> SmallProject_Vis </p>
 <b>Role:</b> R Developer </p>
