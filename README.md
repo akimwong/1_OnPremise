@@ -1,5 +1,5 @@
 ## Overview
-In the context of project management, Excel is not a static document, it is a living entity that evolves over time.</p>
+In the context of project management, <b>Excel is not a static document, it is a living entity that evolves over time.</p></b>
 
 It grows as new data is added, and the information entered today often triggers actions or dependencies that unfold in the future. Some data takes time to arrive, and its delayed entry can create bottlenecks or slow down progress in other areas.</p>
 
