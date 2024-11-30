@@ -30,7 +30,7 @@ This solution enables project managers to centralize and simplify data visualiza
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
 <b>Key Tools:</b> R, Shiny, Microsoft Exce </p>
 <b>Description:</b> 
-Built an interactive R Shiny dashboard to monitor hundreds of small-scale projects from a single Excel sheet. Unlike the first project, this solution focuses on tracking multiple mini-projects within a single file, along with their execution tasks required to complete each one.
+Built an interactive R Shiny dashboard to monitor hundreds of small-scale projects from a single Excel file. Unlike the first project, this solution focuses on tracking multiple mini-projects within a single file, along with their execution tasks required to complete each one.
 
 The Shiny app provides an accessible and dynamic interface for monitoring progress, analyzing milestone completion rates, and identifying areas of delay. This tool enhances visibility into the status of numerous small projects, enabling project managers to streamline monitoring processes, improve accountability, and support more effective resource allocation.
 
