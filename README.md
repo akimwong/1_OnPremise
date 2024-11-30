@@ -1,5 +1,5 @@
 ## Overview
-Collection of personal tools and technology experiments. These solutions focus on practicing with new technologies and different roles to enhance individual productivity and learning. All projects are designed for local testing and development, without any connections to cloud services.</p>
+In the context of project management, Excel is not a static document, it is a living entity that evolves over time.</p>
 
 ## Projects
 
