@@ -10,14 +10,22 @@ III. Perform actions or analyses using the information stored in the database.<b
 
 ## Projects
 
-### 1. 
+### 1. Excel Data Visualization for Large Projects
 
-<b>Short name:</b>  </p>
-<b>Role:</b>  </p>
-<b>Technologies:</b>  </p>
-<b>Tags:</b>  </p>
-<b>Key Tools:</b>  </p>
+<b>Short name:</b>LargeProject_Vis </p>
+<b>Role:</b>Python Developer </p>
+<b>Technologies:</b>Python, Excel </p>
+<b>Tags:</b>Data Visualization, Project Monitoring </p>
+<b>Key Tools:</b>Python, CustomTkinter, Microsoft Excel </p>
 <b>Description:</b> 
+Developed a Python-based tool that extracts information from multiple Excel files, each dedicated to monitoring the progress of large-scale projects. Each project is composed of elements that must meet a series of tasks to be marked as complete. The tool provides an intuitive and interactive visualization interface, built with CustomTkinter, to monitor progress, identify bottlenecks, and track milestone achievements across units.
+
+This solution enables project managers to centralize and simplify data visualization for multiple large projects, ensuring efficient decision-making and improving milestone tracking accuracy.
+
+
+
+
+
 
 ```
 man -k
