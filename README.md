@@ -28,7 +28,7 @@ This solution enables project managers to centralize and simplify data visualiza
 <b>Role:</b> R Developer </p>
 <b>Technologies:</b> R, Excel </p>
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
-<b>Key Tools:</b> R, Shiny, Microsoft Exce </p>
+<b>Key Tools:</b> R, Shiny, Microsoft Excel </p>
 <b>Description:</b> 
 Built an interactive R Shiny dashboard to monitor hundreds of small-scale projects from a single Excel file. Unlike the first project, this solution focuses on tracking multiple mini-projects within a single file, along with their execution tasks required to complete each one.
 
