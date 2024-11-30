@@ -5,7 +5,7 @@ It grows as new data is added, and the information entered today often triggers 
 
 The first 6 projects in this repository contain code used to:</p>
 I. Visualize information in a graphical way directly from one or more Excel spreadsheets.<br>
-II. Validate, extract, and load Excel data into a MongoDB, with timestamps and change history for each record.<br>
+II. Validate, extract, and load Excel data into a MongoDB, with timestamps and record history.<br>
 III. Perform actions or analyses using the information stored in the database.<br>
 
 ## Projects
