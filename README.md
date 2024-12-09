@@ -18,7 +18,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
 <b>Key Tools:</b> Python, CustomTkinter, Microsoft Excel </p>
 <b>Description:</b> 
-Developed a Python-based dashboard that extracts information from multiple Excel files, each dedicated to monitoring the progress of activities across main nodes. Each project is composed of elements that must meet a series of tasks to be marked as complete. The tool provides an intuitive and interactive visualization interface, built with CustomTkinter, to monitor progress, identify bottlenecks, and track milestone achievements across units.
+Developed a Python-based dashboard that extracts information from multiple Excel files, each dedicated to track the progress of activities across main nodes. Each project is composed of elements that must meet a series of tasks to be marked as complete. The tool provides an intuitive and interactive visualization interface, built with CustomTkinter, to monitor progress, identify bottlenecks, and track milestone achievements across units.
 
 This solution enables project managers to centralize and simplify data visualization for multiple activities, ensuring efficient decision-making and improving milestone tracking accuracy.
 
