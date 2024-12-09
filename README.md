@@ -18,9 +18,9 @@ III. Perform actions or analyses using the information stored in the database.<b
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
 <b>Key Tools:</b> Python, CustomTkinter, Microsoft Excel </p>
 <b>Description:</b> 
-Developed a Python-based tool that extracts information from multiple Excel files, each dedicated to monitoring the progress of large-scale projects. Each project is composed of elements that must meet a series of tasks to be marked as complete. The tool provides an intuitive and interactive visualization interface, built with CustomTkinter, to monitor progress, identify bottlenecks, and track milestone achievements across units.
+Developed a Python-based dashboard that extracts information from multiple Excel files, each dedicated to monitoring the progress of activities across main nodes. Each project is composed of elements that must meet a series of tasks to be marked as complete. The tool provides an intuitive and interactive visualization interface, built with CustomTkinter, to monitor progress, identify bottlenecks, and track milestone achievements across units.
 
-This solution enables project managers to centralize and simplify data visualization for multiple large projects, ensuring efficient decision-making and improving milestone tracking accuracy.
+This solution enables project managers to centralize and simplify data visualization for multiple activities, ensuring efficient decision-making and improving milestone tracking accuracy.
 
 ### 2. Excel Data Visualization for multiple SECONDARY nodes overview
 
@@ -30,7 +30,7 @@ This solution enables project managers to centralize and simplify data visualiza
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
 <b>Key Tools:</b> R, Shiny, Microsoft Excel </p>
 <b>Description:</b> 
-Built an interactive R Shiny dashboard to monitor hundreds of small-scale projects from a single Excel file. Unlike the first project, this solution focuses on tracking multiple mini-projects within a single file, along with their execution tasks required to complete each one.
+Developed an interactive R Shiny dashboard to monitor hundreds of secondary nodes from a single Excel file. Unlike the project 1, this solution focuses on tracking multiple mini-projects within a single file, along with the execution tasks required to complete each one.
 
 The Shiny app provides an accessible and dynamic interface for monitoring progress, analyzing milestone completion rates, and identifying areas of delay. This tool enhances visibility into the status of numerous small projects, enabling project managers to streamline monitoring processes, improve accountability, and support more effective resource allocation.
 
