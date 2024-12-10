@@ -12,7 +12,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 
 ### 1. Excel Data Visualization for MAIN nodes
 
-<b>Short name:</b> MainNodes_Vis </p>
+<b>Short name:</b> MainNodes_Visual </p>
 <b>Role:</b> Python Developer </p>
 <b>Technologies:</b> Python, Excel </p>
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
@@ -25,7 +25,7 @@ This solution enables project managers to centralize and simplify data visualiza
 
 ### 2. Excel Data Visualization for multiple SECONDARY nodes
 
-<b>Short name:</b> SecondaryNodes_Vis </p>
+<b>Short name:</b> SecondaryNodes_Visual </p>
 <b>Role:</b> R Developer </p>
 <b>Technologies:</b> R, Excel </p>
 <b>Tags:</b> Data Visualization, Project Monitoring </p>
