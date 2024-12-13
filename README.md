@@ -15,7 +15,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 <b>Short name:</b> MainNodes_Visual </p>
 <b>Role:</b> Python Developer </p>
 <b>Technologies:</b> Python, Excel </p>
-<b>Tags:</b> Data Visualization, Project Monitoring </p>
+<b>Tags:</b> Data Visualization, Project Monitoring, Heatmap Graph </p>
 <b>Key Tools:</b> Python, CustomTkinter, Microsoft Excel </p>
 <b>Packaging/Distribution:</b> pyinstaller </p>
 <b>Description:</b> 
@@ -28,7 +28,7 @@ This solution enables project managers to centralize and simplify data visualiza
 <b>Short name:</b> SecondaryNodes_Visual </p>
 <b>Role:</b> R Developer </p>
 <b>Technologies:</b> R, Excel </p>
-<b>Tags:</b> Data Visualization, Project Monitoring </p>
+<b>Tags:</b> Data Visualization, Project Monitoring, Lollipop Graph </p>
 <b>Key Tools:</b> R, Shiny, Microsoft Excel </p>
 <b>Packaging/Distribution:</b> Inno Setup Compiler </p>
 <b>Description:</b> 
