@@ -25,7 +25,7 @@ This solution enables project managers to centralize and simplify data visualiza
 
 ### 2. Excel Data Visualization for multiple SECONDARY nodes
 
-<b>Short name:</b> SecondaryNodes_Visual </p>
+<b>Short name:</b> [SecondaryNodes_Visual](/projects/2_SecondaryNodes_Visual) </p>
 <b>Role:</b> R Developer </p>
 <b>Technologies:</b> R, Excel </p>
 <b>Tags:</b> Data Visualization, Project Monitoring, Lollipop Graph </p>
