@@ -53,7 +53,7 @@ An interactive R Shiny dashboard for monitoring multiple secondary nodes from a 
 - Comprehensive project metadata display
 
 ### Metrics Dashboard
-![Metrics View](screenshots/metrics_view.png)
+![Metrics View](Lollipop_Screenshot_2.png)
 - Shows project completion trends
 - Visualizes workload distribution
 - Projects weekly completion rate
