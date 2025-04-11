@@ -52,6 +52,12 @@ An interactive R Shiny dashboard for monitoring multiple secondary nodes from a 
 - Color-coded completion indicators
 - Comprehensive project metadata display
 
+### Lollipop Chart Detail: Components Label Y
+![Lollipop Screenshot](Lollipop_Screenshot_3.png)
+
+### Lollipop Chart Detail: Order Menu
+![Lollipop Screenshot](Lollipop_Screenshot_4.png)
+
 ### Metrics Dashboard
 ![Metrics View](Lollipop_Screenshot_2.png)
 - Shows project completion trends
