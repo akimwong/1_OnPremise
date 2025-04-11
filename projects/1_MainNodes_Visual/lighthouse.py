@@ -282,8 +282,133 @@ class ctkApp:
         except Exception as e:
             raise RuntimeError(f"Error in get_y_labels: {str(e)}")
 
-    # Generates a heatmap graph based on the processed data from the provided file path
+
+
+
+
+
     def generate_heatmap_graph(self, ruta):
+        try:
+            # Limpia el contenido existente en el canvas
+            if self.canvas_widget_id is not None:
+                self.canvas.delete(self.canvas_widget_id)
+
+            # Obtiene el valor seleccionado del Combobox
+            selected_value = self.combobox.get()
+
+            # Extrae y procesa datos
+            df_nuevo = self.extract_and_process_data(selected_value, ruta)
+            y_labels = self.get_y_labels(df_nuevo)
+            x_labels = df_nuevo.columns[2:].tolist()
+            
+            # Quita la columna 'DATE_1' antes de crear el heatmap
+            df_nuevo_without_dates = df_nuevo.drop(columns=['DATE_1'])
+            df3 = df_nuevo_without_dates.set_index('ID.')
+
+            # Número de filas y columnas
+            num_rows = len(y_labels)
+            num_cols = len(x_labels)
+
+            # Tamaño de celda deseado (en pulgadas)
+            cell_width = 0.5
+            cell_height = 0.5
+
+            # Calculamos figsize en función del número de filas y columnas
+            figsize_width = cell_width * num_cols
+            figsize_height = cell_height * num_rows
+
+            # Definir DPI fijo para mantener coherencia entre pulgadas y píxeles
+            dpi = 100
+
+            # Crear la figura con el figsize calculado
+            fig, ax = plt.subplots(figsize=(figsize_width, figsize_height), dpi=dpi)
+
+            # Ajustar márgenes para dejar espacio a etiquetas sin comprimir las celdas.
+            # Estos valores son orientativos; puedes ajustarlos según sea necesario.
+            fig.subplots_adjust(left=0.3, bottom=0.1, right=0.95, top=0.95)
+
+            # Establecer aspecto igual para que las celdas sean cuadradas
+            ax.set_aspect("equal")
+
+            # Crear la cuadricula (pcolormesh) con el colormap definido
+            green_color = "#27D3A8"
+            red_color = "#F8E7AE"
+            colors = [red_color, green_color]
+            cmap = mcolors.ListedColormap(colors)
+
+            # Crear las coordenadas de la malla
+            Circuit, Task = np.mgrid[:df3.shape[0]+1, :df3.shape[1]+1]
+
+            plt.pcolormesh(
+                Task, Circuit, df3.values, cmap=cmap, edgecolor="w", 
+                vmin=0, vmax=1, alpha=0.8, linewidth=0.5
+            )
+
+            # Configurar las etiquetas del eje X e Y
+            plt.xticks(
+                np.arange(1, len(x_labels) + 1) - 0.5, 
+                x_labels, 
+                rotation=90, 
+                ha='center'
+            )
+
+            plt.yticks(
+                np.arange(1, len(y_labels) + 1) - 0.5, 
+                y_labels, 
+                ha='right'
+            )
+
+            plt.xlim(0, len(x_labels))
+            plt.ylim(0, len(y_labels))
+
+            # Crear eje secundario arriba con mismas etiquetas
+            ax_top = ax.secondary_xaxis('top')
+            ax_top.set_xticks(np.arange(1, len(x_labels) + 1) - 0.5)
+            ax_top.set_xticklabels(x_labels, rotation=90)
+
+            # Convertir la figura de Matplotlib en un widget de Tkinter
+            self.canvas_widget = FigureCanvasTkAgg(fig, master=self.canvas)
+            
+            # Calcular el tamaño en pixeles
+            pixel_width = int(figsize_width * dpi)
+            pixel_height = int(figsize_height * dpi)
+
+            # Crear ventana en el canvas con el ancho y alto calculados
+            self.canvas_widget_id = self.canvas.create_window(
+                0, 0,
+                window=self.canvas_widget.get_tk_widget(),
+                anchor='nw',
+                width=pixel_width,
+                height=pixel_height
+            )
+
+            self.canvas_widget.draw()
+
+            # Ajustar el scrollregion del canvas para que abarque toda la figura
+            self.canvas.config(scrollregion=(0, 0, pixel_width, pixel_height))
+
+            plt.close(fig)  # Cerrar la figura para liberar recursos
+
+        except Exception as e:
+            self.show_error_message(str(e))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # Generates a heatmap graph based on the processed data from the provided file path
+    def generate_heatmap_graph_1(self, ruta):
 
         try:
             # Clear existing content in the canvas
@@ -344,7 +469,7 @@ class ctkApp:
 
             # Crear una figura y eje de Matplotlib
             fig, ax = plt.subplots(figsize=(figsize_width, figsize_height))
-            
+            print(f"Figura generada: ancho = {figsize_width:.2f} pulgadas, alto = {figsize_height:.2f} pulgadas")
             
             
             
@@ -416,6 +541,63 @@ class ctkApp:
             # Al final de generate_heatmap_graph, luego de self.canvas_widget.draw():
             #self.canvas.update_idletasks()
             #self.canvas.config(scrollregion=self.canvas.bbox('all'))
+
+
+            # Fuerza el renderizado de la figura para que se puedan calcular las posiciones reales
+            fig.canvas.draw()
+
+            # Ahora podemos obtener el tamaño del área del eje y de las etiquetas
+            # Área del eje (sin las etiquetas):
+            # ax.get_position() devuelve un Bbox en coordenadas normalizadas [0,1]
+            pos = ax.get_position()
+            fig_width_inch, fig_height_inch = fig.get_size_inches()
+            dpi = fig.dpi
+
+            # Dimensiones del área del eje en pulgadas:
+            axes_area_width_inch = pos.width * fig_width_inch
+            axes_area_height_inch = pos.height * fig_height_inch
+
+            # Obtener las etiquetas del eje Y
+            y_ticklabels = ax.get_yticklabels()
+
+            if y_ticklabels:
+                # Obtener la extensión en pixeles de cada etiqueta
+                ticklabel_extents = [label.get_window_extent(renderer=fig.canvas.get_renderer()) for label in y_ticklabels]
+
+                # Calcular el bounding box total que cubre todas las etiquetas Y
+                xmins = [bbox.x0 for bbox in ticklabel_extents]
+                xmaxs = [bbox.x1 for bbox in ticklabel_extents]
+                ymins = [bbox.y0 for bbox in ticklabel_extents]
+                ymaxs = [bbox.y1 for bbox in ticklabel_extents]
+
+                min_x = min(xmins)
+                max_x = max(xmaxs)
+                min_y = min(ymins)
+                max_y = max(ymaxs)
+
+                # Convertir pixeles a pulgadas dividiendo por dpi
+                ticklabels_width_inch = (max_x - min_x) / dpi
+                ticklabels_height_inch = (max_y - min_y) / dpi
+            else:
+                ticklabels_width_inch = 0
+                ticklabels_height_inch = 0
+
+            # Imprimir en consola o mostrar en interfaz
+            print(f"Área del eje (sólo cuadrícula): {axes_area_width_inch:.2f} x {axes_area_height_inch:.2f} pulgadas")
+            print(f"Área total de las etiquetas Y: {ticklabels_width_inch:.2f} x {ticklabels_height_inch:.2f} pulgadas")
+
+            # Opcional: mostrar en la interfaz, por ejemplo en una etiqueta:
+            size_label = ctk.CTkLabel(
+                master=self.canvas,
+                text=(
+                    f"Área del eje: {axes_area_width_inch:.2f}x{axes_area_height_inch:.2f} pulgadas\n"
+                    f"Etiquetas Y: {ticklabels_width_inch:.2f}x{ticklabels_height_inch:.2f} pulgadas"
+                ),
+                fg_color="transparent"
+            )
+            size_label.grid(row=5, column=0, padx=20, pady=10, sticky="ew")
+
+
 
 
 
