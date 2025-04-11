@@ -47,7 +47,7 @@ An interactive R Shiny dashboard for monitoring multiple secondary nodes from a 
 ## Screenshots
 
 ### Lollipop Chart View
-![Lollipop Chart](screenshots/lollipop_chart.png)
+![Lollipop Screenshot](Lollipop_Screenshot_1.png)
 - Displays project status across multiple dimensions
 - Color-coded completion indicators
 - Comprehensive project metadata display
