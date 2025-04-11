@@ -115,9 +115,3 @@ Required columns:
 - **Selective Data Loading**: Only required columns are loaded
 - **Dynamic UI**: Adjusts to dataset size
 - **Error Handling**: Graceful degradation when data is missing
-
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-For questions or support, please contact the project maintainer.
