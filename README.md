@@ -43,7 +43,7 @@ Developed an interactive R Shiny dashboard that consolidates hundreds of seconda
 
 ### 4. Excel Data Validation
 
-<b>Short name:</b> Data_Validation </p>
+<b>Short name:</b> [Data_Validation](/projects/4_data-validation) </p>
 <b>Role:</b> Data Automation Developer </p>
 <b>Technologies:</b> R, Python, Excel </p>
 <b>Tags:</b> Data Validation, Data Extraction, Automated Reporting </p>
