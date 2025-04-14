@@ -52,7 +52,7 @@ Developed an interactive R Shiny dashboard that consolidates hundreds of seconda
 
 ### 5. Automated Email Generation
 
-<b>Short name:</b> Email_Merge </p>
+<b>Short name:</b> [Email_Merge](/projects/5_email-merge) </p>
 <b>Role:</b> Data Automation Developer </p>
 <b>Technologies:</b> R, Python, Excel </p>
 <b>Tags:</b> Data Processing, Email Automation, Template Generation </p>
