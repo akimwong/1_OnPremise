@@ -10,7 +10,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 
 ## Projects
 
-### 1. Excel Data Visualization for MAIN nodes
+### 1. Excel Data Visualization for main nodes
 
 <b>Short name:</b> MainNodes_Visual </p>
 <b>Role:</b> Python Developer </p>
@@ -21,7 +21,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 <b>Description:</b> 
 Developed a Python dashboard that aggregates data from multiple Excel files and translates complex task metrics into clear, actionable insights. Its intuitive CustomTkinter interface spotlights progress and bottlenecks while tracking milestone achievements, empowering project managers to centralize information and make fast, informed decisions.
 
-### 2. Excel Data Visualization for multiple SECONDARY nodes
+### 2. Excel Data Visualization for multiple secondary nodes
 
 <b>Short name:</b> [SecondaryNodes_Visual](/projects/2_SecondaryNodes_Visual) </p>
 <b>Role:</b> R Developer </p>
