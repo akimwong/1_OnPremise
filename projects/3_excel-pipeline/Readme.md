@@ -14,6 +14,9 @@ This foundational script sets the groundwork for future implementations:
 - Automated notifications for task dependencies
 - Performance metrics for task completion times
 
+<b>1. First upload of information</b>
+
+
 <b>Excel Collaborative Issues:</b>
 - Structure: variable column names, column additions/deletions, and order changes, making it difficult to maintain consistent data mapping and processing
 - Data Quality: mixed data types within columns, multiple date and number formats, numbers stored as text, and empty/whitespace cells affecting data integrity
