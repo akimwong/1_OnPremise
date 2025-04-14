@@ -30,7 +30,7 @@ Developed a Python dashboard that aggregates data from multiple Excel files and 
 <b>Key Tools:</b> R, Shiny, Microsoft Excel </p>
 <b>Packaging/Distribution:</b> Inno Setup Compiler </p>
 <b>Description:</b> 
-Developed an interactive R Shiny dashboard that consolidates hundreds of secondary node projects from one Excel file, turning complex task data into clear visual insights. By presenting mini-project progress and execution details in a dynamic interface, the app <b>enables project managers to rapidly identify boost accountability, and allocate resources more effectively</b>.
+Developed an interactive R Shiny dashboard that consolidates hundreds of secondary node projects from one Excel file, turning complex task data into clear visual insights. By presenting mini-project progress and execution details in a dynamic interface, <b>the application enables project managers to quickly identify priorities and allocate resources more effectively.</b>.
 
 ### 3. Excel to MongoDB Data Pipeline
 
