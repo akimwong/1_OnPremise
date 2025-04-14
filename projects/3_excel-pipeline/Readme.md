@@ -16,10 +16,18 @@ This foundational script sets the groundwork for future implementations:
 
 #### EXAMPLE:
 <b>1. First download of information</b>
-- First folder
-- First download of information (1 register per each cell)
-- First timestamp
+- Primary folder: Dataset
+- Data download (one record per cell)
+- Timestamp: Initial
+  
 ![First upload of information](first_upload.png)
+
+<b>2. First data change</b>
+- Secondary folder: Dataset_Historic
+- Update in the main folder (Dataset) with a new timestamp
+- Data download to Dataset_Historic retains the original timestamp
+  
+![First upload of information](track_changes.png)
 
 <b>Excel Collaborative Issues:</b>
 - Structure: variable column names, column additions/deletions, and order changes, making it difficult to maintain consistent data mapping and processing
