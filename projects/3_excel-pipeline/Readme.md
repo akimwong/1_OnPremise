@@ -15,7 +15,10 @@ This foundational script sets the groundwork for future implementations:
 - Performance metrics for task completion times
 
 #### EXAMPLE:
-<b>1. First upload of information</b>
+<b>1. First download of information</b>
+- First folder
+- First download of information (1 register per each cell)
+- First timestamp
 ![First upload of information](first_upload.png)
 
 <b>Excel Collaborative Issues:</b>
