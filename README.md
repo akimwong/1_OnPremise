@@ -34,7 +34,7 @@ Developed an interactive R Shiny dashboard that consolidates hundreds of seconda
 
 ### 3. Excel to MongoDB Data Pipeline
 
-<b>Short name:</b> Excel_Pipeline </p>
+<b>Short name:</b> [Excel_Pipeline](/projects/3_excel-pipeline) </p>
 <b>Role:</b> Data Engineer </p>
 <b>Technologies:</b> R, MongoDB, Excel </p>
 <b>Tags:</b> Data Extraction, NoSQL Database </p>
