@@ -14,7 +14,8 @@ This foundational script sets the groundwork for future implementations:
 - Automated notifications for task dependencies
 - Performance metrics for task completion times
 
-<b>1. First upload of information</b>
+#### EXAMPLE:
+<b>[1. First upload of information]((first_upload.png))</b>
 
 
 <b>Excel Collaborative Issues:</b>
