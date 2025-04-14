@@ -41,16 +41,7 @@ Developed an interactive R Shiny dashboard that consolidates hundreds of seconda
 <b>Key Tools:</b> Jupyter Notebooks-R, MongoDB Compass, Microsoft Excel </p>
 <b>Description:</b> Developed an R-based pipeline that extracts data from a large collaborative Excel file (70 columns × 2700 rows for 350 mini projects) and loads it into a structured MongoDB database. By <b>implementing an automated tracking system that logs cell values with timestamps</b> from 11 concurrent users, the solution maintains a full audit trail and ensures data integrity. This robust foundation enables real-time tracking, historical analysis, and automated notifications—empowering data-driven decisions and streamlined team collaboration.
 
-### 4. Automated Email Generation
-
-<b>Short name:</b> Email_Merge </p>
-<b>Role:</b> Data Automation Developer </p>
-<b>Technologies:</b> R, Python, Excel </p>
-<b>Tags:</b> Data Processing, Email Automation, Template Generation </p>
-<b>Key Tools:</b> Jupyter Notebooks-R, RStudio, VStudio Code, Microsoft Excel </p>
-<b>Description:</b> Developed parallel implementations in Python and R to <b>automate the generation of personalized Outlook email templates from structured data</b>. By dynamically merging template structures with recipient information, the system streamlines mass communication while retaining personalization. A built-in manual verification step ensures accuracy before dispatch, enhancing overall efficiency.
-
-### 5. Excel Data Validation
+### 4. Excel Data Validation
 
 <b>Short name:</b> Data_Validation </p>
 <b>Role:</b> Data Automation Developer </p>
@@ -59,6 +50,14 @@ Developed an interactive R Shiny dashboard that consolidates hundreds of seconda
 <b>Key Tools:</b> Jupyter Notebooks-R, RStudio, VStudio Code, Microsoft Excel </p>
 <b>Description:</b> Developed parallel Python and R solutions that <b>validate production Excel data by comparing its structure and content to a reference file</b>. This automated check ensures column names and key values remain unchanged before proceeding to data extraction. By <b>guaranteeing reliable data feeds into downstream processes</b>, the system minimizes errors and boosts reporting accuracy.
 
+### 5. Automated Email Generation
+
+<b>Short name:</b> Email_Merge </p>
+<b>Role:</b> Data Automation Developer </p>
+<b>Technologies:</b> R, Python, Excel </p>
+<b>Tags:</b> Data Processing, Email Automation, Template Generation </p>
+<b>Key Tools:</b> Jupyter Notebooks-R, RStudio, VStudio Code, Microsoft Excel </p>
+<b>Description:</b> Developed parallel implementations in Python and R to <b>automate the generation of personalized Outlook email templates from structured data</b>. By dynamically merging template structures with recipient information, the system streamlines mass communication while retaining personalization. A built-in manual verification step ensures accuracy before dispatch, enhancing overall efficiency.
 
 ```
 man -k
