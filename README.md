@@ -12,7 +12,7 @@ III. Perform actions or analyses using the information stored in the database.<b
 
 ### 1. Excel Data Visualization for main nodes
 
-<b>Short name:</b> MainNodes_Visual </p>
+<b>Short name:</b> [MainNodes_Visual](/projects/1_MainNodes_Visual) </p>
 <b>Role:</b> Python Developer </p>
 <b>Technologies:</b> Python, Excel </p>
 <b>Tags:</b> Data Visualization, Project Monitoring, Heatmap Graph </p>
