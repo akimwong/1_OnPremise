@@ -60,4 +60,4 @@ An interactive **Python dashboard** for monitoring task completion status across
 pip install customtkinter pandas matplotlib openpyxl Pillow
 
 # Run application
-python main.py
+python lighthouse.py
