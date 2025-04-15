@@ -5,7 +5,8 @@ library(mongolite)
 library(jsonlite)
 
 # Path to the Excel file
-ruta_archivo <- "projects/1_excel-pipeline/data.xlsx"
+#ruta_archivo <- "projects/1_excel-pipeline/data.xlsx"
+ruta_archivo <- "./data.xlsx"
 
 # Read the spreadsheet into a DataFrame (DataFrame in R)
 df <- read_excel(ruta_archivo, sheet = "Sheet1")
