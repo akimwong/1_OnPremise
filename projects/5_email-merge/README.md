@@ -8,7 +8,7 @@
 <b>Description:</b> Developed parallel implementations in both Python and R for <b>generating personalized email templates based on structured data inputs.</b> The solution creates customized email content by merging template structures with individual recipient data, enabling efficient mass communication while maintaining personalization. The system includes manual verification steps to ensure content accuracy and appropriateness before actual email dispatch.
 
 #### EXAMPLE:
-<b>1. From excel to Email</b>
+<b>From excel to Email</b>
   
 ![excel to email](excel_to_email_screenshot.png)
 
