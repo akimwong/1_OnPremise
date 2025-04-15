@@ -3,7 +3,7 @@ In the context of project management, <b>Excel is not a static document, it is a
 
 It grows as new data is added by multiple contributors, and the information entered today often triggers actions or dependencies that unfold in the future. Some data takes time to arrive, and its delayed entry can create bottlenecks or slow down progress in other areas.</p>
 
-The first 6 projects in this repository contain code used to:</p>
+The first projects in this repository contain code used to:</p>
 I. Visualize information in a graphical way directly from one or more Excel spreadsheets.<br>
 II. Validate, extract, and load Excel data into a MongoDB, with timestamps and record history.<br>
 III. Perform actions or analyses using the information stored in the database.<br>
