@@ -1,14 +1,7 @@
-<div align="center">
-  <h1>LIGHTHOUSE - Task Compliance Visualization Dashboard</h1>
-  <p><strong>A Python-powered GUI for tracking execution tasks across multiple nodes</strong></p>
-</div>
+# Primary Nodes Visualization Dashboard
 
----
-
-## **Overview**
+## Overview
 An interactive **Python dashboard** for monitoring task completion status across multiple projects (NODE_1, NODE_2, etc.) from Excel files. Designed for project managers needing real-time visual analytics on task fulfillment conditions.
-
----
 
 ## **Key Features**
 
@@ -53,12 +46,7 @@ An interactive **Python dashboard** for monitoring task completion status across
 ---
 
 ## **Screenshots**
-<div align="center">
-  <img src="https://via.placeholder.com/800x500/2d3748/ffffff?text=Heatmap+Example" width="80%">
-  <p><em>Heatmap showing task status across multiple nodes (replace with actual screenshot)</em></p>
-</div>
-
----
+![Main Screenshot](main_screenshot.png)
 
 ## **Installation & Usage**
 
